@@ -1,0 +1,14 @@
+812a53698bb8df1b7868d78193113269  usr/lib/arm-linux-gnueabihf/libcurl-gnutls.so.4.3.0
+dcb8996959e6f8ccd14204fcf08938c9  usr/share/doc/libcurl3-gnutls/BINDINGS.gz
+a5005a10a9720f24458590428286a985  usr/share/doc/libcurl3-gnutls/BUGS.gz
+ffb6f019f55f0df2cdfb120d1d17dac6  usr/share/doc/libcurl3-gnutls/FAQ.gz
+26959e70a3e2af34ca920140d5ec3a69  usr/share/doc/libcurl3-gnutls/FEATURES.gz
+cea0ee918639cd3df24a3751dacc667b  usr/share/doc/libcurl3-gnutls/KNOWN_BUGS.gz
+56a51ef70376ad0d6615479e58d750c6  usr/share/doc/libcurl3-gnutls/NEWS.Debian.gz
+d21e01329a2ba92ff8e7a6ed534d6ed6  usr/share/doc/libcurl3-gnutls/README
+e6d5f0d43eeec7e2eec5d2a155f899f9  usr/share/doc/libcurl3-gnutls/THANKS.gz
+2783b9c81e9580dc80da3c576ad47561  usr/share/doc/libcurl3-gnutls/TODO.gz
+78f4048896098d2760bf1dd3442983dd  usr/share/doc/libcurl3-gnutls/VERSIONS
+b4797bc889e75c3c0b0557fcd46d963c  usr/share/doc/libcurl3-gnutls/changelog.Debian.gz
+7c4703e9f5b89c551b989049bf28ad95  usr/share/doc/libcurl3-gnutls/copyright
+0610384464c0370a314d470eb752e7e9  usr/share/lintian/overrides/libcurl3-gnutls

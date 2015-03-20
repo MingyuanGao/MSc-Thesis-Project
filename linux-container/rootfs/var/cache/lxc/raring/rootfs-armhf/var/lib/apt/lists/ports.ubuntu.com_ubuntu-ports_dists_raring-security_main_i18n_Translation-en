@@ -1,0 +1,3368 @@
+Package: clamav
+Description-md5: 25816a2f56a0c214a484e117fd9fe0b1
+Description-en: anti-virus utility for Unix - command-line interface
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav6, which can be used by other software.
+ .
+ This package contains the command line interface. Features:
+  - built-in support for various archive formats, including Zip, Tar,
+    Gzip, Bzip2, OLE2, Cabinet, CHM, BinHex, SIS and others;
+  - built-in support for almost all mail file formats;
+  - built-in support for ELF executables and Portable Executable files
+    compressed with UPX, FSG, Petite, NsPack, wwpack32, MEW, Upack and
+    obfuscated with SUE, Y0da Cryptor and others;
+  - built-in support for popular document formats including Microsoft
+    Office and Mac Office files, HTML, RTF and PDF.
+ .
+ For scanning to work, a virus database is needed. There are two options
+ for getting it:
+  - clamav-freshclam: updates the database from Internet. This is
+    recommended with Internet access.
+  - clamav-data: for users without Internet access. The package is
+    not updated once installed. The clamav-getfiles package allows
+    creating custom packages from an Internet-connected computer.
+
+Package: clamav-base
+Description-md5: 36333c8001fa330971bb9bf732bd846d
+Description-en: anti-virus utility for Unix - base package
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav6, which can be used by other software.
+ .
+ This package mainly manages the clamav system account. It is not really
+ useful without the clamav package. It also handles the configuration
+ for both the clamav-daemon and the clamav-milter packages.
+
+Package: clamav-daemon
+Description-md5: 67066a5cf6ee89fc8ce3ae691827a9ad
+Description-en: anti-virus utility for Unix - scanner daemon
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav6, which can be used by other software.
+ .
+ This package contains the daemon and its command line interface,
+ featuring:
+  - fast, multi-threaded daemon;
+  - easy integration with MTA's;
+  - support for on-access scanning;
+  - remote scanning;
+  - able to be run supervised by daemon.
+
+Package: clamav-dbg
+Description-md5: 33a33cc71dce345b4a0ce175ebeca8c7
+Description-en: debug symbols for ClamAV
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav6, which can be used by other software.
+ .
+ This package contains the stripped debugging symbols for the ClamAV suite.
+
+Package: clamav-docs
+Description-md5: e2412f6e57d4fb282e22d549e939cb72
+Description-en: anti-virus utility for Unix - documentation
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav6, which can be used by other software.
+ .
+ This package contains the documentation for the ClamAV suite.
+
+Package: clamav-freshclam
+Description-md5: 824a85afc618e1467a907719e4edd7bb
+Description-en: anti-virus utility for Unix - virus database update utility
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav6, which can be used by other software.
+ .
+ This package contains the freshclam program and scripts to automate virus
+ database updating. It relies on an Internet connection, but can be
+ run in a variety of ways to compensate for intermittent connections.
+
+Package: firefox
+Description-md5: 46b619f510631c4693dc09c1a3778a55
+Description-en: Safe and easy web browser from Mozilla
+ Firefox delivers safe, easy web browsing. A familiar user interface,
+ enhanced security features including protection from online identity theft,
+ and integrated search let you get the most out of the web.
+
+Package: firefox-dbg
+Description-md5: 2937d9d7faa9d066b938045bc076f879
+Description-en: Safe and easy web browser from Mozilla - debug symbols
+ Firefox delivers safe, easy web browsing. A familiar user interface,
+ enhanced security features including protection from online identity theft,
+ and integrated search let you get the most out of the web.
+ .
+ This package contains the debugging symbols for the Firefox web
+ browser
+
+Package: firefox-dev
+Description-md5: e6b1c31ba86625fb8e5f17ebd7dfd6c8
+Description-en: Safe and easy web browser from Mozilla - development files
+ Firefox delivers safe, easy web browsing. A familiar user interface,
+ enhanced security features including protection from online identity theft,
+ and integrated search let you get the most out of the web.
+ .
+ This package contains the headers and SDK for building plugins with Firefox
+
+Package: firefox-globalmenu
+Description-md5: 03cc12f2160aba6b8febc0a39c8da726
+Description-en: Safe and easy web browser from Mozilla - Unity menubar integration
+ Firefox delivers safe, easy web browsing. A familiar user interface,
+ enhanced security features including protection from online identity theft,
+ and integrated search let you get the most out of the web.
+ .
+ This package provides an extension which adds support for the Unity
+ menubar to Firefox
+
+Package: firefox-gnome-support
+Description-md5: 9090a1269569e91fe1d73c81ee10928d
+Description-en: Safe and easy web browser from Mozilla - GNOME support
+ Firefox delivers safe, easy web browsing. A familiar user interface,
+ enhanced security features including protection from online identity theft,
+ and integrated search let you get the most out of the web.
+ .
+ This package depends on the GNOME libraries which allow Firefox to take
+ advantage of technologies such as GConf, GIO libnotify
+
+Package: firefox-locale-af
+Description-md5: 1f2d31c5ec337989fa73d4561a877f98
+Description-en: Afrikaans language pack for Firefox
+ This package contains Afrikaans translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ar
+Description-md5: a5123286dfa8a3ded7978c0ec00ec6f1
+Description-en: Arabic language pack for Firefox
+ This package contains Arabic translations and search plugins
+ for Firefox
+
+Package: firefox-locale-as
+Description-md5: 9c46a24962d3692dcff9f290ff8f2e5b
+Description-en: Assamese language pack for Firefox
+ This package contains Assamese translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ast
+Description-md5: f648bf0b51344fe4fc8b6419faaf903f
+Description-en: Asturian language pack for Firefox
+ This package contains Asturian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-be
+Description-md5: 7b231b0d3f58acf262a12b2168cb358c
+Description-en: Belarusian language pack for Firefox
+ This package contains Belarusian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-bg
+Description-md5: a6418377c6a1864fbec5d0096027c80b
+Description-en: Bulgarian language pack for Firefox
+ This package contains Bulgarian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-bn
+Description-md5: cd17d1988001fce46f906d72ce3c6612
+Description-en: Bengali language pack for Firefox
+ This package contains Bengali translations and search plugins
+ for Firefox
+
+Package: firefox-locale-br
+Description-md5: 880da4a954cd5c32e28bc4be50b8dea2
+Description-en: Breton language pack for Firefox
+ This package contains Breton translations and search plugins
+ for Firefox
+
+Package: firefox-locale-bs
+Description-md5: 5ee279fa3b945b639bc360970fc44d88
+Description-en: Bosnian language pack for Firefox
+ This package contains Bosnian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ca
+Description-md5: d48166338c00f06f6c36f6214a5a0d8b
+Description-en: Catalan; Valencian language pack for Firefox
+ This package contains Catalan; Valencian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-cs
+Description-md5: 9b0b230a019634cdfd1b60f7fd46b813
+Description-en: Czech language pack for Firefox
+ This package contains Czech translations and search plugins
+ for Firefox
+
+Package: firefox-locale-csb
+Description-md5: 76438ffb5606f4d03a5aba83c323a0da
+Description-en: Kashubian language pack for Firefox
+ This package contains Kashubian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-cy
+Description-md5: 9f3df834aa7f35a8968d57963f462187
+Description-en: Welsh language pack for Firefox
+ This package contains Welsh translations and search plugins
+ for Firefox
+
+Package: firefox-locale-da
+Description-md5: 25350d542907c601644fdbaf48ce9060
+Description-en: Danish language pack for Firefox
+ This package contains Danish translations and search plugins
+ for Firefox
+
+Package: firefox-locale-de
+Description-md5: 97a5b441966c2394117490ceebbb8584
+Description-en: German language pack for Firefox
+ This package contains German translations and search plugins
+ for Firefox
+
+Package: firefox-locale-el
+Description-md5: f0378f5c3eae2c3f377fbc483e6581b0
+Description-en: Greek language pack for Firefox
+ This package contains Greek translations and search plugins
+ for Firefox
+
+Package: firefox-locale-en
+Description-md5: 59e7e034b5f9626737da9a2c21a3e6b4
+Description-en: English language pack for Firefox
+ This package contains English translations and search plugins
+ for Firefox
+
+Package: firefox-locale-eo
+Description-md5: 1b15bec1df3ef8869a632d474dfb2589
+Description-en: Esperanto language pack for Firefox
+ This package contains Esperanto translations and search plugins
+ for Firefox
+
+Package: firefox-locale-es
+Description-md5: 30083dcb82dfa2029aeabd0206ce0f4b
+Description-en: Spanish; Castilian language pack for Firefox
+ This package contains Spanish; Castilian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-et
+Description-md5: 334b47c1e5a384da36ae89623fec8e70
+Description-en: Estonian language pack for Firefox
+ This package contains Estonian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-eu
+Description-md5: af348a109ea600cac4199bf41ea027f2
+Description-en: Basque language pack for Firefox
+ This package contains Basque translations and search plugins
+ for Firefox
+
+Package: firefox-locale-fa
+Description-md5: 39c9ec90bfa422dbe322c5144c9719eb
+Description-en: Persian language pack for Firefox
+ This package contains Persian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-fi
+Description-md5: 845195bd76d02590d0c2a74ed1b5c5f2
+Description-en: Finnish language pack for Firefox
+ This package contains Finnish translations and search plugins
+ for Firefox
+
+Package: firefox-locale-fr
+Description-md5: 4b599250252777b1f0b2e86222826241
+Description-en: French language pack for Firefox
+ This package contains French translations and search plugins
+ for Firefox
+
+Package: firefox-locale-fy
+Description-md5: 73e0293d227dc25de2183bbda4ffb994
+Description-en: Western Frisian language pack for Firefox
+ This package contains Western Frisian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ga
+Description-md5: 3989bf0d690ce80122175c0328ae435d
+Description-en: Irish language pack for Firefox
+ This package contains Irish translations and search plugins
+ for Firefox
+
+Package: firefox-locale-gd
+Description-md5: f88ffac5fcd5341c9502358cb67b49f1
+Description-en: Gaelic; Scottish Gaelic language pack for Firefox
+ This package contains Gaelic; Scottish Gaelic translations and search plugins
+ for Firefox
+
+Package: firefox-locale-gl
+Description-md5: f411e16f3f4a2f154a90570e3ca52ef8
+Description-en: Galician language pack for Firefox
+ This package contains Galician translations and search plugins
+ for Firefox
+
+Package: firefox-locale-gu
+Description-md5: c646198c5d0155da51530f8b2225818b
+Description-en: Gujarati language pack for Firefox
+ This package contains Gujarati translations and search plugins
+ for Firefox
+
+Package: firefox-locale-he
+Description-md5: 8d33d6616f2426b1fe3287417f0d7949
+Description-en: Hebrew language pack for Firefox
+ This package contains Hebrew translations and search plugins
+ for Firefox
+
+Package: firefox-locale-hi
+Description-md5: 29f96336756fa58ec44eefd686bd6e85
+Description-en: Hindi language pack for Firefox
+ This package contains Hindi translations and search plugins
+ for Firefox
+
+Package: firefox-locale-hr
+Description-md5: 4138741435206cca66b4c3941d2b6e82
+Description-en: Croatian language pack for Firefox
+ This package contains Croatian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-hu
+Description-md5: 7587d24fac9230de0dab2a74b1b3c298
+Description-en: Hungarian language pack for Firefox
+ This package contains Hungarian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-hy
+Description-md5: 2278344f15e1efe17aecd1af5a2be846
+Description-en: Armenian language pack for Firefox
+ This package contains Armenian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-id
+Description-md5: 568a225a428289bfedbfee77f12ef445
+Description-en: Indonesian language pack for Firefox
+ This package contains Indonesian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-is
+Description-md5: 3a574633745f9b6d97f07f1c738599a3
+Description-en: Icelandic language pack for Firefox
+ This package contains Icelandic translations and search plugins
+ for Firefox
+
+Package: firefox-locale-it
+Description-md5: 67e195ac5003115f8cafa0ec0b0ec849
+Description-en: Italian language pack for Firefox
+ This package contains Italian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ja
+Description-md5: aa0b0e800989cac3ce480ef7507c17d5
+Description-en: Japanese language pack for Firefox
+ This package contains Japanese translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ka
+Description-md5: bc79d90071e5d3639a93287638590a8e
+Description-en: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-locale-kk
+Description-md5: 98ad9668e81080f67619b3468ea616a9
+Description-en: Kazakh language pack for Firefox
+ This package contains Kazakh translations and search plugins
+ for Firefox
+
+Package: firefox-locale-km
+Description-md5: 5244e85b69105bab39ff55a3e06c2079
+Description-en: Central Khmer language pack for Firefox
+ This package contains Central Khmer translations and search plugins
+ for Firefox
+
+Package: firefox-locale-kn
+Description-md5: 609de6cf2cadf99b292a639def3e15db
+Description-en: Kannada language pack for Firefox
+ This package contains Kannada translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ko
+Description-md5: 7477cc3b85c1cc2886c7438ffec39b8d
+Description-en: Korean language pack for Firefox
+ This package contains Korean translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ku
+Description-md5: 9eb28b49c217558a45aff76b83b8990f
+Description-en: Kurdish language pack for Firefox
+ This package contains Kurdish translations and search plugins
+ for Firefox
+
+Package: firefox-locale-lg
+Description-md5: e246c6a9431dfb6554f3997bc3842ae0
+Description-en: Ganda language pack for Firefox
+ This package contains Ganda translations and search plugins
+ for Firefox
+
+Package: firefox-locale-lt
+Description-md5: 519f3c51c7a90ee972069b44a1acef4e
+Description-en: Lithuanian language pack for Firefox
+ This package contains Lithuanian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-lv
+Description-md5: 355c458949586e8977646d1ce6c5096d
+Description-en: Latvian language pack for Firefox
+ This package contains Latvian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-mai
+Description-md5: 9fd42103512e10b616b758b3e6da26f7
+Description-en: Maithili language pack for Firefox
+ This package contains Maithili translations and search plugins
+ for Firefox
+
+Package: firefox-locale-mk
+Description-md5: 0731fc46c1b1fae2ba6f6b1105017640
+Description-en: Macedonian language pack for Firefox
+ This package contains Macedonian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ml
+Description-md5: 90093d1da853cba1ef56fb07a5d3ccff
+Description-en: Malayalam language pack for Firefox
+ This package contains Malayalam translations and search plugins
+ for Firefox
+
+Package: firefox-locale-mn
+Description-md5: bc79d90071e5d3639a93287638590a8e
+Description-en: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-locale-mr
+Description-md5: b7ac24ce2d3f6d087e9a9bbf9c956d6a
+Description-en: Marathi language pack for Firefox
+ This package contains Marathi translations and search plugins
+ for Firefox
+
+Package: firefox-locale-nb
+Description-md5: 8a05e67a1c0fa64d86a13ead1dbd4981
+Description-en: Bokmål, Norwegian; Norwegian Bokmål language pack for Firefox
+ This package contains Bokmål, Norwegian; Norwegian Bokmål translations and search plugins
+ for Firefox
+
+Package: firefox-locale-nl
+Description-md5: c8c7d0f350530c7041fcfc71d8f297a2
+Description-en: Dutch; Flemish language pack for Firefox
+ This package contains Dutch; Flemish translations and search plugins
+ for Firefox
+
+Package: firefox-locale-nn
+Description-md5: a2434677506d5d2ae1b6f340d5e3b2ee
+Description-en: Norwegian Nynorsk; Nynorsk, Norwegian language pack for Firefox
+ This package contains Norwegian Nynorsk; Nynorsk, Norwegian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-nso
+Description-md5: a36776d3d6debca65ed75af1c55042f2
+Description-en: Sotho, Northern language pack for Firefox
+ This package contains Sotho, Northern translations and search plugins
+ for Firefox
+
+Package: firefox-locale-oc
+Description-md5: bc79d90071e5d3639a93287638590a8e
+Description-en: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-locale-or
+Description-md5: 5135d4190ce2532be58c91c5fd3f319b
+Description-en: Oriya language pack for Firefox
+ This package contains Oriya translations and search plugins
+ for Firefox
+
+Package: firefox-locale-pa
+Description-md5: 3bfbd21e289c4d4ef3e9bd89d92a048f
+Description-en: Panjabi; Punjabi language pack for Firefox
+ This package contains Panjabi; Punjabi translations and search plugins
+ for Firefox
+
+Package: firefox-locale-pl
+Description-md5: ffd73141d32fab7a8990d3663208d5ae
+Description-en: Polish language pack for Firefox
+ This package contains Polish translations and search plugins
+ for Firefox
+
+Package: firefox-locale-pt
+Description-md5: ba400e83844c93550cd9bbb88c3f610f
+Description-en: Portuguese language pack for Firefox
+ This package contains Portuguese translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ro
+Description-md5: bfe768497923b95b007c38b40a8b5c77
+Description-en: Romanian language pack for Firefox
+ This package contains Romanian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ru
+Description-md5: b936b6c575ae73b427a148a37de4ebd1
+Description-en: Russian language pack for Firefox
+ This package contains Russian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-si
+Description-md5: d336ad9f3d64d9c8b369c2627a15f388
+Description-en: Sinhala; Sinhalese language pack for Firefox
+ This package contains Sinhala; Sinhalese translations and search plugins
+ for Firefox
+
+Package: firefox-locale-sk
+Description-md5: 66f1264b5485237c1ea88079ced9a6a4
+Description-en: Slovak language pack for Firefox
+ This package contains Slovak translations and search plugins
+ for Firefox
+
+Package: firefox-locale-sl
+Description-md5: 6fe2fc03696fbf18b2bf180914ee1eb3
+Description-en: Slovenian language pack for Firefox
+ This package contains Slovenian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-sq
+Description-md5: 6c9c10ead9f18734cd4a77e1c53deb4a
+Description-en: Albanian language pack for Firefox
+ This package contains Albanian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-sr
+Description-md5: 8d2109908f20a4405f139a82593c158f
+Description-en: Serbian language pack for Firefox
+ This package contains Serbian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-sv
+Description-md5: 2ea193ea12432f41b53f83a470b59148
+Description-en: Swedish language pack for Firefox
+ This package contains Swedish translations and search plugins
+ for Firefox
+
+Package: firefox-locale-sw
+Description-md5: bc79d90071e5d3639a93287638590a8e
+Description-en: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-locale-ta
+Description-md5: 6ccedad7af96901a91334720c56bd490
+Description-en: Tamil language pack for Firefox
+ This package contains Tamil translations and search plugins
+ for Firefox
+
+Package: firefox-locale-te
+Description-md5: d66752b03661f62d700263ab82e868e7
+Description-en: Telugu language pack for Firefox
+ This package contains Telugu translations and search plugins
+ for Firefox
+
+Package: firefox-locale-th
+Description-md5: cc27bcd11daedf111f9aab87632f7263
+Description-en: Thai language pack for Firefox
+ This package contains Thai translations and search plugins
+ for Firefox
+
+Package: firefox-locale-tr
+Description-md5: 3c205697910b54cdfc483ed64de82490
+Description-en: Turkish language pack for Firefox
+ This package contains Turkish translations and search plugins
+ for Firefox
+
+Package: firefox-locale-uk
+Description-md5: ba467b5c78e88b367e14f3ac484d3816
+Description-en: Ukrainian language pack for Firefox
+ This package contains Ukrainian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-vi
+Description-md5: e187907de9840d733e0c8a14eafc65ef
+Description-en: Vietnamese language pack for Firefox
+ This package contains Vietnamese translations and search plugins
+ for Firefox
+
+Package: firefox-locale-zh-hans
+Description-md5: 3e3ba5b1c9c87d325f38630cc1f5f593
+Description-en: Simplified Chinese language pack for Firefox
+ This package contains Simplified Chinese translations and search plugins
+ for Firefox
+
+Package: firefox-locale-zh-hant
+Description-md5: 344951ca63511f11ceb711b1ac9aa10f
+Description-en: Traditional Chinese language pack for Firefox
+ This package contains Traditional Chinese translations and search plugins
+ for Firefox
+
+Package: firefox-locale-zu
+Description-md5: 17c6d848071fd7a4338f4653918fe50f
+Description-en: Zulu language pack for Firefox
+ This package contains Zulu translations and search plugins
+ for Firefox
+
+Package: gnutls-bin
+Description-md5: 33f669c0eda9ac17638870658371c713
+Description-en: GNU TLS library - commandline utilities
+ GnuTLS is a portable library which implements the Transport Layer
+ Security (TLS 1.0, 1.1, 1.2) and Secure Sockets Layer (SSL) 3.0 protocols.
+ .
+ GnuTLS features support for:
+  - TLS extensions: server name indication, max record size, opaque PRF
+    input, etc.
+  - authentication using the SRP protocol.
+  - authentication using both X.509 certificates and OpenPGP keys.
+  - TLS Pre-Shared-Keys (PSK) extension.
+  - Inner Application (TLS/IA) extension.
+  - X.509 and OpenPGP certificate handling.
+  - X.509 Proxy Certificates (RFC 3820).
+  - all the strong encryption algorithms (including SHA-256/384/512 and
+    Camellia (RFC 4132)).
+ .
+ This package contains a commandline interface to the GNU TLS library, which
+ can be used to set up secure connections from e.g. shell scripts, debugging
+ connection issues or managing certificates.
+
+Package: gnutls26-doc
+Description-md5: b01a1eff3c9deeb4182f891e4e7c9467
+Description-en: GNU TLS library 2.x - documentation and examples
+ GnuTLS is a portable library which implements the Transport Layer
+ Security (TLS 1.0, 1.1, 1.2) and Secure Sockets Layer (SSL) 3.0 protocols.
+ .
+ GnuTLS features support for:
+  - TLS extensions: server name indication, max record size, opaque PRF
+    input, etc.
+  - authentication using the SRP protocol.
+  - authentication using both X.509 certificates and OpenPGP keys.
+  - TLS Pre-Shared-Keys (PSK) extension.
+  - Inner Application (TLS/IA) extension.
+  - X.509 and OpenPGP certificate handling.
+  - X.509 Proxy Certificates (RFC 3820).
+  - all the strong encryption algorithms (including SHA-256/384/512 and
+    Camellia (RFC 4132)).
+ .
+ This package contains the documentation for the GnuTLS 2.x legacy version.
+
+Package: kdelibs-bin
+Description-md5: 8c1a7b51c921c425f6300691dd629da4
+Description-en: core executables for KDE Applications
+ This package contains common core executables used by all KDE Applications.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: kdelibs5-data
+Description-md5: 2bd024f64244b4a4f31312afcf299c8d
+Description-en: core shared data for all KDE Applications
+ This package contains architecture-independent data files needed to run KDE
+ Applications.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: kdelibs5-dbg
+Description-md5: 5267f8d9119e5ba93ffb45270c660c6c
+Description-en: debugging symbols for the KDE Development Platform libraries
+ This package contains debugging files used to investigate problems with
+ binaries included in the KDE Development Platform libraries module.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: kdelibs5-dev
+Description-md5: 4143b0754ef485c998c2c10e78ae60ce
+Description-en: development files for the KDE Development Platform libraries
+ This package contains development files for building KDE Applications and
+ other software that uses the KDE Development Platform libraries.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: kdoctools
+Description-md5: 238d6e603fc4c3e7e34babe8e5e78683
+Description-en: various tools for accessing application documentation
+ This package provides KDE documentation tools (including the "help" KIO slave)
+ for accessing documentation of KDE and GNOME applications.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: keystone
+Description-md5: 27421a6db50f80b519e733aec71dae10
+Description-en: OpenStack identity service - Daemons
+ Keystone is a proposed independent authentication service for OpenStack.
+ .
+ This initial proof of concept aims to address the current use cases in Swift
+ and Nova which are:
+ .
+  * REST-based, token auth for Swift
+  * many-to-many relationship between identity and tenant for Nova. Keystone
+    does authentication and stuff
+ .
+ This package contains the daemons.
+
+Package: keystone-doc
+Description-md5: 42b26822f99c12d16268512a33f6dfd9
+Description-en: OpenStack identity service - Documentation
+ Keystone is a proposed independent authentication service for OpenStack.
+ .
+ This initial proof of concept aims to address the current use cases in Swift
+ and Nova which are:
+ .
+  * REST-based, token auth for Swift
+  * many-to-many relationship between identity and tenant for Nova. Keystone
+    does authentication and stuff
+ .
+ This package contains the documentation.
+
+Package: libclamav-dev
+Description-md5: f9403f3147d4d160269156db01264656
+Description-en: anti-virus utility for Unix - development files
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav6, which can be used by other software.
+ .
+ The package contains the needed headers and libraries for
+ developing software using the libclamav interface.
+ .
+ This library can be used to develop virus scanner applications.
+
+Package: libclamav6
+Description-md5: 8eec48379ead2492f2f06feeb97a6a2f
+Description-en: anti-virus utility for Unix - library
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav6, which can be used by other software.
+ .
+ For programs written using the libclamav library. Libclamav may be used to add
+ virus protection into software. The library is thread-safe, and automatically
+ recognizes and scans archives. Scanning is very fast and most of the time
+ not noticeable.
+
+Package: libgnutls-dev
+Description-md5: e2a3e8bac6f6874ae5a4bc8e489881a6
+Description-en: GNU TLS library - development files
+ GnuTLS is a portable library which implements the Transport Layer
+ Security (TLS 1.0, 1.1, 1.2) and Secure Sockets Layer (SSL) 3.0 protocols.
+ .
+ GnuTLS features support for:
+  - TLS extensions: server name indication, max record size, opaque PRF
+    input, etc.
+  - authentication using the SRP protocol.
+  - authentication using both X.509 certificates and OpenPGP keys.
+  - TLS Pre-Shared-Keys (PSK) extension.
+  - Inner Application (TLS/IA) extension.
+  - X.509 and OpenPGP certificate handling.
+  - X.509 Proxy Certificates (RFC 3820).
+  - all the strong encryption algorithms (including SHA-256/384/512 and
+    Camellia (RFC 4132)).
+ .
+ This package contains the GnuTLS development files.
+
+Package: libgnutls-openssl27
+Description-md5: ed7bc845df883f3776627eaef9179481
+Description-en: GNU TLS library - OpenSSL wrapper
+ GnuTLS is a portable library which implements the Transport Layer
+ Security (TLS 1.0, 1.1, 1.2) and Secure Sockets Layer (SSL) 3.0 protocols.
+ .
+ GnuTLS features support for:
+  - TLS extensions: server name indication, max record size, opaque PRF
+    input, etc.
+  - authentication using the SRP protocol.
+  - authentication using both X.509 certificates and OpenPGP keys.
+  - TLS Pre-Shared-Keys (PSK) extension.
+  - Inner Application (TLS/IA) extension.
+  - X.509 and OpenPGP certificate handling.
+  - X.509 Proxy Certificates (RFC 3820).
+  - all the strong encryption algorithms (including SHA-256/384/512 and
+    Camellia (RFC 4132)).
+ .
+ This package contains the runtime library of the GnuTLS OpenSSL wrapper.
+
+Package: libgnutls26
+Description-md5: 07e0914117156d2b3fcf0d63e9ef8ac2
+Description-en: GNU TLS library - runtime library
+ GnuTLS is a portable library which implements the Transport Layer
+ Security (TLS 1.0, 1.1, 1.2) and Secure Sockets Layer (SSL) 3.0 protocols.
+ .
+ GnuTLS features support for:
+  - TLS extensions: server name indication, max record size, opaque PRF
+    input, etc.
+  - authentication using the SRP protocol.
+  - authentication using both X.509 certificates and OpenPGP keys.
+  - TLS Pre-Shared-Keys (PSK) extension.
+  - Inner Application (TLS/IA) extension.
+  - X.509 and OpenPGP certificate handling.
+  - X.509 Proxy Certificates (RFC 3820).
+  - all the strong encryption algorithms (including SHA-256/384/512 and
+    Camellia (RFC 4132)).
+ .
+ This package contains the runtime libraries.
+
+Package: libgnutls26-dbg
+Description-md5: 49ef95a26f6727eeaa8d2c979d728b2d
+Description-en: GNU TLS library - debugger symbols
+ GnuTLS is a portable library which implements the Transport Layer
+ Security (TLS 1.0, 1.1, 1.2) and Secure Sockets Layer (SSL) 3.0 protocols.
+ .
+ This package contains the debugger symbols and commandline utilities.
+
+Package: libgnutlsxx27
+Description-md5: afe5e834531764319ee8050592126f1d
+Description-en: GNU TLS library - C++ runtime library
+ GnuTLS is a portable library which implements the Transport Layer
+ Security (TLS 1.0, 1.1, 1.2) and Secure Sockets Layer (SSL) 3.0 protocols.
+ .
+ GnuTLS features support for:
+  - TLS extensions: server name indication, max record size, opaque PRF
+    input, etc.
+  - authentication using the SRP protocol.
+  - authentication using both X.509 certificates and OpenPGP keys.
+  - TLS Pre-Shared-Keys (PSK) extension.
+  - Inner Application (TLS/IA) extension.
+  - X.509 and OpenPGP certificate handling.
+  - X.509 Proxy Certificates (RFC 3820).
+  - all the strong encryption algorithms (including SHA-256/384/512 and
+    Camellia (RFC 4132)).
+ .
+ This package contains the C++ runtime libraries.
+
+Package: libkcmutils4
+Description-md5: 0664b9af20b96f1c42e9dc3e04e67da4
+Description-en: utility classes for using KCM modules
+ This library provides utility classes for using KCM modules
+ in a KDE application.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkde3support4
+Description-md5: 991cc7b40c4c49f2141dd24fe02e64be
+Description-en: KDE 3 Support Library for the KDE 4 Platform
+ The classes here are only for convenience of porting from KDE 3 to KDE 4
+ Platform. They are not supposed to be used for a long time. You should move on
+ to replacement classes provided by the framework or implement something
+ yourself in the long run.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkdeclarative5
+Description-md5: 68aa12fd756ea17a2040ffb30a42f8ac
+Description-en: declarative library for plasma
+ This library provides plasma bindings for Qt Quick
+ .
+ This package contains experimental software and should not be used in
+ production environment
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkdecore5
+Description-md5: 63b72d99622f0f39483e2857c12b1ce7
+Description-en: KDE Platform Core Library
+ All KDE Applications use this library to provide basic functionality such as
+ the configuration system, IPC, internationalization and locale support,
+ site-independent access to the filesystem and a large number of other (but no
+ less important) things. The classes in this library does not require linkage
+ to QtGui or any other library that requires a graphical interface.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkdesu5
+Description-md5: b0a8912323d2acc159aee09909172425
+Description-en: Console-mode Authentication Library for the KDE Platform
+ This library provides functionality for building GUI front ends for (password
+ asking) console mode programs. For example, kdesu and kdessh use it to
+ interface with su and ssh respectively.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkdeui5
+Description-md5: dd888935d1059e0ffd266016dcabd53c
+Description-en: KDE Platform User Interface Library
+ This library provides standard user interface elements for use in KDE
+ Applications. If your KDE Application has a GUI, you will almost certainly
+ link to this library.
+ .
+ A spell-checker functionality is also provided. Sonnet offers easy access to
+ International ISpell or ASpell as well as a spell-checker GUI ("Add",
+ "Replace", etc.).
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkdewebkit5
+Description-md5: 37f74b24ea041b93eceb237236a38db3
+Description-en: KDE WebKit Library
+ This library provides KDE integration of the QtWebKit library.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkdnssd4
+Description-md5: a67f398f302ac7c437c2db6660c0cb5d
+Description-en: DNS-SD Protocol Library for the KDE Platform
+ This library is for handling the DNS-based Service Discovery Protocol
+ (DNS-SD), the layer of Zeroconf that allows network services, such as
+ printers, to be discovered without any user intervention or centralized
+ infrastructure.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkemoticons4
+Description-md5: cae26d9220ef55bb5d93e6e50aaabbeb
+Description-en: utility classes to deal with emoticon themes
+ This library provides utility classes to deal with emoticon
+ themes in KDE applications. It provides classes to load emoticon
+ themes from various sources as well as install new themes.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkfile4
+Description-md5: ca6120f48cf645c62bd18c493fa976ce
+Description-en: File Selection Dialog Library for KDE Platform
+ This library provides the file selection dialog and its components.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkhtml5
+Description-md5: 6fdc11e326da0a1bd495dcdc96640c27
+Description-en: KHTML Web Content Rendering Engine
+ This library provides the component based on the KDE parts framework that can
+ be used to embed a fully-fledged HTML browser widget in any KDE Application.
+ This library uses the KHTML Web Content Rendering Engine to rendering.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkidletime4
+Description-md5: 5eb21e2d5fd8b18292c2b04164cbd62f
+Description-en: library to provide information about idle time
+ This library contains a class that allows applications to watch for
+ user activity or inactivity. It is useful not only for finding out about
+ the current idle time of the PC, but also for getting notified upon idle
+ time events, such as custom timeouts, or user activity.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkimproxy4
+Description-md5: 68e45e2a7240f7aa539c55fa9670181b
+Description-en: Instant Messaging Interface Library for the KDE Platform
+ This library provides an easy-to-use interface to any instant messengers or
+ chat programs that implement KIMIface.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkio5
+Description-md5: f9d64e3dda3bf4c061b02623b14ed159
+Description-en: Network-enabled File Management Library for the KDE Platform
+ This library implements almost all the file management functions you will ever
+ need. In fact, the KDE file manager, Konqueror also uses this to provide its
+ network-enabled file management. This library also implements the KDE file
+ selector widget.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkjsapi4
+Description-md5: ef5d36e5444d0736d01d3dc877117014
+Description-en: KJS API Library for the KDE Development Platform
+ This library provides an ECMAScript compatible interpreter. The ECMA standard
+ is based on well known scripting languages such as Netscape's JavaScript and
+ Microsoft's JScript.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkjsembed4
+Description-md5: 7d592f95900bcda9ed863557c464d5cf
+Description-en: library for binding JavaScript objects to QObjects
+ This library provides a method of binding JavaScript objects to QObjects, so
+ you can script your applications. It also provides an interface for running
+ embedded Javascript.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkmediaplayer4
+Description-md5: 41939bc408f0c531de5f851dcf989514
+Description-en: KMediaPlayer Interface for the KDE Platform
+ KMediaPlayer provides an API for re-usable media player components. The main
+ class (KMediaPlayer::Player) provides all the necessary media player
+ operations, with an optional GUI to control them.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libknewstuff2-4
+Description-md5: 3b60147847daf44fbccfb1a682258447
+Description-en: "Get Hot New Stuff" v2 Library for the KDE Platform
+ The KNewStuff2 ("Get Hot New Stuff" v2)  library adds data sharing
+ capabilities to KDE Applications. Technically, it implements the GHNS and DXS
+ specifications. The library consists of three parts: the data management core
+ and GHNS protocol implementation, the DXS web service handler, and the user
+ interface classes like dialogs and buttons.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libknewstuff3-4
+Description-md5: f38a1ea642d10041b05d41abd81c1721
+Description-en: "Get Hot New Stuff" v3 Library for the KDE Platform
+ The KNewStuff3 ("Get Hot New Stuff" v3) library adds data sharing capabilities
+ to the KDE Applications. It uses libattica to access Open Collaboration
+ Services providers. In addition the static XML from GHNS is supported.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libknotifyconfig4
+Description-md5: 92a159564b8bead16419278ef73c0269
+Description-en: library for configuring KDE Notifications
+ This library provides a common interface for the configuration of the KDE
+ Notifications (KNotify) for each KDE Application (e.g. "Configuration
+ Notification" dialog).
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkntlm4
+Description-md5: a4c2aefaa45147ea6933464366053951
+Description-en: NTLM Authentication Library for the KDE Platform
+ This library is useful for creating the authentication structures which
+ can be used for various servers which implement NTLM type authentication. A
+ comprehensive description of the NTLM authentication protocol can be found at
+ http://davenport.sourceforge.net/ntlm.html
+ .
+ The library also provides subroutines to create the LanManager and NT (MD4)
+ hashes of a password.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkparts4
+Description-md5: 98c676da683b1bb14ce3b6e59252a0bb
+Description-en: Framework for the KDE Platform Graphical Components
+ This library implements the framework for reusable KDE components (kparts),
+ which are elaborate widgets with a user-interface defined in terms of actions
+ (menu items, toolbar icons).
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkprintutils4
+Description-md5: fd3d73f26788fb553bf5c5fc82981d77
+Description-en: utility classes to deal with printing
+ This library is meant to provide utility classes for using printing features
+ in KDE applications. Currently it only provides a print preview dialog.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkpty4
+Description-md5: 88650c0f22bb7f0ec349c0b6cf39f941
+Description-en: Pseudo Terminal Library for the KDE Platform
+ This library provides primitives to interface with pseudo terminal devices as
+ well as a KProcess derived class for running child processes and communicating
+ with them using a pty.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkrosscore4
+Description-md5: 36901388f1fca67e2a2b0d8491d66b2a
+Description-en: Kross Core Library
+ Kross is a scripting bridge for the KDE Development Platform used to embed
+ scripting functionality into an application. Kross provides an abstract API to
+ provide scripting functionality in a interpreter-independent way. The
+ application that uses Kross should not need to know anything about the
+ scripting language being used.
+ .
+ The core of Kross provides the framework to deal transparently with
+ interpreter-backends and offers abstract functionality to deal with scripts.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkrossui4
+Description-md5: 299663dd13172b62a97dba0a445d9342
+Description-en: Kross UI Library
+ Kross is a scripting bridge for the KDE Development Platform used to embed
+ scripting functionality into an application. Kross provides an abstract API to
+ provide scripting functionality in a interpreter-independent way. The
+ application that uses Kross should not need to know anything about the
+ scripting language being used.
+ .
+ The UI library of Kross provides the Kross KParts plugin and other classes
+ aimed towards Kross integration with the KDE graphical applications.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libktexteditor4
+Description-md5: 2d8e60170c0b920dc40b14f799eaf14b
+Description-en: KTextEditor interfaces for the KDE Platform
+ This package provides the KTextEditor interfaces (also called KTE interfaces)
+ that are a set of well-defined interfaces which an application or library can
+ implement to provide advanced plain text editing services. Applications which
+ utilise this interface can thus allow the user to choose which implementation
+ of the editor component to use. The only implementation right now is the Kate
+ Editor Component (Kate Part).
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkunitconversion4
+Description-md5: b9918503d482d7d829ab3df3d0dfe2e2
+Description-en: Unit Conversion library for the KDE Platform
+ The kunitconversion library can help KDE 4 application in doing conversions of
+ values in different measure units.
+ .
+ Currently, it can provide conversions for the following unit categories:
+  * currency
+  * density
+  * energy
+  * fuel efficiency
+  * length
+  * mass
+  * power
+  * pressure
+  * temperature
+  * time
+  * velocity
+  * volume
+ .
+ This library is part of the KDE Development Platform libraries module.
+
+Package: libkutils4
+Description-md5: 694b339a296f5f2257295f8914329086
+Description-en: dummy transitional library
+ This library has been split into libkcmutils4, libkprintutils4,
+ libkidletime4 and libkemoticons4. This binary is provided to keep
+ binary compatibility with software that was compiled against it.
+ New software should not link against this library.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libmysqlclient-dev
+Description-md5: 716f7a81dc4e3e8899c7eaa66b24736d
+Description-en: MySQL database development files
+ MySQL is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package includes development libraries and header files.
+
+Package: libmysqlclient18
+Description-md5: 49de807663510f5f2afd3e71efe199f1
+Description-en: MySQL database client library
+ MySQL is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package includes the client library.
+
+Package: libmysqld-dev
+Description-md5: 2f06b7e1bfdb9f620d92f9696d24fabc
+Description-en: MySQL embedded database development files
+ MySQL is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package includes the embedded server library and header files.
+
+Package: libnepomuk4
+Description-md5: b19e398b2de1071ad89678968e230e2a
+Description-en: Nepomuk Meta Data Library
+ Nepomuk aims to provide the basis to handle all kinds of metadata on the KDE
+ desktop in a generic fashion. This ranges from simple information such as tags
+ or ratings over metadata extracted from files to metadata that is generated by
+ applications automatically. RDF, the Resource Description Framework, provides
+ the powerful basis to store and query all this data. The goal is to categorize
+ all metadata using clean ontologies to make an automated handling and
+ enrichment of the data possible.
+ .
+ This library implements core Nepomuk functionality like handling of resources
+ and ontologies.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libnepomukquery4a
+Description-md5: f817c9a2910650273d5905aa6b8bc8d7
+Description-en: Nepomuk Query Library for the KDE Platform
+ Nepomuk aims to provide the basis to handle all kinds of metadata on the KDE
+ desktop in a generic fashion. This ranges from simple information such as tags
+ or ratings over metadata extracted from files to metadata that is generated by
+ applications automatically. RDF, the Resource Description Framework, provides
+ the powerful basis to store and query all this data. The goal is to categorize
+ all metadata using clean ontologies to make an automated handling and
+ enrichment of the data possible.
+ .
+ This library implements the Nepomuk Query API. It is aimed to be used by KDE
+ desktop applications to query Nepomuk database for metadata.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libnepomukutils4
+Description-md5: 064394da7816fadaeba58ce100eb1836
+Description-en: Nepomuk Utility Library
+ Nepomuk aims to provide the basis to handle all kinds of metadata on the KDE
+ desktop in a generic fashion. This ranges from simple information such as tags
+ or ratings over metadata extracted from files to metadata that is generated by
+ applications automatically. RDF, the Resource Description Framework, provides
+ the powerful basis to store and query all this data. The goal is to categorize
+ all metadata using clean ontologies to make an automated handling and
+ enrichment of the data possible.
+ .
+ This library implements the Nepomuk utility functionality.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libplasma3
+Description-md5: 069ac695b489886696dab1b47f4363b3
+Description-en: Plasma Library for the KDE Platform
+ This package contains the Plasma library. Plasma is one of the key
+ technologies of KDE 4 (also known as the "Pillars of KDE"), and one of the
+ most visible to users. It is the component that is "in charge" of the desktop
+ interface; the desktop, panel (often referred simply as the task bar), and
+ related elements. Plasma aims to change the traditional concepts of the
+ "Desktop", incorporating semantic application elements, and bringing
+ cooperating technologies to the user's fingertips in a way that is visually
+ appealing while easing work flow.
+ .
+ It is part of the KDE Development Platform libraries module.
+
+Package: libservlet3.0-java
+Description-md5: 53f7075916141a8eb225df97286c9451
+Description-en: Servlet 3.0 and JSP 2.2 Java API classes
+ Apache Tomcat implements the Java Servlet and the JavaServer Pages (JSP)
+ specifications from Sun Microsystems, and provides a "pure Java" HTTP web
+ server environment for Java code to run.
+ .
+ This package contains the Java Servlet and JSP library.
+
+Package: libservlet3.0-java-doc
+Description-md5: 105d3349377c356c2f157766657d4639
+Description-en: Servlet 3.0 and JSP 2.2 Java API documentation
+ Apache Tomcat implements the Java Servlet and the JavaServer Pages (JSP)
+ specifications from Sun Microsystems, and provides a "pure Java" HTTP web
+ server environment for Java code to run.
+ .
+ This package contains the documentation for the Java Servlet and JSP library.
+
+Package: libsolid4
+Description-md5: 8c2c3226e5dda352478cce6495d83808
+Description-en: Solid Library for KDE Platform
+ Solid is a device integration framework. It provides a way of querying and
+ interacting with hardware independently of the underlying operating system.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libthreadweaver4
+Description-md5: e0f3ffffa7401f49a422fac613b125fe
+Description-en: ThreadWeaver Library for the KDE Platform
+ ThreadWeaver is a helper for multithreaded programming. It uses a job-based
+ interface to queue tasks and execute them in an efficient way.  You simply
+ divide the workload into jobs, state the dependencies between the jobs and
+ ThreadWeaver will work out the most efficient way of dividing the work between
+ threads within a set of resource limits.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libtiff-doc
+Description-md5: 418b6b38755ca1f970cc3282a8afc939
+Description-en: TIFF manipulation and conversion documentation
+ libtiff is a library providing support for the Tag Image File Format
+ (TIFF), a widely used format for storing image data.  This package
+ contains documentation.
+
+Package: libtiff-tools
+Description-md5: f333fccce3ca049190b80f117d3faa92
+Description-en: TIFF manipulation and conversion tools
+ libtiff is a library providing support for the Tag Image File Format
+ (TIFF), a widely used format for storing image data.  This package
+ includes tools for converting TIFF images to and from other formats
+ and tools for doing simple manipulations of TIFF images.  See also
+ libtiff-opengl.
+
+Package: libtiff5
+Description-md5: bdf182da5cc17db1c9eb4ccb03647efc
+Description-en: Tag Image File Format (TIFF) library
+ libtiff is a library providing support for the Tag Image File Format
+ (TIFF), a widely used format for storing image data.  This package
+ includes the shared library.
+
+Package: libtiff5-alt-dev
+Description-md5: f8bd909b2722035ca5228536eb37749a
+Description-en: Tag Image File Format library (TIFF), alternative development files
+ This package is a temporary package designed to make it possible for
+ packages to use features in libtiff5, such as bigtiff, while still
+ having indirect dependencies on libtiff4-dev.  This package will go
+ away after the release of wheezy.  You should only use it if you have
+ a requirement to have both libtiff5-dev files and libtiff4-dev files
+ installed on your system at the same time.  See README.Debian for
+ additional information.
+
+Package: libtiff5-dev
+Description-md5: 9da8bcdaa4c04ca6ee4ae233236c1927
+Description-en: Tag Image File Format library (TIFF), development files
+ libtiff is a library providing support for the Tag Image File Format
+ (TIFF), a widely used format for storing image data.  This package
+ includes the development files, static library, and header files.
+
+Package: libtiffxx5
+Description-md5: 3947dc613cbd7efbe601b6c89e20c44f
+Description-en: Tag Image File Format (TIFF) library -- C++ interface
+ libtiff is a library providing support for the Tag Image File Format
+ (TIFF), a widely used format for storing image data.  This package
+ includes the shared library for the experimental C++ interfaces.
+
+Package: libtomcat7-java
+Description-md5: 7a2563c1a7c79379004bc6464d285af0
+Description-en: Servlet and JSP engine -- core libraries
+ Apache Tomcat implements the Java Servlet and the JavaServer Pages (JSP)
+ specifications from Sun Microsystems, and provides a "pure Java" HTTP web
+ server environment for Java code to run.
+ .
+ This package contains the Tomcat core classes which can be used by other
+ Java applications to embed Tomcat.
+
+Package: libxen-4.2
+Description-md5: cd7ad869e7a3a001fd3c7b337111e06f
+Description-en: Public libs for Xen
+ This package contains the shared libraries for Xen.
+
+Package: libxen-dev
+Description-md5: 16aef021d38a9f4fed58c122c9b3e1cf
+Description-en: Public headers and libs for Xen
+ This package contains the public headers and static libraries for Xen.
+
+Package: libxen-ocaml
+Description-md5: c9c37edde6c8bfae0ec1ac70e828dbac
+Description-en: OCaml libraries for controlling Xen
+ This package contains the runtime libraries required for the ocaml
+ bindings to the Xen control libraries.
+
+Package: libxen-ocaml-dev
+Description-md5: 9c87ca7440bf9a1fcef15be5c5ae0a2d
+Description-en: OCaml libraries for controlling Xen (devel package)
+ This package contains the ocaml findlib packages for compiling
+ applications that are designed to control the Xen hypervisor.
+
+Package: libxenstore3.0
+Description-md5: c2462dfd8088a311ca74072df39a0705
+Description-en: Xenstore communications library for Xen
+ This package contains the public libxenstore.
+
+Package: libxml2
+Description-md5: 6771e66f557fa0f71e6955303e1d8f8d
+Description-en: GNOME XML library
+ XML is a metalanguage to let you design your own markup language.
+ A regular markup language defines a way to describe information in
+ a certain class of documents (eg HTML). XML lets you define your
+ own customized markup languages for many classes of document. It
+ can do this because it's written in SGML, the international standard
+ metalanguage for markup languages.
+ .
+ This package provides a library providing an extensive API to handle
+ such XML data files.
+
+Package: libxml2-dbg
+Description-md5: 9ec720505d02de944686c1135841e078
+Description-en: Debugging symbols for the GNOME XML library
+ XML is a metalanguage to let you design your own markup language.
+ A regular markup language defines a way to describe information in
+ a certain class of documents (eg HTML). XML lets you define your
+ own customized markup languages for many classes of document. It
+ can do this because it's written in SGML, the international standard
+ metalanguage for markup languages.
+ .
+ This package provides the debugging symbols for the library.
+
+Package: libxml2-dev
+Description-md5: 3fc5da551079ce5d27e8aae047e7a888
+Description-en: Development files for the GNOME XML library
+ XML is a metalanguage to let you design your own markup language.
+ A regular markup language defines a way to describe information in
+ a certain class of documents (eg HTML). XML lets you define your
+ own customized markup languages for many classes of document. It
+ can do this because it's written in SGML, the international standard
+ metalanguage for markup languages.
+ .
+ Install this package if you wish to develop your own programs using
+ the GNOME XML library.
+
+Package: libxml2-doc
+Description-md5: 5a090ab419791c5777762dc26465ac3b
+Description-en: Documentation for the GNOME XML library
+ XML is a metalanguage to let you design your own markup language.
+ A regular markup language defines a way to describe information in
+ a certain class of documents (eg HTML). XML lets you define your
+ own customized markup languages for many classes of document. It
+ can do this because it's written in SGML, the international standard
+ metalanguage for markup languages.
+ .
+ This package contains general information about the GNOME XML library
+ and more specific API references.
+
+Package: libxml2-utils
+Description-md5: eb24a32e7f02ae9cc4d9ada525dc1964
+Description-en: XML utilities
+ XML is a metalanguage to let you design your own markup language.
+ A regular markup language defines a way to describe information in
+ a certain class of documents (eg HTML). XML lets you define your
+ own customized markup languages for many classes of document. It
+ can do this because it's written in SGML, the international standard
+ metalanguage for markup languages.
+ .
+ This package provides xmllint, a tool for validating and reformatting
+ XML documents, and xmlcatalog, a tool to parse and manipulate XML or
+ SGML catalog files.
+
+Package: libxml2-utils-dbg
+Description-md5: 54315da2c98caf530cdead72cdb9a09b
+Description-en: XML utilities (debug extension)
+ XML is a metalanguage to let you design your own markup language.
+ A regular markup language defines a way to describe information in
+ a certain class of documents (eg HTML). XML lets you define your
+ own customized markup languages for many classes of document. It
+ can do this because it's written in SGML, the international standard
+ metalanguage for markup languages.
+ .
+ This package provides the debugging symbols for the utilities provided
+ by the libxml2-utils package.
+
+Package: linux
+Description-md5: e1f3af50c53d3b40815e9810a03f60ee
+Description-en: Generic complete Linux kernel.
+ This package will always depend on the latest generic complete Linux kernel
+ available.
+
+Package: linux-crashdump
+Description-md5: 786b3d1e77e0097cb2c8f2ab16f83875
+Description-en: Linux kernel crashdump setup for the latest generic kernel
+ This package installs all the needed infrstracture to get crashdumps from
+ your running system. If you are experiencing kernel crashes that cannot
+ be debugged normally (because the problem is infrequent or panic's the
+ system in such a way as to make information gathering impossible), then
+ you can install this package to automatically enable capture of the
+ vmcore on crashes.
+
+Package: linux-doc
+Description-md5: ce791e5696c1c1aa38d33d35dcd5430d
+Description-en: Linux kernel specific documentation for version 3.8.0
+ This package provides the various documents in the 3.8.0 kernel
+ Documentation/ subdirectory.  These document kernel subsystems, APIs, device
+ drivers, and so on.  See
+ /usr/share/doc/linux-doc/00-INDEX for a list of what is
+ contained in each file.
+
+Package: linux-generic
+Description-md5: 000d0a6187a93215f75bba542cc6df27
+Description-en: Complete Generic Linux kernel and headers
+ This package will always depend on the latest complete generic Linux kernel
+ and headers.
+
+Package: linux-headers-3.8.0-19
+Description-md5: 326090d8b0e03a9dc9422c2bcc30ca76
+Description-en: Header files related to Linux kernel version 3.8.0
+ This package provides kernel header files for version 3.8.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-headers-3.8.0-19/debian.README.gz for details
+
+Package: linux-headers-3.8.0-19-generic
+Description-md5: a30bb2e0322772add642fdbce010e94f
+Description-en: Linux kernel headers for version 3.8.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 3.8.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-3.8.0-19/debian.README.gz for details.
+
+Package: linux-headers-3.8.0-21
+Description-md5: acb3d8dca41143457d97caec1483f180
+Description-en: Header files related to Linux kernel version 3.8.0
+ This package provides kernel header files for version 3.8.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-headers-3.8.0-21/debian.README.gz for details
+
+Package: linux-headers-3.8.0-21-generic
+Description-md5: 1b783bbd4d4be1a98b1b84ce2946359a
+Description-en: Linux kernel headers for version 3.8.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 3.8.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-3.8.0-21/debian.README.gz for details.
+
+Package: linux-headers-3.8.0-22
+Description-md5: 62a546ba35cf6c626e23ed73cbb5b8f4
+Description-en: Header files related to Linux kernel version 3.8.0
+ This package provides kernel header files for version 3.8.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-headers-3.8.0-22/debian.README.gz for details
+
+Package: linux-headers-3.8.0-22-generic
+Description-md5: 1728885f692f3d636e9b499a31a869a9
+Description-en: Linux kernel headers for version 3.8.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 3.8.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-3.8.0-22/debian.README.gz for details.
+
+Package: linux-headers-3.8.0-23
+Description-md5: 4dbb4e2db582115b7ba96ed677c8a2cd
+Description-en: Header files related to Linux kernel version 3.8.0
+ This package provides kernel header files for version 3.8.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-headers-3.8.0-23/debian.README.gz for details
+
+Package: linux-headers-3.8.0-23-generic
+Description-md5: 5cd0d0980adbb9610b8c6b68841244c7
+Description-en: Linux kernel headers for version 3.8.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 3.8.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-3.8.0-23/debian.README.gz for details.
+
+Package: linux-headers-generic
+Description-md5: 9c9742ab9c289b1e900fab477bc0070d
+Description-en: Generic Linux kernel headers
+ This package will always depend on the latest generic kernel headers
+ available.
+
+Package: linux-headers-server
+Description-md5: 9f8e13d3c6398c379efb34108d986a01
+Description-en: Transitional package.
+ This package will always depend on linux-headers-generic.
+
+Package: linux-headers-virtual
+Description-md5: 9f8e13d3c6398c379efb34108d986a01
+Description-en: Transitional package.
+ This package will always depend on linux-headers-generic.
+
+Package: linux-image
+Description-md5: 4b85eb2dcba23bfb3b8a88b27af1d539
+Description-en: Generic Linux kernel image.
+ This package will always depend on the latest generic Linux kernel image
+ and headers.
+
+Package: linux-image-3.8.0-19-generic
+Description-md5: 8fdb63eed7d5ffa69b80014b40501775
+Description-en: Linux kernel image for version 3.8.0 on 64 bit x86 SMP
+ This package contains the Linux kernel image for version 3.8.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-3.8.0-21-generic
+Description-md5: 8fdb63eed7d5ffa69b80014b40501775
+Description-en: Linux kernel image for version 3.8.0 on 64 bit x86 SMP
+ This package contains the Linux kernel image for version 3.8.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-3.8.0-22-generic
+Description-md5: 8fdb63eed7d5ffa69b80014b40501775
+Description-en: Linux kernel image for version 3.8.0 on 64 bit x86 SMP
+ This package contains the Linux kernel image for version 3.8.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-3.8.0-23-generic
+Description-md5: 8fdb63eed7d5ffa69b80014b40501775
+Description-en: Linux kernel image for version 3.8.0 on 64 bit x86 SMP
+ This package contains the Linux kernel image for version 3.8.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-extra-3.8.0-19-generic
+Description-md5: 8fdb63eed7d5ffa69b80014b40501775
+Description-en: Linux kernel image for version 3.8.0 on 64 bit x86 SMP
+ This package contains the Linux kernel image for version 3.8.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-extra-3.8.0-21-generic
+Description-md5: 8fdb63eed7d5ffa69b80014b40501775
+Description-en: Linux kernel image for version 3.8.0 on 64 bit x86 SMP
+ This package contains the Linux kernel image for version 3.8.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-extra-3.8.0-22-generic
+Description-md5: 8fdb63eed7d5ffa69b80014b40501775
+Description-en: Linux kernel image for version 3.8.0 on 64 bit x86 SMP
+ This package contains the Linux kernel image for version 3.8.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-extra-3.8.0-23-generic
+Description-md5: 8fdb63eed7d5ffa69b80014b40501775
+Description-en: Linux kernel image for version 3.8.0 on 64 bit x86 SMP
+ This package contains the Linux kernel image for version 3.8.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-extra-virtual
+Description-md5: eb988093c0758268582edcd962efe052
+Description-en: Transitional package.
+ This package will always depend on linux-image-generic.
+
+Package: linux-image-generic
+Description-md5: 6d632579c673704f44b290b16e7dbfd1
+Description-en: Generic Linux kernel image
+ This package will always depend on the latest generic kernel image
+ available.
+
+Package: linux-image-server
+Description-md5: eb988093c0758268582edcd962efe052
+Description-en: Transitional package.
+ This package will always depend on linux-image-generic.
+
+Package: linux-image-virtual
+Description-md5: 4860895cdea7f2369c76625e9dd2dd4b
+Description-en: This package will always depend on the latest minimal generic kernel image.
+ This package will always depend on the latest minimal generic kernel image
+ used for virtual instances.
+
+Package: linux-libc-dev
+Description-md5: d5d143e6dffc891f04a85464446f9451
+Description-en: Linux Kernel Headers for development
+ This package provides headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system
+ libraries. They are NOT meant to be used to build third-party modules for
+ your kernel. Use linux-headers-* packages for that.
+
+Package: linux-server
+Description-md5: b239583bb598a7b339303e3f0513dc63
+Description-en: Transitional package.
+ This package will always depend on linux-generic.
+
+Package: linux-signed-generic
+Description-md5: c46e75d15f431954f5e63aac8c06ea2d
+Description-en: Complete Signed Generic Linux kernel and headers
+ This package will always depend on the latest complete generic Linux kernel
+ and headers.  Signed with the Ubuntu EFI key.
+
+Package: linux-signed-image-3.8.0-19-generic
+Description-md5: 58606405946683c4d2ca4f105784fd91
+Description-en: Signed kernel image generic
+ A kernel image for generic.  This version of it is signed with
+ Canonical's UEFI signing key.
+
+Package: linux-signed-image-3.8.0-21-generic
+Description-md5: 58606405946683c4d2ca4f105784fd91
+Description-en: Signed kernel image generic
+ A kernel image for generic.  This version of it is signed with
+ Canonical's UEFI signing key.
+
+Package: linux-signed-image-3.8.0-22-generic
+Description-md5: 58606405946683c4d2ca4f105784fd91
+Description-en: Signed kernel image generic
+ A kernel image for generic.  This version of it is signed with
+ Canonical's UEFI signing key.
+
+Package: linux-signed-image-3.8.0-23-generic
+Description-md5: 58606405946683c4d2ca4f105784fd91
+Description-en: Signed kernel image generic
+ A kernel image for generic.  This version of it is signed with
+ Canonical's UEFI signing key.
+
+Package: linux-signed-image-generic
+Description-md5: 9f06dc406adf6813c92d1a1173d6e913
+Description-en: Signed Generic Linux kernel image
+ This package will always depend on the latest generic kernel image
+ available.  Signed with the Ubuntu EFI key.
+
+Package: linux-source
+Description-md5: 1cac084d2ae18dfd06b96585b4be564d
+Description-en: Linux kernel source with Ubuntu patches
+ This package will always depend on the latest Linux kernel source code
+ available. The Ubuntu patches have been applied.
+
+Package: linux-source-3.8.0
+Description-md5: 2cc47389e6a08869c43cb079a77067d0
+Description-en: Linux kernel source for version 3.8.0 with Ubuntu patches
+ This package provides the source code for the Linux kernel version
+ 3.8.0.
+ .
+ This package is mainly meant for other packages to use, in order to build
+ custom flavours.
+ .
+ If you wish to use this package to create a custom Linux kernel, then it
+ is suggested that you investigate the package kernel-package, which has
+ been designed to ease the task of creating kernel image packages.
+ .
+ If you are simply trying to build third-party modules for your kernel,
+ you do not want this package. Install the appropriate linux-headers
+ package instead.
+
+Package: linux-tools
+Description-md5: ea15db5fd6e3e3cff13446d5e28af7c8
+Description-en: Linux kernel versioned Tools
+ This package will always depend on the latest Linux kernel versioned tools
+ available. The Ubuntu patches have been applied.
+
+Package: linux-tools-3.8.0-19
+Description-md5: 9c4d8916a7502c27db86951ae7a8e447
+Description-en: Linux kernel version specific tools for version 3.8.0-19
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 3.8.0-19 on
+ 64 bit x86.
+
+Package: linux-tools-3.8.0-21
+Description-md5: ce73a007ab9e781325e3f0fecc9c339a
+Description-en: Linux kernel version specific tools for version 3.8.0-21
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 3.8.0-21 on
+ 64 bit x86.
+
+Package: linux-tools-3.8.0-22
+Description-md5: 3219106f9365b64de981b554d2bfa5d7
+Description-en: Linux kernel version specific tools for version 3.8.0-22
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 3.8.0-22 on
+ 64 bit x86.
+
+Package: linux-tools-3.8.0-23
+Description-md5: 718f21df21c274c9b04a4ef78b5fdbc2
+Description-en: Linux kernel version specific tools for version 3.8.0-23
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 3.8.0-23 on
+ 64 bit x86.
+
+Package: linux-tools-common
+Description-md5: 82cdbfd960c61ce6ed3a2bc1966d589d
+Description-en: Linux kernel version specific tools for version 3.8.0
+ This package provides the architecture independent parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version PGKVER.
+
+Package: linux-virtual
+Description-md5: 71a1a38f6977c1a1bbc8a7634f51401c
+Description-en: Minimal Generic Linux kernel and headers
+ This package will always depend on linux-image-virtual and
+ linux-headers-virtual.
+
+Package: mysql-client
+Description-md5: c1035c33de63147bb387637ae5083656
+Description-en: MySQL database client (metapackage depending on the latest version)
+ This is an empty package that depends on the current "best" version of
+ mysql-client (currently mysql-client-5.5), as determined by the MySQL
+ maintainers.  Install this package if in doubt about which MySQL version
+ you want, as this is the one we consider to be in the best shape.
+
+Package: mysql-client-5.5
+Description-md5: 70aef1a292fc318f9af72aa188c17716
+Description-en: MySQL database client binaries
+ MySQL is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package includes the client binaries and the additional tools
+ innotop and mysqlreport.
+
+Package: mysql-client-core-5.5
+Description-md5: 94a7aede8ba9259b1382d4dfca4cdde0
+Description-en: MySQL database core client binaries
+ MySQL is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package includes the core client files, as used by Akonadi.
+
+Package: mysql-common
+Description-md5: 562d254c602f89e4390e28f6362283c8
+Description-en: MySQL database common files, e.g. /etc/mysql/my.cnf
+ MySQL is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package includes files needed by all versions of the client library,
+ e.g. /etc/mysql/my.cnf.
+
+Package: mysql-server
+Description-md5: e519a9c4f87658afbd1d077af63f9269
+Description-en: MySQL database server (metapackage depending on the latest version)
+ This is an empty package that depends on the current "best" version of
+ mysql-server (currently mysql-server-5.5), as determined by the MySQL
+ maintainers. Install this package if in doubt about which MySQL
+ version you need. That will install the version recommended by the
+ package maintainers.
+ .
+ MySQL is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+
+Package: mysql-server-5.5
+Description-md5: 3ae11e16f793b3ee84f73a5fa268ad9b
+Description-en: MySQL database server binaries and system database setup
+ MySQL is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package contains all the infrastructure needed to setup system
+ databases.
+
+Package: mysql-server-core-5.5
+Description-md5: a54aa75db64667c487b6c9d3800b8153
+Description-en: MySQL database server binaries
+ MySQL is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package includes the server binaries but doesn't contain all the
+ infrastructure needed to setup system databases.
+
+Package: nova-api
+Description-md5: 93751a4c42a717b98a076fc37e614e1c
+Description-en: OpenStack Compute - API frontend
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This package provides the API frontend.
+
+Package: nova-cert
+Description-md5: 171b61c56d67b812f80c5642bfa0d1d2
+Description-en: OpenStack Compute - certificate management
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This is the Nova certificate management component.
+
+Package: nova-common
+Description-md5: ca300a4c4a13a67629e52754451325a3
+Description-en: OpenStack Compute - common files
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This package contains things that are needed by all parts of Nova.
+
+Package: nova-compute
+Description-md5: 4ede856ba4b4b8796676686d84f6183b
+Description-en: OpenStack Compute - compute node
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This is the package you will install on the nodes that will run your
+ virtual machines.
+
+Package: nova-compute-kvm
+Description-md5: 3a3f4fc6eb0e0d1a1a52636f4a84daa1
+Description-en: OpenStack Compute - compute node (KVM)
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ Install this package on your compute nodes if you're using kvm.
+
+Package: nova-compute-lxc
+Description-md5: 8c74b0f3d56b3da8c70cf752f98f7869
+Description-en: OpenStack Compute - compute node (LXC)
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ Install this package on your compute nodes if you're using LXC.
+
+Package: nova-doc
+Description-md5: 1c367fcc5afa32969a8f351c6365dd1c
+Description-en: OpenStack Compute - documentation
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This package contains the documentation for Nova.
+
+Package: nova-network
+Description-md5: ce3e77d724d3353406c26c4d4af8c565
+Description-en: OpenStack Compute - Network manager
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This is the package you will install on the network nodes. This service is
+ responsible for managing floating and fixed IPs, DHCP, bridging and VLANs, and
+ in some cases acts as a gateway. Different networking strategies are available
+ to the service by changing the network_manager flag to FlatManager,
+ FlatDHCPManager, or VlanManager (default is VLAN).
+
+Package: nova-objectstore
+Description-md5: 25cb037ff1b6bb2f705647605954cac3
+Description-en: OpenStack Compute - object store
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This is the package contains a very simple S3-like object store.
+ For production use, you should use OpenStack Storage, aka. Swift.
+
+Package: nova-scheduler
+Description-md5: 8edec11a409c894d59bffef4d16d21b6
+Description-en: OpenStack Compute - virtual machine scheduler
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This is the Nova scheduler.
+
+Package: nova-volume
+Description-md5: f85e1ba6a9aabcaf096890562606c8de
+Description-en: OpenStack Compute - storage
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This is a dummy transitional package that can be removed after upgrade.
+
+Package: python-keystone
+Description-md5: 164bf6a04887bccf5d178b0e54933ecb
+Description-en: OpenStack identity service - Python library
+ Keystone is a proposed independent authentication service for OpenStack.
+ .
+ This initial proof of concept aims to address the current use cases in Swift
+ and Nova which are:
+ .
+  * REST-based, token auth for Swift
+  * many-to-many relationship between identity and tenant for Nova. Keystone
+    does authentication and stuff
+ .
+ This package contains the Python libraries.
+
+Package: python-keystoneclient
+Description-md5: fc8c4ddbda8382e94bee34832a059345
+Description-en: Client library for OpenStack Identity API
+ This is a client for the OpenStack Identity API. There's a Python API
+ (the ``keystoneclient`` module), and a command-line script (``keystone``).
+
+Package: python-libxml2
+Description-md5: e4228b117ba4c3ff09fba829bd0ef07d
+Description-en: Python bindings for the GNOME XML library
+ XML is a metalanguage to let you design your own markup language.
+ A regular markup language defines a way to describe information in
+ a certain class of documents (eg HTML). XML lets you define your
+ own customized markup languages for many classes of document. It
+ can do this because it's written in SGML, the international standard
+ metalanguage for markup languages.
+ .
+ This package contains the files needed to use the GNOME XML library
+ in Python programs.
+
+Package: python-libxml2-dbg
+Description-md5: 5d69439c02c8c4c06241f93466f5a75a
+Description-en: Python bindings for the GNOME XML library (debug extension)
+ XML is a metalanguage to let you design your own markup language.
+ A regular markup language defines a way to describe information in
+ a certain class of documents (eg HTML). XML lets you define your
+ own customized markup languages for many classes of document. It
+ can do this because it's written in SGML, the international standard
+ metalanguage for markup languages.
+ .
+ This package contains the files needed to use the GNOME XML library
+ in Python programs for use with the Python debug interpreter.
+
+Package: python-nova
+Description-md5: 9e7471c108af7843da4a920afe750d19
+Description-en: OpenStack Compute Python libraries
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This package contains the core Python parts of Nova.
+
+Package: telepathy-idle
+Description-md5: 81765bfce6d13cf4efec368f0325217a
+Description-en: IRC connection manager for Telepathy
+ A full-featured IRC connection manager for the Telepathy project.
+
+Package: thunderbird
+Description-md5: 68ed1001b79d708ad48956a0c129114d
+Description-en: Email, RSS and newsgroup client with integrated spam filter
+ Thunderbird is a full-featured email, RSS and newsgroup client that makes
+ emailing safer, faster and easier than ever before. It supports different mail
+ accounts (POP, IMAP, Gmail), has a simple mail account setup wizard, one-
+ click address book, tabbed interface, an integrated learning spam filter,
+ advanced search and indexing capabilities, and offers easy organization
+ of mails with tagging and virtual folders. It also features unrivalled
+ extensibility.
+
+Package: thunderbird-dbg
+Description-md5: 7ce9b689254d265f0d4bac6602f7a80f
+Description-en: Email, RSS and newsgroup client - debug symbols
+ Thunderbird is a full-featured email, RSS and newsgroup client that makes
+ emailing safer, faster and easier than ever before. It supports different mail
+ accounts (POP, IMAP, Gmail), has a simple mail account setup wizard, one-
+ click address book, tabbed interface, an integrated learning spam filter,
+ advanced search and indexing capabilities, and offers easy organization
+ of mails with tagging and virtual folders. It also features unrivalled
+ extensibility.
+ .
+ This package contains the debugging symbols for Thunderbird
+
+Package: thunderbird-dev
+Description-md5: 564ab343c2a2437ef25d94273b1364c1
+Description-en: Email, RSS and newsgroup client - development files
+ Thunderbird is a full-featured email, RSS and newsgroup client that makes
+ emailing safer, faster and easier than ever before. It supports different mail
+ accounts (POP, IMAP, Gmail), has a simple mail account setup wizard, one-
+ click address book, tabbed interface, an integrated learning spam filter,
+ advanced search and indexing capabilities, and offers easy organization
+ of mails with tagging and virtual folders. It also features unrivalled
+ extensibility.
+ .
+ This package contains the headers and SDK for building plugins and extensions
+ with Thunderbird
+
+Package: thunderbird-globalmenu
+Description-md5: de4f97973cee918d93df8917aa3bfeac
+Description-en: Unity appmenu integration for Thunderbird
+ This package provides an extension which adds support for the Unity
+ appmenu to Thunderbird
+
+Package: thunderbird-gnome-support
+Description-md5: c6d750d99833a5a122c5bdc00727ccaa
+Description-en: Email, RSS and newsgroup client - GNOME support
+ Thunderbird is a full-featured email, RSS and newsgroup client that makes
+ emailing safer, faster and easier than ever before. It supports different mail
+ accounts (POP, IMAP, Gmail), has a simple mail account setup wizard, one-
+ click address book, tabbed interface, an integrated learning spam filter,
+ advanced search and indexing capabilities, and offers easy organization
+ of mails with tagging and virtual folders. It also features unrivalled
+ extensibility.
+ .
+ This package depends on the GNOME libraries which allow Thunderbird to take
+ advantage of technologies such as GConf, GIO and libnotify
+
+Package: thunderbird-gnome-support-dbg
+Description-md5: 8fa21aaf02af881ccc7c33f8559e6531
+Description-en: Email, RSS and newsgroup client - transitional package
+ This is a transitional package to ensure that upgrades work correctly.
+ It can be safely removed
+
+Package: thunderbird-locale-af
+Description-md5: ea537565996c4e6bdc82ab0905f0cc41
+Description-en: Transitional package for unavailable language
+ This language is unavailable for the current version of Thunderbird
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: thunderbird-locale-ar
+Description-md5: d96ba05b4c6d792e4d18138bbe13c392
+Description-en: Arabic language pack for Thunderbird
+ This package contains Arabic translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-ast
+Description-md5: 92f2ba3ec6c41ae12a73493e796843ef
+Description-en: Asturian language pack for Thunderbird
+ This package contains Asturian translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-be
+Description-md5: 8756cfe43a521c52482335cca067362b
+Description-en: Belarusian language pack for Thunderbird
+ This package contains Belarusian translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-bg
+Description-md5: 3e822e5a8f71fa6f62fc77651434d4ca
+Description-en: Bulgarian language pack for Thunderbird
+ This package contains Bulgarian translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-bn
+Description-md5: 0bf8b67f425d98dd586086e87a5b8652
+Description-en: Bengali language pack for Thunderbird
+ This package contains Bengali translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-bn-bd
+Description-md5: 0c16945c4912b109ad1b9a29c3548a82
+Description-en: Transitional Bengali language pack for Thunderbird
+ This is a transitional package to ensure that upgrades work correctly.
+ It can be safely removed
+
+Package: thunderbird-locale-br
+Description-md5: 2194e389142c81481fa76aea7d4ab293
+Description-en: Breton language pack for Thunderbird
+ This package contains Breton translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-ca
+Description-md5: 9006308ddf098014382109f3256de904
+Description-en: Catalan; Valencian language pack for Thunderbird
+ This package contains Catalan; Valencian translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-cs
+Description-md5: e198ec1b38b4ba8d21c5ae2dd707b886
+Description-en: Czech language pack for Thunderbird
+ This package contains Czech translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-da
+Description-md5: bb23b7f1451e9101c6235d786e38632a
+Description-en: Danish language pack for Thunderbird
+ This package contains Danish translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-de
+Description-md5: f1c4ac98e42d37c8f95db725d4288fa1
+Description-en: German language pack for Thunderbird
+ This package contains German translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-el
+Description-md5: c4f1bc5322928b4103bc8085cd013d7c
+Description-en: Greek language pack for Thunderbird
+ This package contains Greek translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-en
+Description-md5: 7997849dd0bc6d27079f5d5768aba1a0
+Description-en: English language pack for Thunderbird
+ This package contains English translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-en-gb
+Description-md5: 8b798a69e82f8ec9cbb2e264601a14fb
+Description-en: Transitional English language pack for Thunderbird
+ This is a transitional package to ensure that upgrades work correctly.
+ It can be safely removed
+
+Package: thunderbird-locale-en-us
+Description-md5: 8b798a69e82f8ec9cbb2e264601a14fb
+Description-en: Transitional English language pack for Thunderbird
+ This is a transitional package to ensure that upgrades work correctly.
+ It can be safely removed
+
+Package: thunderbird-locale-es
+Description-md5: ab065a0e196a1b25a631117f0de3a536
+Description-en: Spanish; Castilian language pack for Thunderbird
+ This package contains Spanish; Castilian translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-es-ar
+Description-md5: 869be0de01bca3f9f7bda73441e37a8d
+Description-en: Transitional Spanish language pack for Thunderbird
+ This is a transitional package to ensure that upgrades work correctly.
+ It can be safely removed
+
+Package: thunderbird-locale-es-es
+Description-md5: 869be0de01bca3f9f7bda73441e37a8d
+Description-en: Transitional Spanish language pack for Thunderbird
+ This is a transitional package to ensure that upgrades work correctly.
+ It can be safely removed
+
+Package: thunderbird-locale-et
+Description-md5: 2b6b91b02a69b25fea719c79eebba322
+Description-en: Estonian language pack for Thunderbird
+ This package contains Estonian translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-eu
+Description-md5: 51f658816bee1ac3d847f34fcfdf4715
+Description-en: Basque language pack for Thunderbird
+ This package contains Basque translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-fi
+Description-md5: d743f35cb2d00c0ac0c74faffc80c429
+Description-en: Finnish language pack for Thunderbird
+ This package contains Finnish translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-fr
+Description-md5: 5db38e54534997cea7feaf6bc2c20b8f
+Description-en: French language pack for Thunderbird
+ This package contains French translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-fy
+Description-md5: 9a3ffaa5a603e7a65baffad8847604e0
+Description-en: Western Frisian language pack for Thunderbird
+ This package contains Western Frisian translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-fy-nl
+Description-md5: 23b74cfcdfb3628d4066cc962572e125
+Description-en: Transitional Western Frisian language pack for Thunderbird
+ This is a transitional package to ensure that upgrades work correctly.
+ It can be safely removed
+
+Package: thunderbird-locale-ga
+Description-md5: e0d162b3129190a72af5f015ea0da420
+Description-en: Irish language pack for Thunderbird
+ This package contains Irish translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-ga-ie
+Description-md5: 8fe591c24be723b831c5e4f9b5e007ba
+Description-en: Transitional Irish language pack for Thunderbird
+ This is a transitional package to ensure that upgrades work correctly.
+ It can be safely removed
+
+Package: thunderbird-locale-gd
+Description-md5: 6b59819c452353ff33df8a3be2c3e44d
+Description-en: Gaelic; Scottish Gaelic language pack for Thunderbird
+ This package contains Gaelic; Scottish Gaelic translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-gl
+Description-md5: 026fea6c9c8a4a96d94ffb2e1bae174c
+Description-en: Galician language pack for Thunderbird
+ This package contains Galician translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-he
+Description-md5: c8ed17478d53bb50cbaa8eb4cb0e8b82
+Description-en: Hebrew language pack for Thunderbird
+ This package contains Hebrew translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-hr
+Description-md5: 5c80407d37a30ddb4abbbb4dd98e774c
+Description-en: Croatian language pack for Thunderbird
+ This package contains Croatian translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-hu
+Description-md5: 26678637379ab77ab5fffe5f5e37f780
+Description-en: Hungarian language pack for Thunderbird
+ This package contains Hungarian translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-hy
+Description-md5: 05d72dd80a860558e11187eccde80f8f
+Description-en: Armenian language pack for Thunderbird
+ This package contains Armenian translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-id
+Description-md5: a52ad96e5ee31add246fa95d4f17195e
+Description-en: Indonesian language pack for Thunderbird
+ This package contains Indonesian translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-is
+Description-md5: 65ee5905905a537c9ddb5361dddad2f1
+Description-en: Icelandic language pack for Thunderbird
+ This package contains Icelandic translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-it
+Description-md5: 6f1c6153ae6ef20c28214fb6a47e2e2e
+Description-en: Italian language pack for Thunderbird
+ This package contains Italian translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-ja
+Description-md5: 05672037e38088a01fc61323aaea5f68
+Description-en: Japanese language pack for Thunderbird
+ This package contains Japanese translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-ka
+Description-md5: ea537565996c4e6bdc82ab0905f0cc41
+Description-en: Transitional package for unavailable language
+ This language is unavailable for the current version of Thunderbird
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: thunderbird-locale-ko
+Description-md5: 05bbef35aca99bece02f588c8a5075ad
+Description-en: Korean language pack for Thunderbird
+ This package contains Korean translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-lt
+Description-md5: d61674e56f26ac9b99db185babee7546
+Description-en: Lithuanian language pack for Thunderbird
+ This package contains Lithuanian translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-mk
+Description-md5: ea537565996c4e6bdc82ab0905f0cc41
+Description-en: Transitional package for unavailable language
+ This language is unavailable for the current version of Thunderbird
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: thunderbird-locale-nb
+Description-md5: 998f9bca7c066364e2d15ae6be3582d5
+Description-en: Bokmål, Norwegian; Norwegian Bokmål language pack for Thunderbird
+ This package contains Bokmål, Norwegian; Norwegian Bokmål translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-nb-no
+Description-md5: 07372224f7f0b015610d5e3f1ac02f57
+Description-en: Transitional Norwegian language pack for Thunderbird
+ This is a transitional package to ensure that upgrades work correctly.
+ It can be safely removed
+
+Package: thunderbird-locale-nl
+Description-md5: 38b6c5b7280a72183935b75b6ea9c7d0
+Description-en: Dutch; Flemish language pack for Thunderbird
+ This package contains Dutch; Flemish translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-nn
+Description-md5: 7ecbfd7db64a82a92733abd49e768933
+Description-en: Norwegian Nynorsk; Nynorsk, Norwegian language pack for Thunderbird
+ This package contains Norwegian Nynorsk; Nynorsk, Norwegian translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-nn-no
+Description-md5: 07372224f7f0b015610d5e3f1ac02f57
+Description-en: Transitional Norwegian language pack for Thunderbird
+ This is a transitional package to ensure that upgrades work correctly.
+ It can be safely removed
+
+Package: thunderbird-locale-pa
+Description-md5: aa580bb579804ee591e35edbbcd80dd5
+Description-en: Panjabi; Punjabi language pack for Thunderbird
+ This package contains Panjabi; Punjabi translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-pa-in
+Description-md5: 4f99cd6218380edd7d419f7754843622
+Description-en: Transitional Punjabi language pack for Thunderbird
+ This is a transitional package to ensure that upgrades work correctly.
+ It can be safely removed
+
+Package: thunderbird-locale-pl
+Description-md5: 777da132688522a52205b5a6710bcbb7
+Description-en: Polish language pack for Thunderbird
+ This package contains Polish translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-pt
+Description-md5: 0f8fb3826c29ae6bf3c3ad16d863b999
+Description-en: Portuguese language pack for Thunderbird
+ This package contains Portuguese translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-pt-br
+Description-md5: 063e3e81e79a8a10b5ce2b5d56714bfe
+Description-en: Transitional Portugese language pack for Thunderbird
+ This is a transitional package to ensure that upgrades work correctly.
+ It can be safely removed
+
+Package: thunderbird-locale-pt-pt
+Description-md5: 063e3e81e79a8a10b5ce2b5d56714bfe
+Description-en: Transitional Portugese language pack for Thunderbird
+ This is a transitional package to ensure that upgrades work correctly.
+ It can be safely removed
+
+Package: thunderbird-locale-rm
+Description-md5: f2a8824b85c8ee2df8aadd456d6c4fc7
+Description-en: Romansh language pack for Thunderbird
+ This package contains Romansh translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-ro
+Description-md5: 601aaa5358b7fd9504dbc00b274ce9a1
+Description-en: Romanian language pack for Thunderbird
+ This package contains Romanian translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-ru
+Description-md5: 3470b329081e3274f2b1fc7e8f4836e9
+Description-en: Russian language pack for Thunderbird
+ This package contains Russian translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-si
+Description-md5: a4cd27280668af50e718cc1dde325010
+Description-en: Sinhala; Sinhalese language pack for Thunderbird
+ This package contains Sinhala; Sinhalese translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-sk
+Description-md5: 58fb9ea30d8ddc2d169728c65570981b
+Description-en: Slovak language pack for Thunderbird
+ This package contains Slovak translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-sl
+Description-md5: daf76ecbb038c82b1a007e0b97441b83
+Description-en: Slovenian language pack for Thunderbird
+ This package contains Slovenian translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-sq
+Description-md5: aabacf80f66ab70ed6865d5c62e6feb4
+Description-en: Albanian language pack for Thunderbird
+ This package contains Albanian translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-sr
+Description-md5: 4903f7be134fb1cd72c302ad46ab3471
+Description-en: Serbian language pack for Thunderbird
+ This package contains Serbian translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-sv
+Description-md5: 8a2405d1e465215d08f22ca0d7b53025
+Description-en: Swedish language pack for Thunderbird
+ This package contains Swedish translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-sv-se
+Description-md5: f013f0346741e935e8ea6e28d12bc5e1
+Description-en: Transitional Swedish language pack for Thunderbird
+ This is a transitional package to ensure that upgrades work correctly.
+ It can be safely removed
+
+Package: thunderbird-locale-ta
+Description-md5: 1b6aec33cedf10be3259b193e9b12265
+Description-en: Tamil language pack for Thunderbird
+ This package contains Tamil translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-ta-lk
+Description-md5: 1a0bc948aeb218ec6560b280e4af0dd4
+Description-en: Transitional Tamil language pack for Thunderbird
+ This is a transitional package to ensure that upgrades work correctly.
+ It can be safely removed
+
+Package: thunderbird-locale-tr
+Description-md5: 96f7b80d2e94b507e60f8bc5a8a0fd27
+Description-en: Turkish language pack for Thunderbird
+ This package contains Turkish translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-uk
+Description-md5: 10eb02a1ee9b6883db9375d4708aafa1
+Description-en: Ukrainian language pack for Thunderbird
+ This package contains Ukrainian translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-vi
+Description-md5: b7b5ecb4b2349b8ee7446da8c0ee8912
+Description-en: Vietnamese language pack for Thunderbird
+ This package contains Vietnamese translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-zh-cn
+Description-md5: 3a9fcde509c5d2504fb3f5bcdc7f4b7a
+Description-en: Transitional Simplified Chinese language pack for Thunderbird
+ This is a transitional package to ensure that upgrades work correctly.
+ It can be safely removed
+
+Package: thunderbird-locale-zh-hans
+Description-md5: 3638e8cfbb0bae8e88cb4e7f01b7eabe
+Description-en: Simplified Chinese language pack for Thunderbird
+ This package contains Simplified Chinese translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-zh-hant
+Description-md5: 364c5ad13dbb779048738785b9adcaf0
+Description-en: Traditional Chinese language pack for Thunderbird
+ This package contains Traditional Chinese translations and search plugins
+ for Thunderbird
+
+Package: thunderbird-locale-zh-tw
+Description-md5: 153d368d7ff06df3219842e1b9490761
+Description-en: Transitional Traditional Chinese language pack for Thunderbird
+ This is a transitional package to ensure that upgrades work correctly.
+ It can be safely removed
+
+Package: tomcat7
+Description-md5: 71d2a54f759941814ab4cf7873094b26
+Description-en: Servlet and JSP engine
+ Apache Tomcat implements the Java Servlet and the JavaServer Pages (JSP)
+ specifications from Sun Microsystems, and provides a "pure Java" HTTP web
+ server environment for Java code to run.
+ .
+ This package contains only the startup scripts for the system-wide daemon.
+ No documentation or web applications are included here, please install
+ the tomcat7-docs and tomcat7-examples packages if you want them.
+ Install the authbind package if you need to use Tomcat on ports 1-1023.
+ Install tomcat7-user instead of this package if you don't want Tomcat to
+ start as a service.
+
+Package: tomcat7-admin
+Description-md5: 07b3738a38d2448ee2c0b77d4dbd745d
+Description-en: Servlet and JSP engine -- admin web applications
+ Apache Tomcat implements the Java Servlet and the JavaServer Pages (JSP)
+ specifications from Sun Microsystems, and provides a "pure Java" HTTP web
+ server environment for Java code to run.
+ .
+ This package contains the administrative web interfaces.
+
+Package: tomcat7-common
+Description-md5: f1b8817985b6e745bfe6216aa2086c4b
+Description-en: Servlet and JSP engine -- common files
+ Apache Tomcat implements the Java Servlet and the JavaServer Pages (JSP)
+ specifications from Sun Microsystems, and provides a "pure Java" HTTP web
+ server environment for Java code to run.
+ .
+ This package contains common files needed by the tomcat7 and tomcat7-user
+ packages (Tomcat 6 scripts and libraries).
+
+Package: tomcat7-docs
+Description-md5: 523c216160e93c3df0c2e38305883e9c
+Description-en: Servlet and JSP engine -- documentation
+ Apache Tomcat implements the Java Servlet and the JavaServer Pages (JSP)
+ specifications from Sun Microsystems, and provides a "pure Java" HTTP web
+ server environment for Java code to run.
+ .
+ This package contains the online documentation web application.
+
+Package: tomcat7-examples
+Description-md5: 3fd8302e7ffe454afd9ba42730f7a01a
+Description-en: Servlet and JSP engine -- example web applications
+ Apache Tomcat implements the Java Servlet and the JavaServer Pages (JSP)
+ specifications from Sun Microsystems, and provides a "pure Java" HTTP web
+ server environment for Java code to run.
+ .
+ This package contains the default Tomcat example webapps.
+
+Package: linux-headers-3.8.0-19-generic
+Description-md5: 76ed110a97bfc6092348e9db24276217
+Description-en: Linux kernel headers for version 3.8.0 on ARM (hard float) SMP
+ This package provides kernel header files for version 3.8.0 on
+ ARM (hard float) SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-3.8.0-19/debian.README.gz for details.
+
+Package: linux-headers-3.8.0-21-generic
+Description-md5: 3034fa363a4fd535f5cfd3ad56155122
+Description-en: Linux kernel headers for version 3.8.0 on ARM (hard float) SMP
+ This package provides kernel header files for version 3.8.0 on
+ ARM (hard float) SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-3.8.0-21/debian.README.gz for details.
+
+Package: linux-headers-3.8.0-22-generic
+Description-md5: ac7c415ad849ff662bd413f65420b7bf
+Description-en: Linux kernel headers for version 3.8.0 on ARM (hard float) SMP
+ This package provides kernel header files for version 3.8.0 on
+ ARM (hard float) SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-3.8.0-22/debian.README.gz for details.
+
+Package: linux-headers-3.8.0-23-generic
+Description-md5: f8283e6f7231475a8a3604e099ecd80e
+Description-en: Linux kernel headers for version 3.8.0 on ARM (hard float) SMP
+ This package provides kernel header files for version 3.8.0 on
+ ARM (hard float) SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-3.8.0-23/debian.README.gz for details.
+
+Package: linux-headers-highbank
+Description-md5: 79b4095c175f4559a0ceec11c2392865
+Description-en: Linux kernel headers for the armhf architecture.
+ This is a transitional package for upgrade paths. You should
+ be using linux-headers-generic.
+
+Package: linux-headers-omap
+Description-md5: 79b4095c175f4559a0ceec11c2392865
+Description-en: Linux kernel headers for the armhf architecture.
+ This is a transitional package for upgrade paths. You should
+ be using linux-headers-generic.
+
+Package: linux-headers-omap4
+Description-md5: 06bb4c5775843554c79d9b684cd7be62
+Description-en: Linux kernel headers for the OMAP4 architecture.
+ This package will always depend on the latest kernel headers available
+ for ARM ti-omap4 systems.
+
+Package: linux-highbank
+Description-md5: 2bafa94132c23c74110879b3bbf5778c
+Description-en: Complete Linux kernel and headers for the armhf architecture.
+ This is a transitional package for upgrade paths. You should
+ be using linux-generic.
+
+Package: linux-image-3.8.0-19-generic
+Description-md5: df6127a9974ef3eb3f02fe9c3d5449ad
+Description-en: Linux kernel image for version 3.8.0 on ARM (hard float) SMP
+ This package contains the Linux kernel image for version 3.8.0 on
+ ARM (hard float) SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-3.8.0-21-generic
+Description-md5: df6127a9974ef3eb3f02fe9c3d5449ad
+Description-en: Linux kernel image for version 3.8.0 on ARM (hard float) SMP
+ This package contains the Linux kernel image for version 3.8.0 on
+ ARM (hard float) SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-3.8.0-22-generic
+Description-md5: df6127a9974ef3eb3f02fe9c3d5449ad
+Description-en: Linux kernel image for version 3.8.0 on ARM (hard float) SMP
+ This package contains the Linux kernel image for version 3.8.0 on
+ ARM (hard float) SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-3.8.0-23-generic
+Description-md5: df6127a9974ef3eb3f02fe9c3d5449ad
+Description-en: Linux kernel image for version 3.8.0 on ARM (hard float) SMP
+ This package contains the Linux kernel image for version 3.8.0 on
+ ARM (hard float) SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-highbank
+Description-md5: 78b71b6daff1931d7d08eda2d7fc4cdb
+Description-en: Linux kernel image for the armhf architecture.
+ This is a transitional package for upgrade paths. You should
+ be using linux-image-generic.
+
+Package: linux-image-omap
+Description-md5: 78b71b6daff1931d7d08eda2d7fc4cdb
+Description-en: Linux kernel image for the armhf architecture.
+ This is a transitional package for upgrade paths. You should
+ be using linux-image-generic.
+
+Package: linux-image-omap4
+Description-md5: 6353a73125ab379b783031f232e09873
+Description-en: Linux kernel image for the OMAP4 architecture.
+ This package will always depend on the latest kernel image available
+ for ARM ti-omap4 systems.
+
+Package: linux-omap
+Description-md5: 2bafa94132c23c74110879b3bbf5778c
+Description-en: Complete Linux kernel and headers for the armhf architecture.
+ This is a transitional package for upgrade paths. You should
+ be using linux-generic.
+
+Package: linux-omap4
+Description-md5: 0e188279913eae43107316369bb9eff4
+Description-en: Complete Linux kernel for the OMAP4 architecture.
+ This package will always depend on the latest complete Linux kernel available
+ for ARM ti-omap4 systems.
+
+Package: linux-tools-3.8.0-22
+Description-md5: 7819c770f1340ab5a5c3e40d1bc996d9
+Description-en: Linux kernel version specific tools for version 3.8.0-22
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 3.8.0-22 on
+ ARM (hard float).
+
+Package: linux-tools-3.8.0-23
+Description-md5: e8a123583d20b4f5bc550d70612c5c92
+Description-en: Linux kernel version specific tools for version 3.8.0-23
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 3.8.0-23 on
+ ARM (hard float).
+
+Package: linux-tools-omap4
+Description-md5: ea15db5fd6e3e3cff13446d5e28af7c8
+Description-en: Linux kernel versioned Tools
+ This package will always depend on the latest Linux kernel versioned tools
+ available. The Ubuntu patches have been applied.
+
+Package: linux-generic-pae
+Description-md5: b239583bb598a7b339303e3f0513dc63
+Description-en: Transitional package.
+ This package will always depend on linux-generic.
+
+Package: linux-headers-3.8.0-19-generic
+Description-md5: 4628ac57fa4e105bc361e449287d7b61
+Description-en: Linux kernel headers for version 3.8.0 on 32 bit x86 SMP
+ This package provides kernel header files for version 3.8.0 on
+ 32 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-3.8.0-19/debian.README.gz for details.
+
+Package: linux-headers-3.8.0-21-generic
+Description-md5: df5057f205b0084c6f2207c9b4de147d
+Description-en: Linux kernel headers for version 3.8.0 on 32 bit x86 SMP
+ This package provides kernel header files for version 3.8.0 on
+ 32 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-3.8.0-21/debian.README.gz for details.
+
+Package: linux-headers-3.8.0-22-generic
+Description-md5: 64234812324f0fe069cb6c6012f804a2
+Description-en: Linux kernel headers for version 3.8.0 on 32 bit x86 SMP
+ This package provides kernel header files for version 3.8.0 on
+ 32 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-3.8.0-22/debian.README.gz for details.
+
+Package: linux-headers-3.8.0-23-generic
+Description-md5: 6d7341b4cf2a586b6550d5f0796f2113
+Description-en: Linux kernel headers for version 3.8.0 on 32 bit x86 SMP
+ This package provides kernel header files for version 3.8.0 on
+ 32 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-3.8.0-23/debian.README.gz for details.
+
+Package: linux-headers-generic-pae
+Description-md5: 5c7f6be957037e92276272bae1692599
+Description-en: Transitional package
+ This package will always depend on linux-headers-generic
+
+Package: linux-image-3.8.0-19-generic
+Description-md5: d7891e7bf108bf056e7f29fce10ead08
+Description-en: Linux kernel image for version 3.8.0 on 32 bit x86 SMP
+ This package contains the Linux kernel image for version 3.8.0 on
+ 32 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-3.8.0-21-generic
+Description-md5: d7891e7bf108bf056e7f29fce10ead08
+Description-en: Linux kernel image for version 3.8.0 on 32 bit x86 SMP
+ This package contains the Linux kernel image for version 3.8.0 on
+ 32 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-3.8.0-22-generic
+Description-md5: d7891e7bf108bf056e7f29fce10ead08
+Description-en: Linux kernel image for version 3.8.0 on 32 bit x86 SMP
+ This package contains the Linux kernel image for version 3.8.0 on
+ 32 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-3.8.0-23-generic
+Description-md5: d7891e7bf108bf056e7f29fce10ead08
+Description-en: Linux kernel image for version 3.8.0 on 32 bit x86 SMP
+ This package contains the Linux kernel image for version 3.8.0 on
+ 32 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-extra-3.8.0-19-generic
+Description-md5: d7891e7bf108bf056e7f29fce10ead08
+Description-en: Linux kernel image for version 3.8.0 on 32 bit x86 SMP
+ This package contains the Linux kernel image for version 3.8.0 on
+ 32 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-extra-3.8.0-21-generic
+Description-md5: d7891e7bf108bf056e7f29fce10ead08
+Description-en: Linux kernel image for version 3.8.0 on 32 bit x86 SMP
+ This package contains the Linux kernel image for version 3.8.0 on
+ 32 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-extra-3.8.0-22-generic
+Description-md5: d7891e7bf108bf056e7f29fce10ead08
+Description-en: Linux kernel image for version 3.8.0 on 32 bit x86 SMP
+ This package contains the Linux kernel image for version 3.8.0 on
+ 32 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-extra-3.8.0-23-generic
+Description-md5: d7891e7bf108bf056e7f29fce10ead08
+Description-en: Linux kernel image for version 3.8.0 on 32 bit x86 SMP
+ This package contains the Linux kernel image for version 3.8.0 on
+ 32 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-generic-pae
+Description-md5: 32bf4fe4306e30c77d0bee2716487539
+Description-en: Transitional package
+ This package will always depend on linux-image-generic
+
+Package: linux-tools-3.8.0-19
+Description-md5: 9e08aaf096bce8a826da5a910c42f13d
+Description-en: Linux kernel version specific tools for version 3.8.0-19
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 3.8.0-19 on
+ 32 bit x86.
+
+Package: linux-tools-3.8.0-21
+Description-md5: 44433e0509dd653a93452aa969c3fa1f
+Description-en: Linux kernel version specific tools for version 3.8.0-21
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 3.8.0-21 on
+ 32 bit x86.
+
+Package: linux-tools-3.8.0-22
+Description-md5: 63ff8f55ebe5677e6bdb80f877d111ce
+Description-en: Linux kernel version specific tools for version 3.8.0-22
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 3.8.0-22 on
+ 32 bit x86.
+
+Package: linux-tools-3.8.0-23
+Description-md5: 20b9335a54e988ea0f36b8107849aeb5
+Description-en: Linux kernel version specific tools for version 3.8.0-23
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 3.8.0-23 on
+ 32 bit x86.
+
+Package: linux-headers-3.8.0-10-powerpc-e500
+Description-md5: e7a72bcdd4d8562f5a7ef6dd42c8c860
+Description-en: Linux kernel headers for version 3.8.0 on 32-bit Freescale Power e500v1 and e500v2
+ This package provides kernel header files for version 3.8.0 on
+ 32-bit Freescale Power e500v1 and e500v2.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-ppc-headers-3.8.0-10/debian.README.gz for details.
+
+Package: linux-headers-3.8.0-10-powerpc-e500mc
+Description-md5: 6255b9ce972fe09a0a7da1dfd3a1d7b8
+Description-en: Linux kernel headers for version 3.8.0 on 32-bit Freescale Power e500mc
+ This package provides kernel header files for version 3.8.0 on
+ 32-bit Freescale Power e500mc.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-ppc-headers-3.8.0-10/debian.README.gz for details.
+
+Package: linux-headers-3.8.0-10-powerpc-smp
+Description-md5: f6104abf457ea7306ee7a8e54e81f0cd
+Description-en: Linux kernel headers for version 3.8.0 on 32-bit PowerPC SMP
+ This package provides kernel header files for version 3.8.0 on
+ 32-bit PowerPC SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-ppc-headers-3.8.0-10/debian.README.gz for details.
+
+Package: linux-headers-3.8.0-10-powerpc64-smp
+Description-md5: 2fa0d068d7449bf072e9e266422c415d
+Description-en: Linux kernel headers for version 3.8.0 on 64-bit PowerPC SMP
+ This package provides kernel header files for version 3.8.0 on
+ 64-bit PowerPC SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-ppc-headers-3.8.0-10/debian.README.gz for details.
+
+Package: linux-headers-powerpc-e500
+Description-md5: c5d0cb276ba59aadaf5e5411441a267c
+Description-en: Linux kernel headers on Freescale Power e500v1 and e500v2.
+ This package will always depend on the latest kernel headers available
+ for Freescale Power e500v1 and e500v2 support.
+
+Package: linux-headers-powerpc-e500mc
+Description-md5: 3b2c7fd666e90325c917a6e03dc63de4
+Description-en: Linux kernel headers on Freescale Power e500mc.
+ This package will always depend on the latest kernel headers available
+ for Freescale Power e500mc support.
+
+Package: linux-headers-powerpc-smp
+Description-md5: 0508d2965d9877a6b92da951cdbe992b
+Description-en: Linux kernel headers on PowerPC SMP
+ This package will always depend on the latest kernel headers available
+ for PowerPC with SMP support.
+ SMP (symmetric multi-processing) is needed if you have multiple processors.
+
+Package: linux-headers-powerpc64-smp
+Description-md5: cea3031c88183b0a23b3ef31fefafbe1
+Description-en: Linux kernel headers on PowerPC64 SMP
+ This package will always depend on the latest kernel headers available
+ for PowerPC64 with SMP support.
+ SMP (symmetric multi-processing) is needed if you have multiple processors.
+
+Package: linux-image-3.8.0-10-powerpc-e500
+Description-md5: e99dda1c2b4693502fdcfa2c5a679237
+Description-en: Linux kernel image for version 3.8.0 on 32-bit Freescale Power e500v1 and e500v2
+ This package contains the Linux kernel image for version 3.8.0 on
+ 32-bit Freescale Power e500v1 and e500v2.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports 32-bit Freescale Power e500v1 and e500v2 processors.
+ .
+ Geared toward server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-powerpc-e500 meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-3.8.0-10-powerpc-e500mc
+Description-md5: 591a008d097e88a460107b6d813c7b39
+Description-en: Linux kernel image for version 3.8.0 on 32-bit Freescale Power e500mc
+ This package contains the Linux kernel image for version 3.8.0 on
+ 32-bit Freescale Power e500mc.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports 32-bit Freescale Power e500mc processors.
+ .
+ Geared toward server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-powerpc-e500mc meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-3.8.0-10-powerpc-smp
+Description-md5: ab9d20e5b0e36c4b38287b6dfda824dd
+Description-en: Linux kernel image for version 3.8.0 on 32-bit PowerPC SMP
+ This package contains the Linux kernel image for version 3.8.0 on
+ 32-bit PowerPC SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports 32-bit PowerPC SMP processors.
+ .
+ Geared toward desktop or server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-powerpc-smp meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-3.8.0-10-powerpc64-smp
+Description-md5: fd576058265bea5eb5dc8c1205978468
+Description-en: Linux kernel image for version 3.8.0 on 64-bit PowerPC SMP
+ This package contains the Linux kernel image for version 3.8.0 on
+ 64-bit PowerPC SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports 64-bit PowerPC SMP processors.
+ .
+ Geared toward desktop or server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-powerpc64-smp meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-powerpc-e500
+Description-md5: b1382532c51e132240c9f1e1c6aa29e3
+Description-en: Linux kernel image on Freescale Power e500v1 and e500v2.
+ This package will always depend on the latest kernel image available
+ for Freescale Power e500v1 and e500v2 support.
+
+Package: linux-image-powerpc-e500mc
+Description-md5: 17d8963894328e93e6ba05ebce3c4134
+Description-en: Linux kernel image on Freescale Power e500mc.
+ This package will always depend on the latest kernel image available
+ for Freescale Power e500mc support.
+
+Package: linux-image-powerpc-smp
+Description-md5: 24e3b5c511baeefd5188a07a0b77d100
+Description-en: Linux kernel image on PowerPC SMP.
+ This package will always depend on the latest kernel image available
+ for PowerPC with SMP support.
+ SMP (symmetric multi-processing) is needed if you have multiple processors.
+
+Package: linux-image-powerpc64-smp
+Description-md5: 9c10c900d0e4d9aa68b8c2339f9541ab
+Description-en: Linux kernel image on PowerPC64 SMP.
+ This package will always depend on the latest kernel image available
+ for PowerPC64 with SMP support.
+ SMP (symmetric multi-processing) is needed if you have multiple processors.
+
+Package: linux-powerpc-e500
+Description-md5: 7d26025368f22fbd3ae33a9fd6a4bf63
+Description-en: Complete Linux kernel on Freescale Power e500v1 and e500v2.
+ This package will always depend on the latest complete Linux kernel and headers
+ for Freescale Power e500v1 and e500v2 support.
+
+Package: linux-powerpc-e500mc
+Description-md5: 779a919cb82b0b319f4a54feebe05e46
+Description-en: Complete Linux kernel on Freescale Power e500mc.
+ This package will always depend on the latest complete Linux kernel and headers
+ for Freescale Power e500mc support.
+
+Package: linux-powerpc-smp
+Description-md5: d9940518a0c6ad56a9af111d91733a32
+Description-en: Complete Linux kernel on PowerPC SMP.
+ This package will always depend on the latest complete Linux kernel and headers
+ for PowerPC with SMP support.
+ SMP (symmetric multi-processing) is needed if you have multiple processors.
+
+Package: linux-powerpc64-smp
+Description-md5: dcd1094e42fc852e84eae116ed598dd2
+Description-en: Complete Linux kernel on PowerPC64 SMP.
+ This package will always depend on the latest complete Linux kernel and headers
+ for PowerPC64 with SMP support.
+ SMP (symmetric multi-processing) is needed if you have multiple processors.
+
+Package: linux-ppc-headers-3.8.0-10
+Description-md5: 6b5b38634ba87f3ea3dc87f065126957
+Description-en: Header files related to Linux kernel version 3.8.0
+ This package provides kernel header files for version 3.8.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-ppc-headers-3.8.0-10/debian.README.gz for details
+

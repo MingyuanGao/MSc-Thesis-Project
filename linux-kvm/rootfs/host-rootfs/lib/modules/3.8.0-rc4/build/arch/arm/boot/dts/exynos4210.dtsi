@@ -1,0 +1,122 @@
+/*
+ * Samsung's Exynos4210 SoC device tree source
+ *
+ * Copyright (c) 2010-2011 Samsung Electronics Co., Ltd.
+ *		http://www.samsung.com
+ * Copyright (c) 2010-2011 Linaro Ltd.
+ *		www.linaro.org
+ *
+ * Samsung's Exynos4210 SoC device nodes are listed in this file. Exynos4210
+ * based board files can include this file and provide values for board specfic
+ * bindings.
+ *
+ * Note: This file does not include device nodes for all the controllers in
+ * Exynos4210 SoC. As device tree coverage for Exynos4210 increases, additional
+ * nodes can be added to this file.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as
+ * published by the Free Software Foundation.
+*/
+
+/include/ "exynos4.dtsi"
+/include/ "exynos4210-pinctrl.dtsi"
+
+/ {
+	compatible = "samsung,exynos4210";
+
+	aliases {
+		pinctrl0 = &pinctrl_0;
+		pinctrl1 = &pinctrl_1;
+		pinctrl2 = &pinctrl_2;
+		i2s0 = &i2s_0;
+	};
+
+	pd_lcd1: lcd1-power-domain@10023CA0 {
+		compatible = "samsung,exynos4210-pd";
+		reg = <0x10023CA0 0x20>;
+	};
+
+	gic:interrupt-controller@10490000 {
+		cpu-offset = <0x8000>;
+	};
+
+	combiner:interrupt-controller@10440000 {
+		interrupts = <0 0 0>, <0 1 0>, <0 2 0>, <0 3 0>,
+			     <0 4 0>, <0 5 0>, <0 6 0>, <0 7 0>,
+			     <0 8 0>, <0 9 0>, <0 10 0>, <0 11 0>,
+			     <0 12 0>, <0 13 0>, <0 14 0>, <0 15 0>;
+	};
+
+	pmu {
+		compatible = "arm,cortex-a9-pmu";
+		interrupt-parent = <&combiner>;
+		interrupts = <2 2>, <3 2>;
+	};
+
+	pinctrl_0: pinctrl@11400000 {
+		compatible = "samsung,pinctrl-exynos4210";
+		reg = <0x11400000 0x1000>;
+		interrupts = <0 47 0>;
+	};
+
+	pinctrl_1: pinctrl@11000000 {
+		compatible = "samsung,pinctrl-exynos4210";
+		reg = <0x11000000 0x1000>;
+		interrupts = <0 46 0>;
+		wakup_eint: wakeup-interrupt-controller {
+
+			compatible = "samsung,exynos4210-wakeup-eint";
+			interrupt-parent = <&gic>;
+			interrupts = <0 32 0>;
+		};
+	};
+
+	pinctrl_2: pinctrl@03860000 {
+		compatible = "samsung,pinctrl-exynos4210";
+		reg = <0x03860000 0x1000>;
+	};
+
+	tmu@100C0000 {
+		compatible = "samsung,exynos4210-tmu";
+		interrupt-parent = <&combiner>;
+		reg = <0x100C0000 0x100>;
+		interrupts = <2 4>;
+	};
+
+	fimd@11C00000 {
+		compatible = "samsung,exynos4210-fimd";
+		interrupt-parent = <&combiner>;
+		reg = <0x11C00000 0x8000>;
+		interrupts = <11 1>, <11 0>, <11 2>;
+	};
+
+	usb@12580000 {
+		compatible = "samsung,exynos-ehci", "usb-ehci";
+		reg = <0x12580000 0x100>;
+		interrupts = <0 70 0>;
+	};
+
+	usb@12590000 {
+		compatible = "samsung,exynos-ohci", "usb-ohci";
+		reg = <0x12590000 0x100>;
+		interrupts = <0 70 0>;
+	};
+
+	usb@12480000 {
+		compatible = "samsung,exynos-hsotg";
+		reg = <0x12480000 0x20000>;
+		interrupts = <0 71 0>;
+	};
+
+	i2s_0: i2s@03830000 {
+		compatible = "samsung,samsung-i2s";
+		reg = <0x03830000 0x100>;
+		tx-dma-channel-secondary = <&pdma0 10>;
+		tx-dma-channel = <&pdma0 12>;
+		rx-dma-channel = <&pdma0 11>;
+		supports-6ch;
+		supports-rstclr;
+		supports-secdai;
+	};
+};

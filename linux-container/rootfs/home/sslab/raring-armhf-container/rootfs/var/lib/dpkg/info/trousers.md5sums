@@ -1,0 +1,17 @@
+ee5f5983dea6a422e38ee7a7b03ce177  lib/udev/rules.d/45-trousers.rules
+9b3c4f01e24cd58644619cff127b73f8  usr/sbin/ps_convert
+4fe24ccd246337a8b664f6944354a095  usr/sbin/ps_inspect
+d805464b66312cf867040667d062e9aa  usr/sbin/tcsd
+930ba90dc5a9203022a3a67154df9b48  usr/share/doc/trousers/AUTHORS
+c7b29e68f2868c9667e54348b863055b  usr/share/doc/trousers/NICETOHAVES
+2f4500590c440f446a30e1626ef620c8  usr/share/doc/trousers/README.gz
+80961757389fb5a1593365ce5f8416ef  usr/share/doc/trousers/README.selinux
+de6a2d971872ba35bc20c05ca85c2c7c  usr/share/doc/trousers/TODO
+3c4ecaf0e0a137f0f570dc3242c56eff  usr/share/doc/trousers/TODO.Debian
+54e4cd6b9fcbb7efa8addb8d1fee3dbb  usr/share/doc/trousers/changelog.Debian.gz
+82fd6f1f5c9decb0c7ad10112e958c6e  usr/share/doc/trousers/copyright
+8ccadd49a13a53efd9cf3f69f3e0391e  usr/share/doc/trousers/examples/system.data.auth
+be52fcadb8e7661bfe55a3b95fe6cb58  usr/share/doc/trousers/examples/system.data.noauth
+3f930bcd8875ca420e9d20f6451f302f  usr/share/lintian/overrides/trousers
+038d061e294dc79a3ae862b3508acc4a  usr/share/man/man5/tcsd.conf.5.gz
+267f489778cd7ad0f05650c681ec19c8  usr/share/man/man8/tcsd.8.gz

@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libllvm3.2
+/usr/share/doc/libllvm3.2/copyright
+/usr/share/doc/libllvm3.2/changelog.Debian.gz
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libLLVM-3.2.so.1

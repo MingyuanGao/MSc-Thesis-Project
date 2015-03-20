@@ -1,0 +1,4 @@
+/etc
+/etc/emacs
+/etc/emacs/site-start.d
+/etc/emacs/site-start.d/50cmake-data.el

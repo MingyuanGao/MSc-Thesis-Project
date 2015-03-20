@@ -1,0 +1,4 @@
+kernel/drivers/net/ethernet/8390/ax88796.ko
+kernel/drivers/net/ethernet/smsc/smc91x.ko
+kernel/drivers/net/ethernet/smsc/smc911x.ko
+kernel/drivers/net/ethernet/smsc/smsc911x.ko

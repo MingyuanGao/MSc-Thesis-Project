@@ -1,0 +1,1 @@
+../../../share/pyshared/distro_info.py

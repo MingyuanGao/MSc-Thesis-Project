@@ -1,0 +1,392 @@
+Package: bcmwl
+Binary: bcmwl-kernel-source
+Version: 6.20.155.1+bdcom-0ubuntu6
+Priority: optional
+Section: restricted/admin
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Alberto Milone <alberto.milone@canonical.com>
+Build-Depends: debhelper (>= 7.0.50~), dh-modaliases
+Architecture: i386 amd64
+Standards-Version: 3.9.1
+Format: 1.0
+Directory: pool/restricted/b/bcmwl
+Files:
+ c987d125fad50a6b5bea0e72364c0d31 1225 bcmwl_6.20.155.1+bdcom-0ubuntu6.dsc
+ 5fdeb0b6d6efcd6209df4ca454f8667f 2522357 bcmwl_6.20.155.1+bdcom.orig.tar.gz
+ e0d35ef4f95281d4907b7547f143fc08 15925 bcmwl_6.20.155.1+bdcom-0ubuntu6.diff.gz
+Package-List: 
+ bcmwl-kernel-source deb admin optional
+Checksums-Sha1:
+ 718cc5bb8ae2f256b7660cf494bd497df3eed3fe 1225 bcmwl_6.20.155.1+bdcom-0ubuntu6.dsc
+ 0277417c7da443472048bf465b68f4f6128e1422 2522357 bcmwl_6.20.155.1+bdcom.orig.tar.gz
+ bea80e1a25d88fd20f6c402745e01ae93a2454fe 15925 bcmwl_6.20.155.1+bdcom-0ubuntu6.diff.gz
+Checksums-Sha256:
+ 50af5b456441e32cb378de4aed777f0ec0b94ebd153566cc2292890fb80ec321 1225 bcmwl_6.20.155.1+bdcom-0ubuntu6.dsc
+ 458a51adc859644bb616a59424a947ae54d2dd4347e034a33ce2c2d34b955cee 2522357 bcmwl_6.20.155.1+bdcom.orig.tar.gz
+ 0c166875951816427e6a0e6a0b76ab2da01d83db9256354c75ef6525a7ee9ba4 15925 bcmwl_6.20.155.1+bdcom-0ubuntu6.diff.gz
+
+Package: fglrx-installer
+Binary: fglrx, fglrx-dev, fglrx-amdcccle
+Version: 2:9.010-0ubuntu3
+Priority: optional
+Section: restricted/misc
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: debhelper (>= 7), dh-modaliases, libxext6, libxrandr2, libice6, libsm6, libfontconfig1, libxi6, libxcursor1, fakeroot, libdrm2, libgl1-mesa-glx, libxinerama1, libqtgui4, xserver-xorg-dev (>= 2:1.10.0), execstack
+Architecture: amd64 i386
+Standards-Version: 3.8.3
+Format: 3.0 (quilt)
+Directory: pool/restricted/f/fglrx-installer
+Files:
+ f39afe2a59a48826d56bd9b1a7872caa 1573 fglrx-installer_9.010-0ubuntu3.dsc
+ 6165c798ba04c3fd7fe35f61da9aa6de 113709865 fglrx-installer_9.010.orig.tar.gz
+ 9d03e86dab3286ea7924adb120bf42bc 44730 fglrx-installer_9.010-0ubuntu3.debian.tar.gz
+Uploaders: Mario Limonciello <superm1@ubuntu.com>, Alberto Milone <albertomilone@alice.it>
+Homepage: http://support.amd.com
+Package-List: 
+ fglrx deb restricted/misc extra
+ fglrx-amdcccle deb restricted/misc extra
+ fglrx-dev deb restricted/misc extra
+Checksums-Sha1:
+ ccd2eafe117fa2ab110f1ed904ef3ba6baf15bcb 1573 fglrx-installer_9.010-0ubuntu3.dsc
+ 55e92e1ce27feac52d04f6fddbf2ccbefbc2e765 113709865 fglrx-installer_9.010.orig.tar.gz
+ d0ad5cb577b21457b906ac66eebfd8698d64a4e4 44730 fglrx-installer_9.010-0ubuntu3.debian.tar.gz
+Checksums-Sha256:
+ 4e6f450794c5486f6748230fa72235b8d80bb4febef9364bfe12e5ed5249507d 1573 fglrx-installer_9.010-0ubuntu3.dsc
+ 13ca02483e995d41c52e99438768cbbccb51ecff1ebb71eda8264df457fb216b 113709865 fglrx-installer_9.010.orig.tar.gz
+ a42bf25a0b8e3ede0f1bea3ae5b7b73dc0b3ad75a9bf6482fd75ce80b4604366 44730 fglrx-installer_9.010-0ubuntu3.debian.tar.gz
+
+Package: fglrx-installer-updates
+Binary: fglrx-updates, fglrx-updates-dev, fglrx-amdcccle-updates
+Version: 2:9.012-0ubuntu1
+Priority: extra
+Section: restricted/misc
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: debhelper (>= 7), dh-modaliases, libxext6, libxrandr2, libice6, libsm6, libfontconfig1, libxi6, libxcursor1, fakeroot, libdrm2, libgl1-mesa-glx, libxinerama1, libqtgui4, xserver-xorg-dev (>= 2:1.10.0), execstack
+Architecture: amd64 i386
+Standards-Version: 3.8.3
+Format: 3.0 (quilt)
+Directory: pool/restricted/f/fglrx-installer-updates
+Files:
+ c76c90f7224c20d2112e1a162eadd86f 1677 fglrx-installer-updates_9.012-0ubuntu1.dsc
+ ebdcecf32789150b70cc32d4291bbd9e 113749718 fglrx-installer-updates_9.012.orig.tar.gz
+ cd227bf3912d98b59ef5a1ef98c3749b 43133 fglrx-installer-updates_9.012-0ubuntu1.debian.tar.gz
+Uploaders: Mario Limonciello <superm1@ubuntu.com>, Alberto Milone <albertomilone@alice.it>
+Homepage: http://support.amd.com
+Package-List: 
+ fglrx-amdcccle-updates deb restricted/misc extra
+ fglrx-updates deb restricted/misc extra
+ fglrx-updates-dev deb restricted/misc extra
+Checksums-Sha1:
+ a90cac64a1651c129530cb001be86ab42197d17e 1677 fglrx-installer-updates_9.012-0ubuntu1.dsc
+ 7dd5159bd682d403ccac3a558e5eef4e451f3bff 113749718 fglrx-installer-updates_9.012.orig.tar.gz
+ bf50e945b897f29d56cb4b82ad8d0d6c82727109 43133 fglrx-installer-updates_9.012-0ubuntu1.debian.tar.gz
+Checksums-Sha256:
+ 68680c8833bb329ae3dd676f8357cfb8f1f93a19ae995a6bc99cd96bba7b82ce 1677 fglrx-installer-updates_9.012-0ubuntu1.dsc
+ f38a6df77317cd5faed0f2e91f49dcacfacd9807a623c6ec6f989cac65e0d70f 113749718 fglrx-installer-updates_9.012.orig.tar.gz
+ 979be6f1b454a8ed3322a8211cc29a018c1c15082e22b24af52a42c3fd1cc1bc 43133 fglrx-installer-updates_9.012-0ubuntu1.debian.tar.gz
+
+Package: nvidia-graphics-drivers-173
+Binary: nvidia-173, nvidia-173-dev
+Version: 173.14.37-0ubuntu1
+Priority: optional
+Section: restricted/misc
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: debhelper (>= 6.0.7~), sed (>> 3.0), libxext6, bzip2, xserver-xorg-dev (>= 2:1.4), execstack, cdbs, dh-modaliases
+Architecture: i386 amd64 lpia
+Standards-Version: 3.8.0
+Format: 1.0
+Directory: pool/restricted/n/nvidia-graphics-drivers-173
+Files:
+ 3842fce53455e2691f692d9f3c24e1d2 1405 nvidia-graphics-drivers-173_173.14.37-0ubuntu1.dsc
+ 39065b278ff147923374b94ada12430f 34064290 nvidia-graphics-drivers-173_173.14.37.orig.tar.gz
+ 63e09c0f0e9ca6e9b32f41605e833ea0 39573 nvidia-graphics-drivers-173_173.14.37-0ubuntu1.diff.gz
+Package-List: 
+ nvidia-173 deb restricted/misc optional
+ nvidia-173-dev deb restricted/misc optional
+Checksums-Sha1:
+ b821adb40ad1c0fcac7f9b3379caca1e06057385 1405 nvidia-graphics-drivers-173_173.14.37-0ubuntu1.dsc
+ e1b93044e3cca6676f26e645ebd12397623531ab 34064290 nvidia-graphics-drivers-173_173.14.37.orig.tar.gz
+ be6cc9adf92903e0eb973838996aea55196ffae5 39573 nvidia-graphics-drivers-173_173.14.37-0ubuntu1.diff.gz
+Checksums-Sha256:
+ 3e54562461725ad098be646bfcc1bcb9333a633ffb9a5125e9d8500c0b5fcbbf 1405 nvidia-graphics-drivers-173_173.14.37-0ubuntu1.dsc
+ b87a4791084d266bfd2acee9df47392b1f467ab843ab454f49522aae71c23334 34064290 nvidia-graphics-drivers-173_173.14.37.orig.tar.gz
+ 3f830597b76e5e70a4b2bb9b8df881eebec99ae9ce97646da44415915c9fe164 39573 nvidia-graphics-drivers-173_173.14.37-0ubuntu1.diff.gz
+
+Package: nvidia-graphics-drivers-304
+Binary: nvidia-304, nvidia-304-dev, nvidia-current, nvidia-current-dev
+Version: 304.88-0ubuntu1
+Priority: optional
+Section: restricted/misc
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: debhelper (>= 6.0.7~), sed (>> 3.0), libxext6, bzip2, xserver-xorg-dev (>= 2:1.4), execstack, cdbs, libc6, libxvmc1, dh-modaliases, libxv1
+Architecture: i386 amd64 lpia
+Standards-Version: 3.8.0
+Format: 1.0
+Directory: pool/restricted/n/nvidia-graphics-drivers-304
+Files:
+ a70f3eaa1a7711240cfe1d56f34da13d 1667 nvidia-graphics-drivers-304_304.88-0ubuntu1.dsc
+ 34de0848ebb35519fb02bbaa983b710e 77826574 nvidia-graphics-drivers-304_304.88.orig.tar.gz
+ 93d9e25a8200649a4ec9d28132706fd7 139025 nvidia-graphics-drivers-304_304.88-0ubuntu1.diff.gz
+Vcs-Browser: http://github.com/tseliot/nvidia-graphics-drivers
+Vcs-Git: git://github.com/tseliot/nvidia-graphics-drivers.git
+Package-List: 
+ nvidia-304 deb restricted/misc optional
+ nvidia-304-dev deb restricted/misc optional
+ nvidia-current deb restricted/misc optional
+ nvidia-current-dev deb restricted/misc optional
+Checksums-Sha1:
+ 9371447945f03269c26e8599c6212918c1d2406d 1667 nvidia-graphics-drivers-304_304.88-0ubuntu1.dsc
+ bce8c59eda29fc6eac6d73fcad8afc13a79e369a 77826574 nvidia-graphics-drivers-304_304.88.orig.tar.gz
+ 5aa7beb6f5e0837ad9499444be206bebebbeab44 139025 nvidia-graphics-drivers-304_304.88-0ubuntu1.diff.gz
+Checksums-Sha256:
+ f2447bd5f2d147c202cd45d8377ada4739a6cefa71405d7f8ddfe6f424a0303a 1667 nvidia-graphics-drivers-304_304.88-0ubuntu1.dsc
+ a80bb19cc57ee084153a904ca64da13c53a8ae5e7af607a676df346c80dbbafa 77826574 nvidia-graphics-drivers-304_304.88.orig.tar.gz
+ 4f3ddde4c0bd53f4efea86c54cc7b31c56a010be9cb1792f9b4d16e6a431ad32 139025 nvidia-graphics-drivers-304_304.88-0ubuntu1.diff.gz
+
+Package: nvidia-graphics-drivers-304-updates
+Binary: nvidia-304-updates, nvidia-304-updates-dev, nvidia-current-updates, nvidia-current-updates-dev, nvidia-experimental-304, nvidia-experimental-304-dev
+Version: 304.88-0ubuntu2
+Priority: optional
+Section: restricted/misc
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: debhelper (>= 6.0.7~), sed (>> 3.0), libxext6, bzip2, xserver-xorg-dev (>= 2:1.4), execstack, cdbs, libc6, libxvmc1, dh-modaliases, libxv1
+Architecture: i386 amd64 lpia
+Standards-Version: 3.8.0
+Format: 1.0
+Directory: pool/restricted/n/nvidia-graphics-drivers-304-updates
+Files:
+ 2a0971c47a070473663738d344790b09 1953 nvidia-graphics-drivers-304-updates_304.88-0ubuntu2.dsc
+ fac30d363bd437cf869737f718bdb28b 77826574 nvidia-graphics-drivers-304-updates_304.88.orig.tar.gz
+ 6a0b99bb5ac4a970e0a4399be76f253f 139465 nvidia-graphics-drivers-304-updates_304.88-0ubuntu2.diff.gz
+Vcs-Browser: http://github.com/tseliot/nvidia-graphics-drivers
+Vcs-Git: git://github.com/tseliot/nvidia-graphics-drivers.git
+Package-List: 
+ nvidia-304-updates deb restricted/misc optional
+ nvidia-304-updates-dev deb restricted/misc optional
+ nvidia-current-updates deb restricted/misc optional
+ nvidia-current-updates-dev deb restricted/misc optional
+ nvidia-experimental-304 deb restricted/misc optional
+ nvidia-experimental-304-dev deb restricted/misc optional
+Checksums-Sha1:
+ d6e896e9fae17ede50723ff9a5a34511b60bb55d 1953 nvidia-graphics-drivers-304-updates_304.88-0ubuntu2.dsc
+ 53ac7e0052289134d1b01fc7935e409b207b058a 77826574 nvidia-graphics-drivers-304-updates_304.88.orig.tar.gz
+ 21526de1786fb6bea63617b77ebcc7aafc017e00 139465 nvidia-graphics-drivers-304-updates_304.88-0ubuntu2.diff.gz
+Checksums-Sha256:
+ 967cc6a8cce9f2ea0d973fd87244c40012b28ce022591261b24a3260e405878f 1953 nvidia-graphics-drivers-304-updates_304.88-0ubuntu2.dsc
+ 499f252cc6720b6f0fba4e3da010fd5e99d91d50b24e8f03465622e3ea902557 77826574 nvidia-graphics-drivers-304-updates_304.88.orig.tar.gz
+ cd7c1bc37a01f8fc6f4f393f1002d84a91538b7a247f276c69b4cac4492d0ef5 139465 nvidia-graphics-drivers-304-updates_304.88-0ubuntu2.diff.gz
+
+Package: nvidia-graphics-drivers-310
+Binary: nvidia-310, nvidia-310-dev
+Version: 310.44-0ubuntu2
+Priority: optional
+Section: restricted/misc
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: debhelper (>= 6.0.7~), sed (>> 3.0), libxext6, bzip2, xserver-xorg-dev (>= 2:1.4), execstack, cdbs, libc6, libxvmc1, dh-modaliases, libxv1
+Architecture: i386 amd64 lpia
+Standards-Version: 3.8.0
+Format: 1.0
+Directory: pool/restricted/n/nvidia-graphics-drivers-310
+Files:
+ b22c3dbb5e5d2759e0dfaa0df13d79b7 1537 nvidia-graphics-drivers-310_310.44-0ubuntu2.dsc
+ e18a1237d4c3a08f98aeb14dd7d4ea61 76098861 nvidia-graphics-drivers-310_310.44.orig.tar.gz
+ 858edf61dd463fbe337f5202c89eb014 137087 nvidia-graphics-drivers-310_310.44-0ubuntu2.diff.gz
+Vcs-Browser: http://github.com/tseliot/nvidia-graphics-drivers
+Vcs-Git: git://github.com/tseliot/nvidia-graphics-drivers.git
+Package-List: 
+ nvidia-310 deb restricted/misc optional
+ nvidia-310-dev deb restricted/misc optional
+Checksums-Sha1:
+ f5840c58c0ea2db26f1e0dcd25e8e18389a49607 1537 nvidia-graphics-drivers-310_310.44-0ubuntu2.dsc
+ bc7254bcfa311bce1cb25de1b14dbf1563fd25ae 76098861 nvidia-graphics-drivers-310_310.44.orig.tar.gz
+ 45af7ab6b1fb637aef06a135d6569b3485abecfa 137087 nvidia-graphics-drivers-310_310.44-0ubuntu2.diff.gz
+Checksums-Sha256:
+ 8eeea62879c3f947b017aece5668a4d25504a660973c800bbd1ea0f498d7e9d2 1537 nvidia-graphics-drivers-310_310.44-0ubuntu2.dsc
+ ee014e9bcc6aa188c9fadde6e3ad07e704d4251e3272176f9e13ca10b28273fd 76098861 nvidia-graphics-drivers-310_310.44.orig.tar.gz
+ 46c39ef28ea25f3e418bfddff9653196665cb7c237288dabc80a59fb0105e7ad 137087 nvidia-graphics-drivers-310_310.44-0ubuntu2.diff.gz
+
+Package: nvidia-graphics-drivers-310-updates
+Binary: nvidia-310-updates, nvidia-310-updates-dev, nvidia-experimental-310, nvidia-experimental-310-dev
+Version: 310.44-0ubuntu2
+Priority: optional
+Section: restricted/misc
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: debhelper (>= 6.0.7~), sed (>> 3.0), libxext6, bzip2, xserver-xorg-dev (>= 2:1.4), execstack, cdbs, libc6, libxvmc1, dh-modaliases, libxv1
+Architecture: i386 amd64 lpia
+Standards-Version: 3.8.0
+Format: 1.0
+Directory: pool/restricted/n/nvidia-graphics-drivers-310-updates
+Files:
+ d8f91cd3082efbc593a7785e080cc3d1 1791 nvidia-graphics-drivers-310-updates_310.44-0ubuntu2.dsc
+ d0ac9048894a4a65e3ee70e50496866a 76098890 nvidia-graphics-drivers-310-updates_310.44.orig.tar.gz
+ aaac063f79b4ef4b8846fc6ec9c2f28f 139047 nvidia-graphics-drivers-310-updates_310.44-0ubuntu2.diff.gz
+Vcs-Browser: http://github.com/tseliot/nvidia-graphics-drivers
+Vcs-Git: git://github.com/tseliot/nvidia-graphics-drivers.git
+Package-List: 
+ nvidia-310-updates deb restricted/misc optional
+ nvidia-310-updates-dev deb restricted/misc optional
+ nvidia-experimental-310 deb restricted/misc optional
+ nvidia-experimental-310-dev deb restricted/misc optional
+Checksums-Sha1:
+ e1ee3de1b9a9e8727e29f69507adee14f46cf2b0 1791 nvidia-graphics-drivers-310-updates_310.44-0ubuntu2.dsc
+ 10b80cb133d4f47597fe78e2741391e5a39e8e5d 76098890 nvidia-graphics-drivers-310-updates_310.44.orig.tar.gz
+ 1c84ff49c899b3d548a5b1894f330d139c057724 139047 nvidia-graphics-drivers-310-updates_310.44-0ubuntu2.diff.gz
+Checksums-Sha256:
+ 2d25fd7b15d8c2098bcea3a8ae96791ed7818d2f2006e0cc0401daddfbb1c6fb 1791 nvidia-graphics-drivers-310-updates_310.44-0ubuntu2.dsc
+ 7c1fbc7519ee8575af7ce5fbcd4cea98ec048e57d3a79bbfdd06cacdfdca3970 76098890 nvidia-graphics-drivers-310-updates_310.44.orig.tar.gz
+ 6f9eb4a85da66ca359d13ff89f4af829e2e63fea5b8e177ded43266b829d8f45 139047 nvidia-graphics-drivers-310-updates_310.44-0ubuntu2.diff.gz
+
+Package: nvidia-graphics-drivers-313-updates
+Binary: nvidia-313-updates, nvidia-313-updates-dev
+Version: 313.30-0ubuntu1
+Priority: optional
+Section: restricted/misc
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: debhelper (>= 6.0.7~), sed (>> 3.0), libxext6, bzip2, xserver-xorg-dev (>= 2:1.4), execstack, cdbs, libc6, libxvmc1, dh-modaliases, libxv1
+Architecture: i386 amd64 lpia
+Standards-Version: 3.8.0
+Format: 1.0
+Directory: pool/restricted/n/nvidia-graphics-drivers-313-updates
+Files:
+ f897f3fe26a6b3cb1ba1c3f3839aac4b 1625 nvidia-graphics-drivers-313-updates_313.30-0ubuntu1.dsc
+ 917d21e41676ecfd6078e434be8572f3 76054659 nvidia-graphics-drivers-313-updates_313.30.orig.tar.gz
+ 0da069847562d0b51f203ac4504bb10b 137825 nvidia-graphics-drivers-313-updates_313.30-0ubuntu1.diff.gz
+Vcs-Browser: http://github.com/tseliot/nvidia-graphics-drivers
+Vcs-Git: git://github.com/tseliot/nvidia-graphics-drivers.git
+Package-List: 
+ nvidia-313-updates deb restricted/misc optional
+ nvidia-313-updates-dev deb restricted/misc optional
+Checksums-Sha1:
+ a843b2c7cd59d9bc92131472ad871a4edf45d952 1625 nvidia-graphics-drivers-313-updates_313.30-0ubuntu1.dsc
+ c03fbc9ff44041507ffbbb6dd7678046b2fa3dc2 76054659 nvidia-graphics-drivers-313-updates_313.30.orig.tar.gz
+ f35ba8d4b04f0ff9d0a70ecc0f477123fa22c223 137825 nvidia-graphics-drivers-313-updates_313.30-0ubuntu1.diff.gz
+Checksums-Sha256:
+ ad81818aa975bb55693cb83553b7a2e4a1ba658c17417c3753dc2bba4975dc61 1625 nvidia-graphics-drivers-313-updates_313.30-0ubuntu1.dsc
+ 5c61aeef63afacc3c4ad21e70ef56189ec73b39164212b4d50a81205d2567c27 76054659 nvidia-graphics-drivers-313-updates_313.30.orig.tar.gz
+ 48b67c56157ea086c6669b5d9736b7eed96e635310e1a996547c545744d7835a 137825 nvidia-graphics-drivers-313-updates_313.30-0ubuntu1.diff.gz
+
+Package: nvidia-settings-313-updates
+Binary: nvidia-settings-313-updates
+Version: 313.30-0ubuntu1
+Priority: optional
+Section: restricted/x11
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 7), m4, libgtk2.0-dev, libxext-dev, xutils-dev, libxrandr-dev, libgl1-mesa-dev | libgl-dev, libxxf86vm-dev, libxv-dev, quilt
+Architecture: i386 amd64 lpia
+Standards-Version: 3.8.0
+Format: 1.0
+Directory: pool/restricted/n/nvidia-settings-313-updates
+Files:
+ 2a2d0683f5c8d1072ebc4b9e53ee434c 1609 nvidia-settings-313-updates_313.30-0ubuntu1.dsc
+ 45d52f0cce0e02f2320c061a40dfb93c 1932727 nvidia-settings-313-updates_313.30.orig.tar.gz
+ 112a2c1c03fe6d900c7eb221071e217f 8846 nvidia-settings-313-updates_313.30-0ubuntu1.diff.gz
+Uploaders: Randall Donald <rdonald@debian.org>
+Vcs-Browser: http://github.com/tseliot/nvidia-settings
+Vcs-Git: git://github.com/tseliot/nvidia-settings.git
+Package-List: 
+ nvidia-settings-313-updates deb contrib/x11 optional
+Checksums-Sha1:
+ 837fd38fa64ab7614d3e48af6f4c473d94e0e8bb 1609 nvidia-settings-313-updates_313.30-0ubuntu1.dsc
+ ee814005a5f0f3112c4b46aa09dead122fb4eb4d 1932727 nvidia-settings-313-updates_313.30.orig.tar.gz
+ 8364a5c70368528146023bbc4c16048bfa78e346 8846 nvidia-settings-313-updates_313.30-0ubuntu1.diff.gz
+Checksums-Sha256:
+ dd63fb522e913fa80eb94e0ee023808f033684c9c69a474cea38f88e0e64d370 1609 nvidia-settings-313-updates_313.30-0ubuntu1.dsc
+ 46da2f9c09b7db627a219eea61679b6d4400e635e62bed1c88741257588f3b10 1932727 nvidia-settings-313-updates_313.30.orig.tar.gz
+ 8030fcfba426f814de593ba2c327be82556fec05baf166ad0024e7b0927645b7 8846 nvidia-settings-313-updates_313.30-0ubuntu1.diff.gz
+
+Package: nvidia-settings-updates
+Binary: nvidia-settings-updates
+Version: 304.51-0ubuntu2
+Priority: optional
+Section: restricted/x11
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 7), m4, libgtk2.0-dev, libxext-dev, xutils-dev, libxrandr-dev, libgl1-mesa-dev | libgl-dev, libxxf86vm-dev, libxv-dev, quilt
+Architecture: i386 amd64 lpia
+Standards-Version: 3.8.0
+Format: 1.0
+Directory: pool/restricted/n/nvidia-settings-updates
+Files:
+ 8ba0c61f5ee8d35c37ce4143ada9853c 1573 nvidia-settings-updates_304.51-0ubuntu2.dsc
+ 867317e4159bafb71fbd84ec38599559 1911636 nvidia-settings-updates_304.51.orig.tar.gz
+ 53bd10f6ac0a7cae90e5fbc90ba87503 9411 nvidia-settings-updates_304.51-0ubuntu2.diff.gz
+Uploaders: Randall Donald <rdonald@debian.org>
+Vcs-Browser: http://github.com/tseliot/nvidia-settings
+Vcs-Git: git://github.com/tseliot/nvidia-settings.git
+Package-List: 
+ nvidia-settings-updates deb contrib/x11 optional
+Checksums-Sha1:
+ 06b91cc7548cdd7c0bf252e2a3e4bb0d2345b302 1573 nvidia-settings-updates_304.51-0ubuntu2.dsc
+ 8188278296db04ef6190f8c55528328568c3d689 1911636 nvidia-settings-updates_304.51.orig.tar.gz
+ ab4525d8ce37f64934b8584e9245d391addd1990 9411 nvidia-settings-updates_304.51-0ubuntu2.diff.gz
+Checksums-Sha256:
+ 80cf69d2dd98ded17f77a1593526e39dcb2c5fd1b42b1d241fdaf4d1ef697fd9 1573 nvidia-settings-updates_304.51-0ubuntu2.dsc
+ f2a3bff1397389be96f0eb41dc761af0107cbf89e9b2f32e5c64daf51bcb3598 1911636 nvidia-settings-updates_304.51.orig.tar.gz
+ b8952aea3e0a09452860f1796ff5d1573fce2a9d1e2b4813ec756f4b25576621 9411 nvidia-settings-updates_304.51-0ubuntu2.diff.gz
+
+Package: pvr-omap4
+Binary: pvr-omap4, pvr-omap4-dbg, pvr-omap4-dev
+Version: 1.9.0.5.1.1-0ubuntu4
+Priority: extra
+Section: restricted/misc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: debhelper (>= 9), chrpath, libxext6, libx11-6, libdrm-omap1 (>= 2.4.38), libdri2-1, libpixman-1-0, libxfixes3 (>= 1:4.0.1), xserver-xorg-dev (>= 2:1.12.99.901)
+Architecture: armhf
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/restricted/p/pvr-omap4
+Files:
+ 272b03210f8e6a998fabdb3d29f856f4 1571 pvr-omap4_1.9.0.5.1.1-0ubuntu4.dsc
+ 3652730e646a864cac68ad33069f3571 6743375 pvr-omap4_1.9.0.5.1.1.orig.tar.gz
+ 870bd91a99524d100fe8130bc542dfd7 10960 pvr-omap4_1.9.0.5.1.1-0ubuntu4.debian.tar.gz
+Homepage: https://launchpad.net/~tiomap-dev/+archive/release
+Vcs-Browser: http://git.linaro.org/gitweb?p=ubuntu/pvr-omap4.git
+Vcs-Git: git://git.linaro.org/ubuntu/pvr-omap4.git
+Package-List: 
+ pvr-omap4 deb restricted/misc extra
+ pvr-omap4-dbg deb restricted/debug extra
+ pvr-omap4-dev deb restricted/misc extra
+Checksums-Sha1:
+ ae6d8afd1dd6f140ce744ad8513de4c1111dcca2 1571 pvr-omap4_1.9.0.5.1.1-0ubuntu4.dsc
+ a0c4930d903ac1f59724647278f8d4852c1a2724 6743375 pvr-omap4_1.9.0.5.1.1.orig.tar.gz
+ 2fe286e52ebd38c710d32819e432b2f53a612901 10960 pvr-omap4_1.9.0.5.1.1-0ubuntu4.debian.tar.gz
+Checksums-Sha256:
+ 8e51dec68c99ba44f08fa5e8e82560a16c8c17021cb9a3bb035cf20b87c50f9b 1571 pvr-omap4_1.9.0.5.1.1-0ubuntu4.dsc
+ 38b6290d233c5ec3c1ac3ccd96f881ee3ca5f16cd887ae61985bb953dd6eeef2 6743375 pvr-omap4_1.9.0.5.1.1.orig.tar.gz
+ 90c59ecf18572dcafa5cc130977fd70fb3a6de75129c11efa9bba566e4ec6ec5 10960 pvr-omap4_1.9.0.5.1.1-0ubuntu4.debian.tar.gz
+
+Package: sl-modem
+Binary: sl-modem-dkms, sl-modem-daemon, sl-modem-source
+Version: 2.9.11~20110321-8
+Priority: optional
+Section: restricted/misc
+Maintainer: أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@sabily.org>
+Build-Depends: debhelper (>= 9), bzip2, libasound2-dev (>> 1.0.6) [i386], lib32asound2-dev [amd64], libc6-dev-i386 [amd64] | lib32c-dev [amd64], gcc-multilib [amd64], po-debconf, execstack, dkms (>= 2.1.1.2-1~)
+Architecture: i386 amd64 all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Directory: pool/restricted/s/sl-modem
+Files:
+ 47c8339ce1cccb0c145b5fa59f028ba1 2069 sl-modem_2.9.11~20110321-8.dsc
+ e2b2217bb1727890dfa08ac65e4cf4ed 1006393 sl-modem_2.9.11~20110321.orig.tar.gz
+ b0c4908bca77a1458a710bc446b0e582 38392 sl-modem_2.9.11~20110321-8.debian.tar.gz
+Uploaders: Maurizio Avogadro <mavoga@gmail.com>, Rolf Leggewie <foss@rolf.leggewie.biz>
+Dm-Upload-Allowed: yes
+Homepage: http://linmodems.technion.ac.il/packages/smartlink/
+Vcs-Browser: http://git.debian.org/?p=collab-maint/sl-modem.git
+Vcs-Git: git://git.debian.org/git/collab-maint/sl-modem.git
+Package-List: 
+ sl-modem-daemon deb non-free/misc optional
+ sl-modem-dkms deb non-free/misc optional
+ sl-modem-source deb non-free/oldlibs extra
+Checksums-Sha1:
+ 90c533fa460e759670532cbc1a46cb758225c9b5 2069 sl-modem_2.9.11~20110321-8.dsc
+ e9a5f456dab090674c2351cc9528ac41823a7949 1006393 sl-modem_2.9.11~20110321.orig.tar.gz
+ 0ed2dba3797e8010a311b5ab091e5275d5a7a2d4 38392 sl-modem_2.9.11~20110321-8.debian.tar.gz
+Checksums-Sha256:
+ 395fa12343d38dabf2fd8d72c91fb4a3d081b5ae6c9a3ae22c0784de087ef94d 2069 sl-modem_2.9.11~20110321-8.dsc
+ cea496e9c34a16cf347124b27ed673f3a6e87089f83e15ab5e0b0365a56fd253 1006393 sl-modem_2.9.11~20110321.orig.tar.gz
+ cdb19d20c1ce3885e55db86b033b71319acb510f8cd548c906927ae4674bab8f 38392 sl-modem_2.9.11~20110321-8.debian.tar.gz
+Autobuild: yes
+

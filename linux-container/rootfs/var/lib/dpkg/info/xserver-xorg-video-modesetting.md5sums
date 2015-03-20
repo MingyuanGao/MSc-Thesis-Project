@@ -1,0 +1,5 @@
+59cf5e9b145e79d025635292b0ddc328  usr/lib/xorg/modules/drivers/modesetting_drv.so
+69a011047f646c7007ecd0fdd5249307  usr/share/doc/xserver-xorg-video-modesetting/README
+0a40de9c1d47d863eb98b03badc8e531  usr/share/doc/xserver-xorg-video-modesetting/changelog.Debian.gz
+81a8744b81727f63768eab36186789f6  usr/share/doc/xserver-xorg-video-modesetting/copyright
+54acb5ddbb6318e67150aa1815889760  usr/share/man/man4/modesetting.4.gz

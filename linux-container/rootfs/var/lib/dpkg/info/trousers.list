@@ -1,0 +1,7 @@
+/var
+/var/lib
+/var/lib/tpm
+/etc
+/etc/init.d
+/etc/init.d/trousers
+/etc/tcsd.conf

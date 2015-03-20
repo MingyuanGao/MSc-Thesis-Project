@@ -1,0 +1,6 @@
+01de07c45cc07746871d72aaa8e28612  usr/include/avahi-client/client.h
+9e22520ea308b3f5395d6078c25e081c  usr/include/avahi-client/lookup.h
+c25a3bdbe0bf332aa8e31d6cdc440e0f  usr/include/avahi-client/publish.h
+7c7d00231081b4745328841ee650015a  usr/lib/arm-linux-gnueabihf/libavahi-client.a
+163585f2bd169921ce6a6b77318f508b  usr/lib/arm-linux-gnueabihf/pkgconfig/avahi-client.pc
+026515c317e1591092392844df5f1ee0  usr/share/doc/libavahi-client-dev/copyright

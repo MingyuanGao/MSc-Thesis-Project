@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/lib
+/usr/lib/libtpm_unseal.so.1.0.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libtpm-unseal1
+/usr/share/doc/libtpm-unseal1/changelog.Debian.gz
+/usr/share/doc/libtpm-unseal1/copyright
+/usr/lib/libtpm_unseal.so.1

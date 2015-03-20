@@ -1,0 +1,173 @@
+Jan  1 00:00:07 mingyuan kernel: imklog 5.8.11, log source = /proc/kmsg started.
+Jan  1 00:00:07 mingyuan rsyslogd: [origin software="rsyslogd" swVersion="5.8.11" x-pid="851" x-info="http://www.rsyslog.com"] start
+Jan  1 00:00:07 mingyuan rsyslogd: rsyslogd's groupid changed to 103
+Jan  1 00:00:07 mingyuan rsyslogd: rsyslogd's userid changed to 101
+Jan  1 00:00:07 mingyuan rsyslogd-2039: Could not open output pipe '/dev/xconsole' [try http://www.rsyslog.com/e/2039 ]
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] Booting Linux on physical CPU 0x0
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] Linux version 3.8.0-rc4 (mingyuan@mingyuan) (gcc version 4.7.3 20130328 (prerelease) (crosstool-NG linaro-1.13.1-4.7-2013.04-20130415 - Linaro GCC 2013.04) ) #1 SMP Sun Jun 2 16:44:32 KST 2013
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] CPU: ARMv7 Processor [410fc0f4] revision 4 (ARMv7), cr=30c7387d
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, PIPT instruction cache
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] Machine: ARM-Versatile Express, model: V2F-2XV6 Cortex-A15x2 SMM
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] bootconsole [earlycon0] enabled
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] cma: CMA: reserved 16 MiB at 9f000000
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] Memory policy: ECC disabled, Data cache writealloc
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] On node 0 totalpages: 131072
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] free_area_init_node: node 0, pgdat c04ecb40, node_mem_map c052b000
+Jan  1 00:00:07 mingyuan kernel: [    0.000000]   Normal zone: 1024 pages used for memmap
+Jan  1 00:00:07 mingyuan kernel: [    0.000000]   Normal zone: 0 pages reserved
+Jan  1 00:00:07 mingyuan kernel: [    0.000000]   Normal zone: 130048 pages, LIFO batch:31
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] ------------[ cut here ]------------
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] WARNING: at arch/arm/mach-vexpress/v2m.c:431 v2m_dt_init_early+0x58/0x80()
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] Modules linked in:
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] Backtrace: 
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] [<c001eafc>] (dump_backtrace+0x0/0x10c) from [<c03a1888>] (dump_stack+0x18/0x1c)
+Jan  1 00:00:07 mingyuan kernel: [    0.000000]  r6:c049beb0 r5:00000009 r4:00000000 r3:c04d2e80
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] [<c03a1870>] (dump_stack+0x0/0x1c) from [<c002d234>] (warn_slowpath_common+0x54/0x6c)
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] [<c002d1e0>] (warn_slowpath_common+0x0/0x6c) from [<c002d270>] (warn_slowpath_null+0x24/0x2c)
+Jan  1 00:00:07 mingyuan kernel: [    0.000000]  r8:c0517cc0 r7:c04b56b4 r6:c092c840 r5:c04cf648 r4:00000237
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] r3:00000009
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] [<c002d24c>] (warn_slowpath_null+0x0/0x2c) from [<c049beb0>] (v2m_dt_init_early+0x58/0x80)
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] [<c049be58>] (v2m_dt_init_early+0x0/0x80) from [<c0497030>] (setup_arch+0x670/0x724)
+Jan  1 00:00:07 mingyuan kernel: [    0.000000]  r4:c04cde80
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] [<c04969c0>] (setup_arch+0x0/0x724) from [<c049362c>] (start_kernel+0x8c/0x2f4)
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] [<c04935a0>] (start_kernel+0x0/0x2f4) from [<8000808c>] (0x8000808c)
+Jan  1 00:00:07 mingyuan kernel: [    0.000000]  r8:80007000 r7:c04cf584 r6:c04bbc04 r5:c04cc438 r4:30c7387d
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] ---[ end trace 1b75b31a2719ed1c ]---
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] vexpress: DT HBI (217) is not matching hardware (237)!
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] PERCPU: Embedded 7 pages/cpu @c0932000 s6656 r8192 d13824 u32768
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] pcpu-alloc: s6656 r8192 d13824 u32768 alloc=8*4096
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 130048
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] Kernel command line: earlyprintk console=ttyAMA0 mem=512M root=/dev/vda rw ip=dhcp virtio_mmio.device=1M@0x4e000000:74:0 virtio_mmio.device=1M@0x4e100000:75:1
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] PID hash table entries: 2048 (order: 1, 8192 bytes)
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] __ex_table already sorted, skipping sort
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] Memory: 512MB = 512MB total
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] Memory: 497980k/497980k available, 26308k reserved, 0K highmem
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] Virtual kernel memory layout:
+Jan  1 00:00:07 mingyuan kernel: [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Jan  1 00:00:07 mingyuan kernel: [    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+Jan  1 00:00:07 mingyuan kernel: [    0.000000]     vmalloc : 0xe0800000 - 0xff000000   ( 488 MB)
+Jan  1 00:00:07 mingyuan kernel: [    0.000000]     lowmem  : 0xc0000000 - 0xe0000000   ( 512 MB)
+Jan  1 00:00:07 mingyuan kernel: [    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+Jan  1 00:00:07 mingyuan kernel: [    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+Jan  1 00:00:07 mingyuan kernel: [    0.000000]       .text : 0xc0008000 - 0xc0492fa4   (4652 kB)
+Jan  1 00:00:07 mingyuan kernel: [    0.000000]       .init : 0xc0493000 - 0xc04c3a00   ( 195 kB)
+Jan  1 00:00:07 mingyuan kernel: [    0.000000]       .data : 0xc04c4000 - 0xc04ed8e0   ( 167 kB)
+Jan  1 00:00:07 mingyuan kernel: [    0.000000]        .bss : 0xc04ed8e0 - 0xc052a660   ( 244 kB)
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] SLUB: Genslabs=11, HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] Hierarchical RCU implementation.
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=4 to nr_cpu_ids=2.
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] NR_IRQS:16 nr_irqs:16 16
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] Using SP804 '/motherboard/iofpga@3,00000000/timer@110000' as a clock & events source
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] Architected local timer running at 24.00MHz (virt).
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] Switching to timer-based delay loop
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 178956ms
+Jan  1 00:00:07 mingyuan kernel: [    0.000000] Console: colour dummy device 80x30
+Jan  1 00:00:07 mingyuan kernel: [    0.001378] Calibrating delay loop (skipped), value calculated using timer frequency.. 48.00 BogoMIPS (lpj=240000)
+Jan  1 00:00:07 mingyuan kernel: [    0.004357] pid_max: default: 32768 minimum: 301
+Jan  1 00:00:07 mingyuan kernel: [    0.005997] Mount-cache hash table entries: 512
+Jan  1 00:00:07 mingyuan kernel: [    0.008594] CPU: Testing write buffer coherency: ok
+Jan  1 00:00:07 mingyuan kernel: [    0.010259] /cpus/cpu@0 missing clock-frequency property
+Jan  1 00:00:07 mingyuan kernel: [    0.011793] /cpus/cpu@1 missing clock-frequency property
+Jan  1 00:00:07 mingyuan kernel: [    0.013336] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+Jan  1 00:00:07 mingyuan kernel: [    0.015192] Setting up static identity map for 0xc03a81c8 - 0xc03a81fc
+Jan  1 00:00:07 mingyuan kernel: [    0.017481] Setting up static HYP identity map for 0xc03a8200 - 0xc03a82c0
+Jan  1 00:00:07 mingyuan kernel: [    1.015916] CPU1: failed to boot: -38
+Jan  1 00:00:07 mingyuan kernel: [    1.017376] Brought up 1 CPUs
+Jan  1 00:00:07 mingyuan kernel: [    1.018430] SMP: Total of 1 processors activated (48.00 BogoMIPS).
+Jan  1 00:00:07 mingyuan kernel: [    1.020603] CPU: All CPU(s) started in SVC mode.
+Jan  1 00:00:07 mingyuan kernel: [    1.024961] NET: Registered protocol family 16
+Jan  1 00:00:07 mingyuan kernel: [    1.027850] DMA: preallocated 256 KiB pool for atomic coherent allocations
+Jan  1 00:00:07 mingyuan kernel: [    1.036398] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+Jan  1 00:00:07 mingyuan kernel: [    1.038863] hw-breakpoint: maximum watchpoint size is 8 bytes.
+Jan  1 00:00:07 mingyuan kernel: [    1.040949] Serial: AMBA PL011 UART driver
+Jan  1 00:00:07 mingyuan kernel: [    1.042494] 1c090000.uart: ttyAMA0 at MMIO 0x1c090000 (irq = 37) is a PL011 rev1
+Jan  1 00:00:07 mingyuan kernel: [    1.045419] console [ttyAMA0] enabled, bootconsole disabled
+Jan  1 00:00:07 mingyuan kernel: [    1.049482] 1c0a0000.uart: ttyAMA1 at MMIO 0x1c0a0000 (irq = 38) is a PL011 rev1
+Jan  1 00:00:07 mingyuan kernel: [    1.051669] 1c0b0000.uart: ttyAMA2 at MMIO 0x1c0b0000 (irq = 39) is a PL011 rev1
+Jan  1 00:00:07 mingyuan kernel: [    1.053821] 1c0c0000.uart: ttyAMA3 at MMIO 0x1c0c0000 (irq = 40) is a PL011 rev1
+Jan  1 00:00:07 mingyuan kernel: [    1.069255] bio: create slab <bio-0> at 0
+Jan  1 00:00:07 mingyuan kernel: [    1.071056] SCSI subsystem initialized
+Jan  1 00:00:07 mingyuan kernel: [    1.072440] usbcore: registered new interface driver usbfs
+Jan  1 00:00:07 mingyuan kernel: [    1.074014] usbcore: registered new interface driver hub
+Jan  1 00:00:07 mingyuan kernel: [    1.075754] usbcore: registered new device driver usb
+Jan  1 00:00:07 mingyuan kernel: [    1.078180] Switching to clocksource arch_sys_counter
+Jan  1 00:00:07 mingyuan kernel: [    1.086514] NET: Registered protocol family 2
+Jan  1 00:00:07 mingyuan kernel: [    1.088124] TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+Jan  1 00:00:07 mingyuan kernel: [    1.090436] TCP bind hash table entries: 4096 (order: 3, 32768 bytes)
+Jan  1 00:00:07 mingyuan kernel: [    1.092216] TCP: Hash tables configured (established 4096 bind 4096)
+Jan  1 00:00:07 mingyuan kernel: [    1.093980] TCP: reno registered
+Jan  1 00:00:07 mingyuan kernel: [    1.094985] UDP hash table entries: 256 (order: 1, 8192 bytes)
+Jan  1 00:00:07 mingyuan kernel: [    1.096794] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+Jan  1 00:00:07 mingyuan kernel: [    1.098820] NET: Registered protocol family 1
+Jan  1 00:00:07 mingyuan kernel: [    1.100646] RPC: Registered named UNIX socket transport module.
+Jan  1 00:00:07 mingyuan kernel: [    1.102241] RPC: Registered udp transport module.
+Jan  1 00:00:07 mingyuan kernel: [    1.103513] RPC: Registered tcp transport module.
+Jan  1 00:00:07 mingyuan kernel: [    1.104931] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Jan  1 00:00:07 mingyuan kernel: [    1.107112] virtio-mmio: Registering device virtio-mmio.0 at 0x4e000000-0x4e0fffff, IRQ 74.
+Jan  1 00:00:07 mingyuan kernel: [    1.109827] virtio-mmio: Registering device virtio-mmio.1 at 0x4e100000-0x4e1fffff, IRQ 75.
+Jan  1 00:00:07 mingyuan kernel: [    1.112125] kvm [1]: HYP mode not available
+Jan  1 00:00:07 mingyuan kernel: [    1.113324] hw perfevents: enabled with ARMv7 Cortex-A15 PMU driver, 1 counters available
+Jan  1 00:00:07 mingyuan kernel: [    1.123379] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Jan  1 00:00:07 mingyuan kernel: [    1.125882] msgmni has been set to 1004
+Jan  1 00:00:07 mingyuan kernel: [    1.127407] io scheduler noop registered
+Jan  1 00:00:07 mingyuan kernel: [    1.128798] io scheduler cfq registered (default)
+Jan  1 00:00:07 mingyuan kernel: [    1.140339] brd: module loaded
+Jan  1 00:00:07 mingyuan kernel: [    1.143331] loop: module loaded
+Jan  1 00:00:07 mingyuan kernel: [    1.145352]  vda: unknown partition table
+Jan  1 00:00:07 mingyuan kernel: [    1.147403] tun: Universal TUN/TAP device driver, 1.6
+Jan  1 00:00:07 mingyuan kernel: [    1.148970] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Jan  1 00:00:07 mingyuan kernel: [    1.153919] smsc911x: Driver version 2008-10-21
+Jan  1 00:00:07 mingyuan kernel: [    1.255379] smsc911x: Device not READY in 100ms aborting
+Jan  1 00:00:07 mingyuan kernel: [    1.257351] nxp-isp1760 1b000000.usb: NXP ISP1760 USB Host Controller
+Jan  1 00:00:07 mingyuan kernel: [    1.259347] nxp-isp1760 1b000000.usb: new USB bus registered, assigned bus number 1
+Jan  1 00:00:07 mingyuan kernel: [    1.261322] nxp-isp1760 1b000000.usb: Scratch test failed.
+Jan  1 00:00:07 mingyuan kernel: [    1.262797] nxp-isp1760 1b000000.usb: can't setup
+Jan  1 00:00:07 mingyuan kernel: [    1.264127] nxp-isp1760 1b000000.usb: USB bus 1 deregistered
+Jan  1 00:00:07 mingyuan kernel: [    1.265947] Initializing USB Mass Storage driver...
+Jan  1 00:00:07 mingyuan kernel: [    1.267541] usbcore: registered new interface driver usb-storage
+Jan  1 00:00:07 mingyuan kernel: [    1.269401] USB Mass Storage support registered.
+Jan  1 00:00:07 mingyuan kernel: [    1.270825] mousedev: PS/2 mouse device common for all mice
+Jan  1 00:00:07 mingyuan kernel: [    1.273700] usbcore: registered new interface driver usbhid
+Jan  1 00:00:07 mingyuan kernel: [    1.275419] usbhid: USB HID core driver
+Jan  1 00:00:07 mingyuan kernel: [    1.276833] TCP: cubic registered
+Jan  1 00:00:07 mingyuan kernel: [    1.277877] NET: Registered protocol family 17
+Jan  1 00:00:07 mingyuan kernel: [    1.279303] Key type dns_resolver registered
+Jan  1 00:00:07 mingyuan kernel: [    1.280470] VFP support v0.3: implementor 41 architecture 4 part 30 variant f rev 0
+Jan  1 00:00:07 mingyuan kernel: [    1.282583] ThumbEE CPU extension supported.
+Jan  1 00:00:07 mingyuan kernel: [    1.283750] Registering SWP/SWPB emulation handler
+Jan  1 00:00:07 mingyuan kernel: [    1.285514] drivers/rtc/hctosys.c: unable to open rtc device (rtc0)
+Jan  1 00:00:07 mingyuan kernel: [    1.299828] Sending DHCP requests ., OK
+Jan  1 00:00:07 mingyuan kernel: [    2.351405] IP-Config: Got DHCP answer from 141.223.83.127, my address is 141.223.83.6
+Jan  1 00:00:07 mingyuan kernel: [    2.352559] IP-Config: Complete:
+Jan  1 00:00:07 mingyuan kernel: [    2.360937]      device=eth0, hwaddr=52:54:00:12:34:56, ipaddr=141.223.83.6, mask=255.255.255.0, gw=141.223.83.99
+Jan  1 00:00:07 mingyuan kernel: [    2.376316]      host=141.223.83.6, domain=postech.ac.kr, nis-domain=(none)
+Jan  1 00:00:07 mingyuan kernel: [    2.379043]      bootserver=141.223.83.127, rootserver=141.223.83.127, rootpath=
+Jan  1 00:00:07 mingyuan kernel: [    2.381209]      nameserver0=141.223.1.2, nameserver1=141.223.7.51
+Jan  1 00:00:07 mingyuan kernel: [    2.384424] EXT3-fs (vda): error: couldn't mount because of unsupported optional features (240)
+Jan  1 00:00:07 mingyuan kernel: [    2.389576] EXT2-fs (vda): error: couldn't mount because of unsupported optional features (240)
+Jan  1 00:00:07 mingyuan kernel: [    2.438072] EXT4-fs (vda): mounted filesystem with ordered data mode. Opts: (null)
+Jan  1 00:00:07 mingyuan kernel: [    2.440351] VFS: Mounted root (ext4 filesystem) on device 254:0.
+Jan  1 00:00:07 mingyuan kernel: [    2.442067] Freeing init memory: 192K
+Jan  1 00:00:07 mingyuan dhclient: Internet Systems Consortium DHCP Client 4.2.4
+Jan  1 00:00:07 mingyuan dhclient: Copyright 2004-2012 Internet Systems Consortium.
+Jan  1 00:00:07 mingyuan dhclient: All rights reserved.
+Jan  1 00:00:07 mingyuan dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Jan  1 00:00:07 mingyuan dhclient: 
+Jan  1 00:00:07 mingyuan dhclient: Listening on LPF/eth0/52:54:00:12:34:56
+Jan  1 00:00:07 mingyuan dhclient: Sending on   LPF/eth0/52:54:00:12:34:56
+Jan  1 00:00:07 mingyuan dhclient: Sending on   Socket/fallback
+Jan  1 00:00:07 mingyuan dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x13f2fe71)
+Jan  1 00:00:07 mingyuan dhclient: DHCPREQUEST of 141.223.83.6 on eth0 to 255.255.255.255 port 67 (xid=0x13f2fe71)
+Jan  1 00:00:07 mingyuan dhclient: DHCPOFFER of 141.223.83.6 from 141.223.83.127
+Jan  1 00:00:07 mingyuan failsafe: Failsafe of 120 seconds reached.
+Jan  1 00:00:07 mingyuan dhclient: DHCPACK of 141.223.83.6 from 141.223.83.127
+Jan  1 00:00:08 mingyuan ntpdate[1070]: Can't find host ntp.ubuntu.com: System error (-11)
+Jan  1 00:00:08 mingyuan ntpdate[1070]: no servers can be used, exiting
+Jan  1 00:00:08 mingyuan dhclient: bound to 141.223.83.6 -- renewal in 253 seconds.
+Jan  1 00:00:08 mingyuan cron[1185]: (CRON) INFO (pidfile fd = 3)
+Jan  1 00:00:08 mingyuan cron[1193]: (CRON) STARTUP (fork ok)
+Jan  1 00:00:08 mingyuan cron[1193]: (CRON) INFO (Running @reboot jobs)
+Jun  2 09:25:15 mingyuan ntpdate[1135]: step time server 91.189.94.4 offset 1370165099.691081 sec

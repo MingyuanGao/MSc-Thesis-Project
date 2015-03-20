@@ -1,0 +1,30 @@
+lease {
+  interface "eth0";
+  fixed-address 141.223.83.23;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 600;
+  option routers 141.223.83.99;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 141.223.83.127;
+  option domain-name-servers 141.223.1.2,141.223.7.51;
+  option broadcast-address 141.223.83.255;
+  option domain-name "postech.ac.kr";
+  renew 2 2013/06/04 12:47:50;
+  rebind 2 2013/06/04 12:52:39;
+  expire 2 2013/06/04 12:53:54;
+}
+lease {
+  interface "eth0";
+  fixed-address 141.223.83.23;
+  option subnet-mask 255.255.255.0;
+  option routers 141.223.83.99;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option domain-name-servers 141.223.1.2,141.223.7.51;
+  option dhcp-server-identifier 141.223.83.127;
+  option broadcast-address 141.223.83.255;
+  option domain-name "postech.ac.kr";
+  renew 2 2013/06/04 12:50:16;
+  rebind 2 2013/06/04 12:54:15;
+  expire 2 2013/06/04 12:55:30;
+}

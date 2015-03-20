@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libppl12
+/usr/share/doc/libppl12/copyright
+/usr/share/doc/libppl12/README.swiprolog
+/usr/share/doc/libppl12/BUGS
+/usr/share/doc/libppl12/changelog.Debian.gz
+/usr/share/doc/libppl12/NEWS.gz
+/usr/share/doc/libppl12/README.gz
+/usr/share/doc/libppl12/CREDITS.gz
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libppl.so.12.0.0
+/usr/lib/arm-linux-gnueabihf/libppl.so.12

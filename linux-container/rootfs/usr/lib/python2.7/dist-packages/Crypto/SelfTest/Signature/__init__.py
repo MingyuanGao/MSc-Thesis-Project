@@ -1,0 +1,1 @@
+../../../../../../share/pyshared/Crypto/SelfTest/Signature/__init__.py

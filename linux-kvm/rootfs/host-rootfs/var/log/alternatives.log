@@ -1,0 +1,100 @@
+update-alternatives 2013-06-02 01:50:32: run with --quiet --install /usr/bin/awk awk /usr/bin/mawk 5 --slave /usr/share/man/man1/awk.1.gz awk.1.gz /usr/share/man/man1/mawk.1.gz --slave /usr/bin/nawk nawk /usr/bin/mawk --slave /usr/share/man/man1/nawk.1.gz nawk.1.gz /usr/share/man/man1/mawk.1.gz
+update-alternatives 2013-06-02 01:50:32: link group awk updated to point to /usr/bin/mawk
+update-alternatives 2013-06-02 01:51:05: run with --quiet --install /usr/bin/awk awk /usr/bin/mawk 5 --slave /usr/share/man/man1/awk.1.gz awk.1.gz /usr/share/man/man1/mawk.1.gz --slave /usr/bin/nawk nawk /usr/bin/mawk --slave /usr/share/man/man1/nawk.1.gz nawk.1.gz /usr/share/man/man1/mawk.1.gz
+update-alternatives 2013-06-02 01:52:06: run with --install /usr/sbin/rmt rmt /usr/sbin/rmt-tar 50 --slave /usr/share/man/man8/rmt.8.gz rmt.8.gz /usr/share/man/man8/rmt-tar.8.gz
+update-alternatives 2013-06-02 01:52:06: link group rmt updated to point to /usr/sbin/rmt-tar
+update-alternatives 2013-06-02 01:52:07: run with --install /bin/mt mt /bin/mt-gnu 10 --slave /usr/share/man/man1/mt.1.gz mt.1.gz /usr/share/man/man1/mt-gnu.1.gz
+update-alternatives 2013-06-02 01:52:07: link group mt updated to point to /bin/mt-gnu
+update-alternatives 2013-06-02 01:52:12: run with --install /usr/share/man/man7/builtins.7.gz builtins.7.gz /usr/share/man/man7/bash-builtins.7.gz 10
+update-alternatives 2013-06-02 01:52:12: link group builtins.7.gz updated to point to /usr/share/man/man7/bash-builtins.7.gz
+update-alternatives 2013-06-02 01:52:18: run with --install /usr/bin/pager pager /bin/more 50 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/more.1.gz
+update-alternatives 2013-06-02 01:52:18: link group pager updated to point to /bin/more
+update-alternatives 2013-06-02 01:52:18: run with --install /usr/bin/pager pager /usr/bin/pg 10 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/pg.1.gz
+update-alternatives 2013-06-02 01:52:18: run with --install /usr/bin/w w /usr/bin/w.procps 50 --slave /usr/share/man/man1/w.1.gz w.1.gz /usr/share/man/man1/w.procps.1.gz
+update-alternatives 2013-06-02 01:52:18: link group w updated to point to /usr/bin/w.procps
+update-alternatives 2013-06-02 01:52:48: run with --install /etc/newt/palette newt-palette /etc/newt/palette.ubuntu 50
+update-alternatives 2013-06-02 01:52:48: link group newt-palette updated to point to /etc/newt/palette.ubuntu
+update-alternatives 2013-06-02 01:52:48: run with --install /etc/newt/palette newt-palette /etc/newt/palette.original 20
+update-alternatives 2013-06-02 01:52:52: run with --install /usr/bin/view view /usr/bin/see 1 --slave /usr/share/man/man1/view.1.gz view.1.gz /usr/share/man/man1/see.1.gz
+update-alternatives 2013-06-02 01:52:52: link group view updated to point to /usr/bin/see
+update-alternatives 2013-06-02 01:53:00: run with --install /usr/bin/rview rview /usr/bin/vim.tiny 10
+update-alternatives 2013-06-02 01:53:00: link group rview updated to point to /usr/bin/vim.tiny
+update-alternatives 2013-06-02 01:53:00: run with --install /usr/bin/vi vi /usr/bin/vim.tiny 10 --slave /usr/share/man/fr/man1/vi.1.gz vi.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/vi.1.gz vi.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/pl/man1/vi.1.gz vi.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/vi.1.gz vi.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/vi.1.gz vi.1.gz /usr/share/man/man1/vim.1.gz
+update-alternatives 2013-06-02 01:53:00: link group vi updated to point to /usr/bin/vim.tiny
+update-alternatives 2013-06-02 01:53:00: run with --install /usr/bin/view view /usr/bin/vim.tiny 10 --slave /usr/share/man/fr/man1/view.1.gz view.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/view.1.gz view.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/pl/man1/view.1.gz view.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/view.1.gz view.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/view.1.gz view.1.gz /usr/share/man/man1/vim.1.gz
+update-alternatives 2013-06-02 01:53:00: link group view updated to point to /usr/bin/vim.tiny
+update-alternatives 2013-06-02 01:53:00: run with --install /usr/bin/ex ex /usr/bin/vim.tiny 10 --slave /usr/share/man/fr/man1/ex.1.gz ex.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/ex.1.gz ex.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/pl/man1/ex.1.gz ex.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/ex.1.gz ex.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/ex.1.gz ex.1.gz /usr/share/man/man1/vim.1.gz
+update-alternatives 2013-06-02 01:53:00: link group ex updated to point to /usr/bin/vim.tiny
+update-alternatives 2013-06-02 01:53:00: run with --install /usr/bin/editor editor /usr/bin/vim.tiny 10 --slave /usr/share/man/fr/man1/editor.1.gz editor.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/editor.1.gz editor.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/pl/man1/editor.1.gz editor.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/editor.1.gz editor.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/editor.1.gz editor.1.gz /usr/share/man/man1/vim.1.gz
+update-alternatives 2013-06-02 01:53:00: link group editor updated to point to /usr/bin/vim.tiny
+update-alternatives 2013-06-02 01:53:00: run with --quiet --install /usr/bin/pager pager /bin/less 77 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/less.1.gz
+update-alternatives 2013-06-02 01:53:00: link group pager updated to point to /bin/less
+update-alternatives 2013-06-02 01:53:01: run with --quiet --install /usr/bin/pager pager /bin/less 77 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/less.1.gz
+update-alternatives 2013-06-02 01:53:01: run with --install /bin/nc nc /bin/nc.openbsd 50 --slave /bin/netcat netcat /bin/nc.openbsd --slave /usr/share/man/man1/nc.1.gz nc.1.gz /usr/share/man/man1/nc_openbsd.1.gz --slave /usr/share/man/man1/netcat.1.gz netcat.1.gz /usr/share/man/man1/nc_openbsd.1.gz
+update-alternatives 2013-06-02 01:53:01: link group nc updated to point to /bin/nc.openbsd
+update-alternatives 2013-06-02 01:53:35: run with --install /etc/vtrgb vtrgb /etc/console-setup/vtrgb 50
+update-alternatives 2013-06-02 01:53:35: link group vtrgb updated to point to /etc/console-setup/vtrgb
+update-alternatives 2013-06-02 01:53:35: run with --install /etc/vtrgb vtrgb /etc/console-setup/vtrgb.vga 20
+update-alternatives 2013-06-02 05:01:08: run with --force --install /etc/ld.so.conf.d/arm-linux-gnueabihf_GL.conf arm-linux-gnueabihf_gl_conf /usr/lib/arm-linux-gnueabihf/mesa/ld.so.conf 500 --slave /usr/lib/arm-linux-gnueabihf/xorg/extra-modules arm-linux-gnueabihf_xorg_extra_modules /usr/lib/arm-linux-gnueabihf/xorg/x11-extra-modules
+update-alternatives 2013-06-02 05:01:08: link group arm-linux-gnueabihf_gl_conf updated to point to /usr/lib/arm-linux-gnueabihf/mesa/ld.so.conf
+update-alternatives 2013-06-02 05:01:12: run with --install /usr/lib/arm-linux-gnueabihf/libtxc_dxtn.so libtxc-dxtn-arm-linux-gnueabihf /usr/lib/arm-linux-gnueabihf/libtxc_dxtn_s2tc.so.0 10
+update-alternatives 2013-06-02 05:01:12: link group libtxc-dxtn-arm-linux-gnueabihf updated to point to /usr/lib/arm-linux-gnueabihf/libtxc_dxtn_s2tc.so.0
+update-alternatives 2013-06-02 05:01:24: run with --quiet --install /usr/bin/rsh rsh /usr/bin/ssh 20 --slave /usr/share/man/man1/rsh.1.gz rsh.1.gz /usr/share/man/man1/ssh.1.gz
+update-alternatives 2013-06-02 05:01:24: link group rsh updated to point to /usr/bin/ssh
+update-alternatives 2013-06-02 05:01:24: run with --quiet --install /usr/bin/rlogin rlogin /usr/bin/slogin 20 --slave /usr/share/man/man1/rlogin.1.gz rlogin.1.gz /usr/share/man/man1/slogin.1.gz
+update-alternatives 2013-06-02 05:01:24: link group rlogin updated to point to /usr/bin/slogin
+update-alternatives 2013-06-02 05:01:24: run with --quiet --install /usr/bin/rcp rcp /usr/bin/scp 20 --slave /usr/share/man/man1/rcp.1.gz rcp.1.gz /usr/share/man/man1/scp.1.gz
+update-alternatives 2013-06-02 05:01:24: link group rcp updated to point to /usr/bin/scp
+update-alternatives 2013-06-02 05:01:25: run with --quiet --install /lib/cpp cpp /usr/bin/cpp 10
+update-alternatives 2013-06-02 05:01:25: link group cpp updated to point to /usr/bin/cpp
+update-alternatives 2013-06-02 05:01:26: run with --quiet --install /usr/bin/cc cc /usr/bin/gcc 20 --slave /usr/share/man/man1/cc.1.gz cc.1.gz /usr/share/man/man1/gcc.1.gz
+update-alternatives 2013-06-02 05:01:26: link group cc updated to point to /usr/bin/gcc
+update-alternatives 2013-06-02 05:01:26: run with --quiet --install /usr/bin/c89 c89 /usr/bin/c89-gcc 20 --slave /usr/share/man/man1/c89.1.gz c89.1.gz /usr/share/man/man1/c89-gcc.1.gz
+update-alternatives 2013-06-02 05:01:26: link group c89 updated to point to /usr/bin/c89-gcc
+update-alternatives 2013-06-02 05:01:26: run with --quiet --install /usr/bin/c99 c99 /usr/bin/c99-gcc 20 --slave /usr/share/man/man1/c99.1.gz c99.1.gz /usr/share/man/man1/c99-gcc.1.gz
+update-alternatives 2013-06-02 05:01:26: link group c99 updated to point to /usr/bin/c99-gcc
+update-alternatives 2013-06-02 05:02:09: run with --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/xterm 20 --slave /usr/share/man/man1/x-terminal-emulator.1.gz x-terminal-emulator.1.gz /usr/share/man/man1/xterm.1.gz
+update-alternatives 2013-06-02 05:02:09: link group x-terminal-emulator updated to point to /usr/bin/xterm
+update-alternatives 2013-06-02 05:02:09: run with --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/uxterm 20 --slave /usr/share/man/man1/x-terminal-emulator.1.gz x-terminal-emulator.1.gz /usr/share/man/man1/uxterm.1.gz
+update-alternatives 2013-06-02 05:02:09: run with --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/koi8rxterm 20 --slave /usr/share/man/man1/x-terminal-emulator.1.gz x-terminal-emulator.1.gz /usr/share/man/man1/koi8rxterm.1.gz
+update-alternatives 2013-06-02 05:02:09: link group x-terminal-emulator updated to point to /usr/bin/uxterm
+update-alternatives 2013-06-02 05:02:09: run with --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/lxterm 30 --slave /usr/share/man/man1/x-terminal-emulator.1.gz x-terminal-emulator.1.gz /usr/share/man/man1/lxterm.1.gz
+update-alternatives 2013-06-02 05:02:09: link group x-terminal-emulator updated to point to /usr/bin/lxterm
+update-alternatives 2013-06-02 05:02:10: run with --install /usr/bin/x-window-manager x-window-manager /usr/bin/startfluxbox 50 --slave /usr/share/man/man1/x-window-manager.1.gz x-window-manager.1.gz /usr/share/man/man1/fluxbox.1.gz
+update-alternatives 2013-06-02 05:02:10: link group x-window-manager updated to point to /usr/bin/startfluxbox
+update-alternatives 2013-06-02 05:02:10: run with --install /usr/bin/rename rename /usr/bin/prename 60 --slave /usr/share/man/man1/rename.1.gz rename.1.gz /usr/share/man/man1/prename.1.gz
+update-alternatives 2013-06-02 05:02:10: link group rename updated to point to /usr/bin/prename
+update-alternatives 2013-06-02 05:02:10: run with --install /usr/bin/vncserver vncserver /usr/bin/tightvncserver 70 --slave /usr/share/man/man1/vncserver.1.gz vncserver.1.gz /usr/share/man/man1/tightvncserver.1.gz --slave /usr/bin/vncconnect vncconnect /usr/bin/tightvncconnect --slave /usr/share/man/man1/vncconnect.1.gz vncconnect.1.gz /usr/share/man/man1/tightvncconnect.1.gz
+update-alternatives 2013-06-02 05:02:10: link group vncserver updated to point to /usr/bin/tightvncserver
+update-alternatives 2013-06-02 05:02:11: run with --install /usr/bin/Xvnc Xvnc /usr/bin/Xtightvnc 70 --slave /usr/share/man/man1/Xvnc Xvnc.1.gz /usr/share/man/man1/Xtightvnc.1.gz
+update-alternatives 2013-06-02 05:02:11: link group Xvnc updated to point to /usr/bin/Xtightvnc
+update-alternatives 2013-06-02 05:02:11: run with --install /usr/bin/vncpasswd vncpasswd /usr/bin/tightvncpasswd 70 --slave /usr/share/man/man1/vncpasswd.1.gz vncpasswd.1.gz /usr/share/man/man1/tightvncpasswd.1.gz
+update-alternatives 2013-06-02 05:02:11: link group vncpasswd updated to point to /usr/bin/tightvncpasswd
+update-alternatives 2013-06-02 15:31:53: run with --quiet --remove cc /usr/bin/gcc
+update-alternatives 2013-06-02 15:31:53: link group cc fully removed
+update-alternatives 2013-06-02 15:31:53: run with --quiet --remove c89 /usr/bin/c89-gcc
+update-alternatives 2013-06-02 15:31:53: link group c89 fully removed
+update-alternatives 2013-06-02 15:31:53: run with --quiet --remove c99 /usr/bin/c99-gcc
+update-alternatives 2013-06-02 15:31:53: link group c99 fully removed
+update-alternatives 2013-06-02 15:32:59: run with --quiet --install /usr/bin/cc cc /usr/bin/gcc 20 --slave /usr/share/man/man1/cc.1.gz cc.1.gz /usr/share/man/man1/gcc.1.gz
+update-alternatives 2013-06-02 15:32:59: link group cc updated to point to /usr/bin/gcc
+update-alternatives 2013-06-02 15:32:59: run with --quiet --install /usr/bin/c89 c89 /usr/bin/c89-gcc 20 --slave /usr/share/man/man1/c89.1.gz c89.1.gz /usr/share/man/man1/c89-gcc.1.gz
+update-alternatives 2013-06-02 15:32:59: link group c89 updated to point to /usr/bin/c89-gcc
+update-alternatives 2013-06-02 15:32:59: run with --quiet --install /usr/bin/c99 c99 /usr/bin/c99-gcc 20 --slave /usr/share/man/man1/c99.1.gz c99.1.gz /usr/share/man/man1/c99-gcc.1.gz
+update-alternatives 2013-06-02 15:32:59: link group c99 updated to point to /usr/bin/c99-gcc
+update-alternatives 2013-06-04 15:39:06: run with --install /usr/bin/vim vim /usr/bin/vim.basic 30
+update-alternatives 2013-06-04 15:39:06: link group vim updated to point to /usr/bin/vim.basic
+update-alternatives 2013-06-04 15:39:06: run with --install /usr/bin/vimdiff vimdiff /usr/bin/vim.basic 30
+update-alternatives 2013-06-04 15:39:06: link group vimdiff updated to point to /usr/bin/vim.basic
+update-alternatives 2013-06-04 15:39:06: run with --install /usr/bin/rvim rvim /usr/bin/vim.basic 30
+update-alternatives 2013-06-04 15:39:06: link group rvim updated to point to /usr/bin/vim.basic
+update-alternatives 2013-06-04 15:39:06: run with --install /usr/bin/rview rview /usr/bin/vim.basic 30
+update-alternatives 2013-06-04 15:39:06: link group rview updated to point to /usr/bin/vim.basic
+update-alternatives 2013-06-04 15:39:06: run with --install /usr/bin/vi vi /usr/bin/vim.basic 30 --slave /usr/share/man/fr/man1/vi.1.gz vi.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/vi.1.gz vi.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/pl/man1/vi.1.gz vi.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/vi.1.gz vi.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/vi.1.gz vi.1.gz /usr/share/man/man1/vim.1.gz
+update-alternatives 2013-06-04 15:39:06: link group vi updated to point to /usr/bin/vim.basic
+update-alternatives 2013-06-04 15:39:06: run with --install /usr/bin/view view /usr/bin/vim.basic 30 --slave /usr/share/man/fr/man1/view.1.gz view.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/view.1.gz view.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/pl/man1/view.1.gz view.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/view.1.gz view.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/view.1.gz view.1.gz /usr/share/man/man1/vim.1.gz
+update-alternatives 2013-06-04 15:39:06: link group view updated to point to /usr/bin/vim.basic
+update-alternatives 2013-06-04 15:39:06: run with --install /usr/bin/ex ex /usr/bin/vim.basic 30 --slave /usr/share/man/fr/man1/ex.1.gz ex.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/ex.1.gz ex.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/pl/man1/ex.1.gz ex.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/ex.1.gz ex.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/ex.1.gz ex.1.gz /usr/share/man/man1/vim.1.gz
+update-alternatives 2013-06-04 15:39:06: link group ex updated to point to /usr/bin/vim.basic
+update-alternatives 2013-06-04 15:39:06: run with --install /usr/bin/editor editor /usr/bin/vim.basic 30 --slave /usr/share/man/fr/man1/editor.1.gz editor.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/editor.1.gz editor.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/pl/man1/editor.1.gz editor.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/editor.1.gz editor.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/editor.1.gz editor.1.gz /usr/share/man/man1/vim.1.gz
+update-alternatives 2013-06-04 15:39:06: link group editor updated to point to /usr/bin/vim.basic

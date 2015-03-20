@@ -1,0 +1,2 @@
+TRUE|0|Linux 3.8.0-rc4 Linux (TPM)|Linux 3.8.0-rc4|TRUE|FALSE|TRUE|0|0|1|1|NONE|libpkcs11_tpm.so|ST_Initialize
+TRUE|0|Linux 3.8.0-rc4 Linux (Soft)|Linux 3.8.0-rc4|TRUE|FALSE|FALSE|0|0|1|1|NONE|libpkcs11_sw.so|ST_Initialize

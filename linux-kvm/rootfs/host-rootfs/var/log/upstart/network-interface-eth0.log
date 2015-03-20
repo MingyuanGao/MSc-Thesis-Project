@@ -1,0 +1,48 @@
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/76:bb:b3:02:12:3b
+Sending on   LPF/eth0/76:bb:b3:02:12:3b
+Sending on   Socket/fallback
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x2b1d1a36)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x2b1d1a36)
+DHCPREQUEST of 141.223.83.11 on eth0 to 255.255.255.255 port 67 (xid=0x2b1d1a36)
+DHCPOFFER of 141.223.83.11 from 141.223.83.127
+DHCPACK of 141.223.83.11 from 141.223.83.127
+bound to 141.223.83.11 -- renewal in 283 seconds.
+ssh stop/waiting
+ssh start/running, process 2494
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/c2:f2:02:97:c8:d0
+Sending on   LPF/eth0/c2:f2:02:97:c8:d0
+Sending on   Socket/fallback
+DHCPREQUEST of 141.223.83.11 on eth0 to 255.255.255.255 port 67 (xid=0x35e0b408)
+DHCPREQUEST of 141.223.83.11 on eth0 to 255.255.255.255 port 67 (xid=0x35e0b408)
+DHCPNAK from 141.223.83.127 (xid=0x35e0b408)
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x220f0128)
+DHCPREQUEST of 141.223.83.30 on eth0 to 255.255.255.255 port 67 (xid=0x220f0128)
+DHCPOFFER of 141.223.83.30 from 141.223.83.127
+DHCPACK of 141.223.83.30 from 141.223.83.127
+bound to 141.223.83.30 -- renewal in 261 seconds.
+ssh stop/waiting
+ssh start/running, process 2464
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/52:6f:06:ec:a2:fb
+Sending on   LPF/eth0/52:6f:06:ec:a2:fb
+Sending on   Socket/fallback
+DHCPREQUEST of 141.223.83.30 on eth0 to 255.255.255.255 port 67 (xid=0x1994d3c4)
+DHCPREQUEST of 141.223.83.30 on eth0 to 255.255.255.255 port 67 (xid=0x1994d3c4)
+DHCPACK of 141.223.83.30 from 141.223.83.127
+bound to 141.223.83.30 -- renewal in 233 seconds.
+ssh stop/waiting
+ssh start/running, process 2494

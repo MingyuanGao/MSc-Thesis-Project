@@ -1,0 +1,5 @@
+/etc
+/etc/emacs
+/etc/emacs/site-start.el
+/etc/emacs/site-start.d
+/etc/emacs/site-start.d/00debian-vars.el

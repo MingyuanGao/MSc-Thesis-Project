@@ -1,0 +1,1 @@
+../../../../share/pyshared/euca2ools/metadata.py

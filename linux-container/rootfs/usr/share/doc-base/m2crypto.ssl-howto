@@ -1,0 +1,9 @@
+Document: m2crypto.ssl-howto
+Title: M2Crypto SSL howto
+Author: Ng Pheng Siong and Heikki Toivonen
+Abstract: HOWTO: Programming SSL in Python with M2Crypto
+Section: Programming/Python
+
+Format: HTML
+Index: /usr/share/doc/python-m2crypto/howto.ssl.html
+Files: /usr/share/doc/python-m2crypto/howto.ssl.html

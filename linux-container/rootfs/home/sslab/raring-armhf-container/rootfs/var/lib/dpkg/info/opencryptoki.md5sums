@@ -1,0 +1,16 @@
+01e65c141a3f99d356c3ff151df9d69f  usr/sbin/pkcs11_startup
+b317a28f206ccf23aa9dbd11124a0c87  usr/sbin/pkcs_slot
+f2581290e18a8518a300b3ea32a9baf3  usr/sbin/pkcsconf
+5d1734c94b140d9635eb246437c28a09  usr/sbin/pkcsslotd
+0caa223e4c3dcb22ed2ebdb49c4d89d3  usr/share/doc/opencryptoki/AUTHORS
+76da9754c64c1fa9e8bddd60e69b1ce6  usr/share/doc/opencryptoki/FAQ
+441d8a76d17ab0c29f0c62dc200b996e  usr/share/doc/opencryptoki/README.gz
+2a5d640a0c249f8d0e555c80325418cd  usr/share/doc/opencryptoki/TODO
+d1de4ad89b917c504dd98b05ec8084cc  usr/share/doc/opencryptoki/TODO.Debian
+8f7a13134b4d3e2aec330a385cdc7faa  usr/share/doc/opencryptoki/copyright
+a7838cd97074d25ea6a6b699c42af24d  usr/share/man/man1/pkcs11_startup.1.gz
+572db43ab2dc3d60f4b180ee38a39c42  usr/share/man/man1/pkcs_slot.1.gz
+0beb7f7d882f2d31ca8a3553710bd554  usr/share/man/man1/pkcsconf.1.gz
+8dcf21f8609998241c98f694df46bddd  usr/share/man/man5/pk_config_data.5.gz
+7961dd22ac263a3250d347a48b0b76bd  usr/share/man/man7/opencryptoki.7.gz
+2caf3a6380851a8671930e2aafd1c9ca  usr/share/man/man8/pkcsslotd.8.gz

@@ -1,0 +1,234 @@
+
+Log started: 2013-06-02  05:00:14
+Can not write log, openpty() failed (/dev/pts not mounted?)
+Can not write log, openpty() failed (/dev/pts not mounted?)
+Log ended: 2013-06-02  05:02:51
+
+Log started: 2013-06-02  05:16:39
+Can not write log, openpty() failed (/dev/pts not mounted?)
+Can not write log, openpty() failed (/dev/pts not mounted?)
+Log ended: 2013-06-02  05:17:03
+
+Log started: 2013-06-02  08:46:49
+Can not write log, openpty() failed (/dev/pts not mounted?)
+Can not write log, openpty() failed (/dev/pts not mounted?)
+Log ended: 2013-06-02  08:47:00
+
+Log started: 2013-06-02  15:27:32
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27326 files and directories currently installed.)
+Removing gcc ...
+Log ended: 2013-06-02  15:27:35
+
+Log started: 2013-06-02  15:28:08
+Selecting previously unselected package gcc.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27314 files and directories currently installed.)
+Unpacking gcc (from .../gcc_4%3a4.7.3-1ubuntu10_armhf.deb) ...
+Setting up gcc (4:4.7.3-1ubuntu10) ...
+Log ended: 2013-06-02  15:28:11
+
+Log started: 2013-06-02  15:29:23
+Selecting previously unselected package libtinfo-dev:armhf.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27326 files and directories currently installed.)
+Unpacking libtinfo-dev:armhf (from .../libtinfo-dev_5.9-10ubuntu4_armhf.deb) ...
+Selecting previously unselected package libncurses5-dev.
+Unpacking libncurses5-dev (from .../libncurses5-dev_5.9-10ubuntu4_armhf.deb) ...
+Setting up libtinfo-dev:armhf (5.9-10ubuntu4) ...
+Setting up libncurses5-dev (5.9-10ubuntu4) ...
+Log ended: 2013-06-02  15:29:26
+
+Log started: 2013-06-02  15:35:03
+Selecting previously unselected package libtspi1.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27373 files and directories currently installed.)
+Unpacking libtspi1 (from .../libtspi1_0.3.10-2_armhf.deb) ...
+Selecting previously unselected package libopencryptoki0.
+Unpacking libopencryptoki0 (from .../libopencryptoki0_2.3.1+dfsg-3ubuntu5_armhf.deb) ...
+Selecting previously unselected package libtpm-unseal1.
+Unpacking libtpm-unseal1 (from .../libtpm-unseal1_1.3.7-1ubuntu1_armhf.deb) ...
+Selecting previously unselected package opencryptoki.
+Unpacking opencryptoki (from .../opencryptoki_2.3.1+dfsg-3ubuntu5_armhf.deb) ...
+Selecting previously unselected package trousers.
+Unpacking trousers (from .../trousers_0.3.10-2_armhf.deb) ...
+Selecting previously unselected package tpm-tools.
+Unpacking tpm-tools (from .../tpm-tools_1.3.7-1ubuntu1_armhf.deb) ...
+Processing triggers for ureadahead ...
+Setting up libtspi1 (0.3.10-2) ...
+Setting up libopencryptoki0 (2.3.1+dfsg-3ubuntu5) ...
+Setting up libtpm-unseal1 (1.3.7-1ubuntu1) ...
+Setting up opencryptoki (2.3.1+dfsg-3ubuntu5) ...
+Adding group `pkcs11' (GID 107) ...
+Done.
+Adding user `root' to group `pkcs11' ...
+Adding user root to group pkcs11
+Done.
+Starting PKCS#11 slot daemon: pkcsslotd.
+Setting up trousers (0.3.10-2) ...
+ * Starting Trusted Computing daemon tcsd       [80G  [33m*[39;49m device driver not loaded, skipping.
+Processing triggers for ureadahead ...
+Setting up tpm-tools (1.3.7-1ubuntu1) ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+Log ended: 2013-06-02  15:35:13
+
+Log started: 2013-06-04  07:31:26
+Selecting previously unselected package apparmor.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 27515 files and directories currently installed.)
+Unpacking apparmor (from .../apparmor_2.8.0-0ubuntu11_armhf.deb) ...
+Selecting previously unselected package libicu48:armhf.
+Unpacking libicu48:armhf (from .../libicu48_4.8.1.1-12_armhf.deb) ...
+Selecting previously unselected package libapparmor1.
+Unpacking libapparmor1 (from .../libapparmor1_2.8.0-0ubuntu11_armhf.deb) ...
+Selecting previously unselected package liblxc0.
+Unpacking liblxc0 (from .../liblxc0_0.9.0-0ubuntu3_armhf.deb) ...
+Selecting previously unselected package libyaml-0-2:armhf.
+Unpacking libyaml-0-2:armhf (from .../libyaml-0-2_0.1.4-2build1_armhf.deb) ...
+Selecting previously unselected package libnfnetlink0.
+Unpacking libnfnetlink0 (from .../libnfnetlink0_1.0.0-1.1ubuntu1_armhf.deb) ...
+Selecting previously unselected package libnetfilter-conntrack3:armhf.
+Unpacking libnetfilter-conntrack3:armhf (from .../libnetfilter-conntrack3_1.0.1-1_armhf.deb) ...
+Selecting previously unselected package dnsmasq-base.
+Unpacking dnsmasq-base (from .../dnsmasq-base_2.65-1ubuntu1_armhf.deb) ...
+Selecting previously unselected package iptables.
+Unpacking iptables (from .../iptables_1.4.12-2ubuntu5_armhf.deb) ...
+Selecting previously unselected package rsync.
+Unpacking rsync (from .../rsync_3.0.9-4_armhf.deb) ...
+Selecting previously unselected package python3-lxc.
+Unpacking python3-lxc (from .../python3-lxc_0.9.0-0ubuntu3_armhf.deb) ...
+Selecting previously unselected package lxc.
+Unpacking lxc (from .../lxc_0.9.0-0ubuntu3_armhf.deb) ...
+Selecting previously unselected package python-m2crypto.
+Unpacking python-m2crypto (from .../python-m2crypto_0.21.1-3ubuntu1_armhf.deb) ...
+Selecting previously unselected package groff-base.
+Unpacking groff-base (from .../groff-base_1.22.1-3_armhf.deb) ...
+Selecting previously unselected package distro-info-data.
+Unpacking distro-info-data (from .../distro-info-data_0.13_all.deb) ...
+Selecting previously unselected package distro-info.
+Unpacking distro-info (from .../distro-info_0.10_armhf.deb) ...
+Selecting previously unselected package python-boto.
+Unpacking python-boto (from .../python-boto_2.3.0-1_all.deb) ...
+Selecting previously unselected package euca2ools.
+Unpacking euca2ools (from .../euca2ools_2.1.1-0ubuntu2_all.deb) ...
+Selecting previously unselected package libcap2-bin.
+Unpacking libcap2-bin (from .../libcap2-bin_1%3a2.22-1.2ubuntu2_armhf.deb) ...
+Selecting previously unselected package libpam-cap:armhf.
+Unpacking libpam-cap:armhf (from .../libpam-cap_1%3a2.22-1.2ubuntu2_armhf.deb) ...
+Selecting previously unselected package lxc-templates.
+Unpacking lxc-templates (from .../lxc-templates_0.9.0-0ubuntu3_all.deb) ...
+Selecting previously unselected package python-crypto.
+Unpacking python-crypto (from .../python-crypto_2.6-4_armhf.deb) ...
+Selecting previously unselected package python-distro-info.
+Unpacking python-distro-info (from .../python-distro-info_0.10_all.deb) ...
+Selecting previously unselected package python-paramiko.
+Unpacking python-paramiko (from .../python-paramiko_1.7.7.1-3.1ubuntu1_all.deb) ...
+Selecting previously unselected package python-yaml.
+Unpacking python-yaml (from .../python-yaml_3.10-4build2_armhf.deb) ...
+Selecting previously unselected package cgroup-lite.
+Unpacking cgroup-lite (from .../cgroup-lite_1.8_all.deb) ...
+Selecting previously unselected package cloud-utils.
+Unpacking cloud-utils (from .../cloud-utils_0.27-0ubuntu1_all.deb) ...
+Selecting previously unselected package debootstrap.
+Unpacking debootstrap (from .../debootstrap_1.0.46_all.deb) ...
+Selecting previously unselected package gdisk.
+Unpacking gdisk (from .../gdisk_0.8.5-1ubuntu2_armhf.deb) ...
+Processing triggers for ureadahead ...
+Processing triggers for mime-support ...
+Setting up apparmor (2.8.0-0ubuntu11) ...
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_MESSAGES to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+Setting up libicu48:armhf (4.8.1.1-12) ...
+Setting up libapparmor1 (2.8.0-0ubuntu11) ...
+Setting up liblxc0 (0.9.0-0ubuntu3) ...
+Setting up libyaml-0-2:armhf (0.1.4-2build1) ...
+Setting up libnfnetlink0 (1.0.0-1.1ubuntu1) ...
+Setting up libnetfilter-conntrack3:armhf (1.0.1-1) ...
+Setting up dnsmasq-base (2.65-1ubuntu1) ...
+Setting up iptables (1.4.12-2ubuntu5) ...
+Setting up rsync (3.0.9-4) ...
+ Removing any system startup links for /etc/init.d/rsync ...
+Setting up python3-lxc (0.9.0-0ubuntu3) ...
+Setting up python-m2crypto (0.21.1-3ubuntu1) ...
+Setting up groff-base (1.22.1-3) ...
+Setting up distro-info-data (0.13) ...
+Setting up distro-info (0.10) ...
+Setting up python-boto (2.3.0-1) ...
+Setting up euca2ools (2.1.1-0ubuntu2) ...
+Setting up libcap2-bin (1:2.22-1.2ubuntu2) ...
+Setting up libpam-cap:armhf (1:2.22-1.2ubuntu2) ...
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_MESSAGES to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+Setting up python-crypto (2.6-4) ...
+Setting up python-distro-info (0.10) ...
+Setting up python-paramiko (1.7.7.1-3.1ubuntu1) ...
+Setting up python-yaml (3.10-4build2) ...
+Setting up cgroup-lite (1.8) ...
+cgroup-lite start/running
+Setting up cloud-utils (0.27-0ubuntu1) ...
+Setting up debootstrap (1.0.46) ...
+Setting up gdisk (0.8.5-1ubuntu2) ...
+Processing triggers for ureadahead ...
+Setting up lxc (0.9.0-0ubuntu3) ...
+lxc start/running
+lxc-net stop/pre-start, process 3547
+Setting up lxc dnsmasq configuration.
+Processing triggers for ureadahead ...
+Setting up lxc-templates (0.9.0-0ubuntu3) ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+Log ended: 2013-06-04  07:32:39
+
+Log started: 2013-06-04  11:21:49
+Selecting previously unselected package libgpm2:armhf.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 29931 files and directories currently installed.)
+Unpacking libgpm2:armhf (from .../libgpm2_1.20.4-6ubuntu1_armhf.deb) ...
+Selecting previously unselected package libpython2.7:armhf.
+Unpacking libpython2.7:armhf (from .../libpython2.7_2.7.4-2ubuntu3_armhf.deb) ...
+Selecting previously unselected package vim-runtime.
+Unpacking vim-runtime (from .../vim-runtime_2%3a7.3.547-6ubuntu5_all.deb) ...
+Adding 'diversion of /usr/share/vim/vim73/doc/help.txt to /usr/share/vim/vim73/doc/help.txt.vim-tiny by vim-runtime'
+Adding 'diversion of /usr/share/vim/vim73/doc/tags to /usr/share/vim/vim73/doc/tags.vim-tiny by vim-runtime'
+Selecting previously unselected package vim.
+Unpacking vim (from .../vim_2%3a7.3.547-6ubuntu5_armhf.deb) ...
+Setting up libgpm2:armhf (1.20.4-6ubuntu1) ...
+Setting up libpython2.7:armhf (2.7.4-2ubuntu3) ...
+Setting up vim-runtime (2:7.3.547-6ubuntu5) ...
+Processing /usr/share/vim/addons/doc
+Setting up vim (2:7.3.547-6ubuntu5) ...
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vim (vim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vimdiff (vimdiff) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rvim (rvim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rview (rview) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vi (vi) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/view (view) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/ex (ex) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/editor (editor) in auto mode
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+Log ended: 2013-06-04  11:22:35
+
+Log started: 2013-06-04  11:48:33
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 31495 files and directories currently installed.)
+Removing tpm-tools ...
+Removing trousers ...
+ * Stopping Trusted Computing daemon tcsd       [142G [136G[ OK ]
+Looking for files to backup/remove ...
+Not backing up/removing `/var/lib/tpm', it matches ^/var/.*.
+Removing user `tss' ...
+Warning: group `tss' has no more members.
+Done.
+The group `tss' does not exist.
+Processing triggers for ureadahead ...
+Log ended: 2013-06-04  11:48:36
+
+Log started: 2013-06-04  11:49:02
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 31417 files and directories currently installed.)
+Removing opencryptoki ...
+Stopping PKCS#11 slot daemon: pkcsslotd.
+/usr/sbin/deluser: The group `pkcs11' is not empty!
+Removing libopencryptoki0 ...
+Removing libtpm-unseal1 ...
+Removing libtspi1 ...
+Processing triggers for ureadahead ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+Log ended: 2013-06-04  11:49:07

@@ -1,0 +1,16 @@
+      lxc-start 1370345285.924 ERROR    lxc_conf - failed to attach 'vetheXyxb2' to the bridge 'br0' : No such device
+      lxc-start 1370345286.014 ERROR    lxc_conf - failed to create netdev
+      lxc-start 1370345286.014 ERROR    lxc_start - failed to create the network
+      lxc-start 1370345286.014 ERROR    lxc_start - failed to spawn 'raring-armhf-container'
+      lxc-start 1370349684.843 ERROR    lxc_conf - failed to attach 'veth1ZFm83' to the bridge 'br0' : No such device
+      lxc-start 1370349684.922 ERROR    lxc_conf - failed to create netdev
+      lxc-start 1370349684.922 ERROR    lxc_start - failed to create the network
+      lxc-start 1370349684.923 ERROR    lxc_start - failed to spawn 'raring-armhf-container'
+      lxc-start 1370349750.354 ERROR    lxc_conf - failed to attach 'vethLA9jpu' to the bridge 'br0' : No such device
+      lxc-start 1370349750.422 ERROR    lxc_conf - failed to create netdev
+      lxc-start 1370349750.422 ERROR    lxc_start - failed to create the network
+      lxc-start 1370349750.423 ERROR    lxc_start - failed to spawn 'raring-armhf-container'
+      lxc-start 1370349788.839 ERROR    lxc_conf - failed to attach 'vethSQJhI5' to the bridge 'br0' : No such device
+      lxc-start 1370349788.912 ERROR    lxc_conf - failed to create netdev
+      lxc-start 1370349788.912 ERROR    lxc_start - failed to create the network
+      lxc-start 1370349788.913 ERROR    lxc_start - failed to spawn 'raring-armhf-container'

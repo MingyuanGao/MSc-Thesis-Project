@@ -1,0 +1,56 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installinit
+if [ "$1" = install ] || [ "$1" = upgrade ]; then
+	if [ -e "/etc/init.d/lxc" ] && [ ! -L "/etc/init.d/lxc" ]; then
+		if [ "`md5sum \"/etc/init.d/lxc\" | sed -e \"s/ .*//\"`" != \
+		     "`dpkg-query -W -f='${Conffiles}' lxc | sed -n -e \"\\\\' /etc/init.d/lxc '{s/ obsolete$//;s/.* //p}\"`" ]
+		then
+			echo "Obsolete conffile /etc/init.d/lxc has been modified by you, renaming to .dpkg-bak"
+			mv -f "/etc/init.d/lxc" "/etc/init.d/lxc.dpkg-bak"
+		else
+			rm -f "/etc/init.d/lxc"
+		fi
+	fi
+fi
+# End automatically added section
+# Automatically added by dh_installinit
+if [ "$1" = install ] || [ "$1" = upgrade ]; then
+	if [ -e "/etc/init.d/lxc-net" ] && [ ! -L "/etc/init.d/lxc-net" ]; then
+		if [ "`md5sum \"/etc/init.d/lxc-net\" | sed -e \"s/ .*//\"`" != \
+		     "`dpkg-query -W -f='${Conffiles}' lxc | sed -n -e \"\\\\' /etc/init.d/lxc-net '{s/ obsolete$//;s/.* //p}\"`" ]
+		then
+			echo "Obsolete conffile /etc/init.d/lxc-net has been modified by you, renaming to .dpkg-bak"
+			mv -f "/etc/init.d/lxc-net" "/etc/init.d/lxc-net.dpkg-bak"
+		else
+			rm -f "/etc/init.d/lxc-net"
+		fi
+	fi
+fi
+# End automatically added section
+# Automatically added by dh_installinit
+if [ "$1" = install ] || [ "$1" = upgrade ]; then
+	if [ -e "/etc/init.d/lxc-instance" ] && [ ! -L "/etc/init.d/lxc-instance" ]; then
+		if [ "`md5sum \"/etc/init.d/lxc-instance\" | sed -e \"s/ .*//\"`" != \
+		     "`dpkg-query -W -f='${Conffiles}' lxc | sed -n -e \"\\\\' /etc/init.d/lxc-instance '{s/ obsolete$//;s/.* //p}\"`" ]
+		then
+			echo "Obsolete conffile /etc/init.d/lxc-instance has been modified by you, renaming to .dpkg-bak"
+			mv -f "/etc/init.d/lxc-instance" "/etc/init.d/lxc-instance.dpkg-bak"
+		else
+			rm -f "/etc/init.d/lxc-instance"
+		fi
+	fi
+fi
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper mv_conffile /etc/apparmor.d/abstractions/lxc-container-default /etc/apparmor.d/abstractions/lxc/container-base 0.8.0~rc1-4ubuntu18 lxc -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper mv_conffile /etc/apparmor.d/abstractions/lxc-start-container /etc/apparmor.d/abstractions/lxc/start-container 0.8.0~rc1-4ubuntu18 lxc -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper mv_conffile /etc/dnsmasq.d/lxc /etc/dnsmasq.d-available/lxc 0.8.0~rc1-4ubuntu48 lxc -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper mv_conffile /etc/lxc/lxc.conf /etc/lxc/default.conf 0.9.0~alpha2-0ubuntu1+b1~bzr1108-28~ lxc -- "$@"
+# End automatically added section

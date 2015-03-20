@@ -1,0 +1,6 @@
+46d4daf2d2606a320f769ae0834664d2  usr/lib/opencryptoki/libopencryptoki.so.0.0.0
+1928efcad28c64f873a88ce067913580  usr/lib/opencryptoki/stdll/libpkcs11_sw.so.0.0.0
+c3d5e53554aa10499da15de8898842f6  usr/lib/opencryptoki/stdll/libpkcs11_tpm.so.0.0.0
+0a5294ca4f118bfa2fe87511b646eafc  usr/share/doc/libopencryptoki0/changelog.Debian.gz
+8f7a13134b4d3e2aec330a385cdc7faa  usr/share/doc/libopencryptoki0/copyright
+b977d43318a7eb1efd4648caaa18aa61  usr/share/lintian/overrides/libopencryptoki0

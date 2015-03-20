@@ -1,0 +1,14 @@
+736d9de76cfb43483d71e0ff382e4f7f  usr/lib/arm-linux-gnueabihf/libcurl.so.4.3.0
+dcb8996959e6f8ccd14204fcf08938c9  usr/share/doc/libcurl3/BINDINGS.gz
+a5005a10a9720f24458590428286a985  usr/share/doc/libcurl3/BUGS.gz
+ffb6f019f55f0df2cdfb120d1d17dac6  usr/share/doc/libcurl3/FAQ.gz
+26959e70a3e2af34ca920140d5ec3a69  usr/share/doc/libcurl3/FEATURES.gz
+cea0ee918639cd3df24a3751dacc667b  usr/share/doc/libcurl3/KNOWN_BUGS.gz
+56a51ef70376ad0d6615479e58d750c6  usr/share/doc/libcurl3/NEWS.Debian.gz
+d21e01329a2ba92ff8e7a6ed534d6ed6  usr/share/doc/libcurl3/README
+e6d5f0d43eeec7e2eec5d2a155f899f9  usr/share/doc/libcurl3/THANKS.gz
+2783b9c81e9580dc80da3c576ad47561  usr/share/doc/libcurl3/TODO.gz
+78f4048896098d2760bf1dd3442983dd  usr/share/doc/libcurl3/VERSIONS
+4e0082c41f08dccf28f9fe513870e850  usr/share/doc/libcurl3/changelog.Debian.gz
+7c4703e9f5b89c551b989049bf28ad95  usr/share/doc/libcurl3/copyright
+3a20d059820eff05613a7fe30cbe6357  usr/share/lintian/overrides/libcurl3

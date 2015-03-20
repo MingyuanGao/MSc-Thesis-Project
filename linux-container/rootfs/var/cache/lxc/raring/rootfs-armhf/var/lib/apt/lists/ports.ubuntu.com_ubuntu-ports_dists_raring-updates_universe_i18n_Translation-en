@@ -1,0 +1,2174 @@
+Package: account-plugin-gadugadu
+Description-md5: 7ce20845157f376b9b360447dbb3c4e8
+Description-en: Messaging account plugin for GaduGadu
+ Instant messaging program supporting text, voice, video, file transfers
+ and inter-application communication over many different protocols,
+ including: AIM, MSN, Google Talk (Jabber/XMPP), Facebook, Yahoo!, Salut,
+ Gadu-Gadu, Groupwise, ICQ and QQ.
+ .
+ This package contains UOA account plugins for the Empathy IM application.
+
+Package: account-plugin-groupwise
+Description-md5: 0a6e7f9db8cd4f812ec3cbc004b23786
+Description-en: Messaging account plugin for Groupwise
+ Instant messaging program supporting text, voice, video, file transfers
+ and inter-application communication over many different protocols,
+ including: AIM, MSN, Google Talk (Jabber/XMPP), Facebook, Yahoo!, Salut,
+ Gadu-Gadu, Groupwise, ICQ and QQ.
+ .
+ This package contains UOA account plugins for the Empathy IM application.
+
+Package: account-plugin-icq
+Description-md5: d03b3cc44bf7fb177edd64859a49a07c
+Description-en: Messaging account plugin for ICQ
+ Instant messaging program supporting text, voice, video, file transfers
+ and inter-application communication over many different protocols,
+ including: AIM, MSN, Google Talk (Jabber/XMPP), Facebook, Yahoo!, Salut,
+ Gadu-Gadu, Groupwise, ICQ and QQ.
+ .
+ This package contains UOA account plugins for the Empathy IM application.
+
+Package: account-plugin-irc
+Description-md5: 38cf989284739458375d595db360cd30
+Description-en: Messaging account plugin for IRC
+ Instant messaging program supporting text, voice, video, file transfers
+ and inter-application communication over many different protocols,
+ including: AIM, MSN, Google Talk (Jabber/XMPP), Facebook, Yahoo!, Salut,
+ Gadu-Gadu, Groupwise, ICQ and QQ.
+ .
+ This package contains UOA account plugins for the Empathy IM application.
+
+Package: account-plugin-mxit
+Description-md5: 83ea5d8cf40ed2e454b20de7fc1e8a72
+Description-en: Messaging account plugin for Mxit
+ Instant messaging program supporting text, voice, video, file transfers
+ and inter-application communication over many different protocols,
+ including: AIM, MSN, Google Talk (Jabber/XMPP), Facebook, Yahoo!, Salut,
+ Gadu-Gadu, Groupwise, ICQ and QQ.
+ .
+ This package contains UOA account plugins for the Empathy IM application.
+
+Package: account-plugin-myspace
+Description-md5: be2b925541db178a6b3ad20a2192e285
+Description-en: Messaging account plugin for MySpace
+ Instant messaging program supporting text, voice, video, file transfers
+ and inter-application communication over many different protocols,
+ including: AIM, MSN, Google Talk (Jabber/XMPP), Facebook, Yahoo!, Salut,
+ Gadu-Gadu, Groupwise, ICQ and QQ.
+ .
+ This package contains UOA account plugins for the Empathy IM application.
+
+Package: account-plugin-sametime
+Description-md5: e722e0e7ee74563f2b932b496db21691
+Description-en: Messaging account plugin for Sametime
+ Instant messaging program supporting text, voice, video, file transfers
+ and inter-application communication over many different protocols,
+ including: AIM, MSN, Google Talk (Jabber/XMPP), Facebook, Yahoo!, Salut,
+ Gadu-Gadu, Groupwise, ICQ and QQ.
+ .
+ This package contains UOA account plugins for the Empathy IM application.
+
+Package: account-plugin-sip
+Description-md5: ae531b6c31c63386422052481db14f17
+Description-en: Messaging account plugin for SIP
+ Instant messaging program supporting text, voice, video, file transfers
+ and inter-application communication over many different protocols,
+ including: AIM, MSN, Google Talk (Jabber/XMPP), Facebook, Yahoo!, Salut,
+ Gadu-Gadu, Groupwise, ICQ and QQ.
+ .
+ This package contains UOA account plugins for the Empathy IM application.
+
+Package: account-plugin-yahoojp
+Description-md5: 30b404055b4c46574c388a2587cb3955
+Description-en: Messaging account plugin for Yahoo Japan
+ Instant messaging program supporting text, voice, video, file transfers
+ and inter-application communication over many different protocols,
+ including: AIM, MSN, Google Talk (Jabber/XMPP), Facebook, Yahoo!, Salut,
+ Gadu-Gadu, Groupwise, ICQ and QQ.
+ .
+ This package contains UOA account plugins for the Empathy IM application.
+
+Package: account-plugin-zephyr
+Description-md5: 4896155bfe0cd89f3ff6135eed40ccea
+Description-en: Messaging account plugin for Zephyr
+ Instant messaging program supporting text, voice, video, file transfers
+ and inter-application communication over many different protocols,
+ including: AIM, MSN, Google Talk (Jabber/XMPP), Facebook, Yahoo!, Salut,
+ Gadu-Gadu, Groupwise, ICQ and QQ.
+ .
+ This package contains UOA account plugins for the Empathy IM application.
+
+Package: amarok
+Description-md5: 8cb0abbd7a36a44af04429c5df99b014
+Description-en: easy to use media player based on the KDE Platform
+ Amarok is a powerful music player with an intuitive interface. It makes
+ playing the music you love and discovering new music easier than ever before
+ and it looks good doing it! Amarok is based on the powerful Qt4 / KDE4
+ Platform and nicely integrates with KDE desktop.
+ .
+ Much work has been invested into integrating Amarok 2 with various Web
+ services:
+   - Ampache
+   - Jamendo Service
+   - Last.fm
+   - Librivox
+   - MP3tunes
+   - Magnatune
+   - OPML Podcast Directory
+ .
+ Amarok comes with a lot of features including but not limited to:
+   - Scripts - enhance your Amarok experience with community developed scripts.
+   - Dynamic Playlists - create playlists that automatically update.
+   - Context View - customize interface with the Plasma powered Context View.
+   - PopUp Dropper - simplify drag&drop actions with revolutionary menu system.
+   - Multiple Language Translations
+   - Collection Management - organizing your music collection has never been
+     easier with Amarok's powerful tagging, renaming, and sorting abilities.
+   - Database Importing - import collections from Amarok 1.4 or iTunes.
+   - Scriptable Services - integrate other web services into Amarok.
+
+Package: amarok-common
+Description-md5: 7edb06ad8d166860bb6c8a6ff4667004
+Description-en: architecture independent files for Amarok
+ This package contains architecture independent files needed for Amarok to run
+ properly. Therefore, unless you have 'amarok' package of the same version
+ installed, you will hardly find this package useful.
+
+Package: amarok-dbg
+Description-md5: 11a8ecdda53370b64ba5912cbe25c09a
+Description-en: debugging symbols for Amarok
+ This package provides debugging symbols for all binary packages built from
+ amarok source package. It's highly recommended to have this package installed
+ before reporting any Amarok crashes to either Amarok developers or Debian
+ package maintainers.
+
+Package: amarok-doc
+Description-md5: b4eb7b0dab4bb7bf23c9243f8c1ee81b
+Description-en: Amarok documentation (Handbook)
+ This package contains Amarok user documentation. It can be opened from the
+ application menu Help -> Amarok Handbook.
+
+Package: amarok-utils
+Description-md5: 902c3b6707d3e170627b7353c75854f9
+Description-en: utilities for Amarok media player
+ This package contains command line utilities that are typically used by Amarok
+ media player but might also be useful on systems without Amarok installed.
+ They are designed to be lightweight as they do not depend on KDE libraries.
+ .
+ Currently the package contains the following utilities:
+   - amarokcollectionscanner - scans audio files, collects information from
+     file tags and prints it in the structured XML format.
+   - amarok_afttagger - a helper program which writes/removes custom tags
+     to/from media files required for embedded "Amarok File Tracking".
+
+Package: clamav-milter
+Description-md5: bdf4d5012233691e2d3d904e79a57dcf
+Description-en: anti-virus utility for Unix - sendmail integration
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav6, which can be used by other software.
+ .
+ This package contains the ClamAV milter for use with sendmail. It can
+ be configured to be run either standalone, or using clamav-daemon.
+
+Package: clamav-testfiles
+Description-md5: 02a1eb16b2a0a9f53fc09fe0d784518c
+Description-en: anti-virus utility for Unix - test files
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav6, which can be used by other software.
+ .
+ This package contains files 'infected' with a test signature. The test
+ signature (ClamAV-Test-Signature) should be detectable by all
+ anti-virus programs.
+
+Package: debmirror
+Description-md5: 2b7436d4f5fcda5c9ebcf3fc42599f49
+Description-en: Debian partial mirror script, with ftp and package pool support
+ This program downloads and maintains a partial local Debian mirror.
+ It can mirror any combination of architectures, distributions and
+ sections. Files are transferred by ftp, http, hftp or rsync, and package
+ pools are fully supported. It also does locking and updates trace files.
+
+Package: firefox-mozsymbols
+Description-md5: 1398643ad4fb0f820933502f6bba9816
+Description-en: Safe and easy web browser from Mozilla - Breakpad symbols
+ Firefox delivers safe, easy web browsing. A familiar user interface,
+ enhanced security features including protection from online identity theft,
+ and integrated search let you get the most out of the web.
+ .
+ This package contains the Firefox symbols in a format expected by Mozilla's
+ Breakpad. Eventually this package should go away and the symbol upload be
+ implemented in soyuz (or other builders that build this package)
+
+Package: firefox-testsuite
+Description-md5: 1c5406dea364e8840846b9dacd3c8955
+Description-en: Safe and easy web browser from Mozilla - testsuite
+ Firefox delivers safe, easy web browsing. A familiar user interface,
+ enhanced security features including protection from online identity theft,
+ and integrated search let you get the most out of the web.
+ .
+ This package contains the Firefox testsuite
+
+Package: freespacenotifier
+Description-md5: 1aa8c1f91889402764611dfc4ef036d3
+Description-en: free space notification module for KDE
+ This module notifies the user when /home or one of the other directories
+ which you can configure it to monitor are running out of space.
+ .
+ More technically, this package provides a module for kded, the KDE Daemon.
+ .
+ This package is part of the KDE workspace module.
+
+Package: fwlogwatch
+Description-md5: 9fb0eca840377b5b84c214320b65b9ff
+Description-en: Firewall log analyzer
+ fwlogwatch produces ipchains, netfilter/iptables, ipfilter, Cisco IOS and
+ Cisco PIX log summary reports in text and HTML form and has a lot of
+ options to find and display relevant patterns in connection attempts. With
+ the data found it can also generate customizable incident reports from a
+ template and send them to abuse contacts at offending sites or CERT
+ coordination centers. Finally, it can also run as daemon and report
+ anomalies or start countermeasures.
+
+Package: hedgewars
+Description-md5: 318a323582f36b363618a66d35f8beb4
+Description-en: Worms style game
+ Each player controls a team of several hedgehogs. During the
+ course of the game, players take turns with one of their
+ hedgehogs. They then use whatever tools and weapons are
+ available to attack and kill the opponents' hedgehogs, thereby
+ winning the game. Hedgehogs may move around the terrain in a
+ variety of ways, normally by walking and jumping but also by
+ using particular tools such as the "Rope" or "Parachute", to
+ move to otherwise inaccessible areas. Each turn is time-limited
+ to ensure that players do not hold up the game with excessive
+ thinking or moving.
+ .
+ A large variety of tools and weapons are available for players
+ during the game: Grenade, Cluster Bomb, Bazooka, UFO, Homing Bee,
+ Shotgun, Desert Eagle, Fire Punch, Baseball Bat, Dynamite, Mine,
+ Rope, Pneumatic pick, Parachute. Most weapons, when used, cause
+ explosions that deform the terrain, removing circular chunks.
+ The landscape is an island floating on a body of water, or a
+ restricted cave with water at the bottom. A hedgehog dies when
+ it enters the water (either by falling off the island, or
+ through a hole in the bottom of it), it is thrown off either
+ side of the arena or when its health is reduced, typically from
+ contact with explosions, to zero (the damage dealt to the
+ attacked hedgehog or hedgehogs after a player's or CPU turn is
+ shown only when all movement on the battlefield has ceased).
+
+Package: hedgewars-data
+Description-md5: f3d5a1825cddc6488f63ee95dab636b1
+Description-en: Data files for hedgewars
+ This package contains data files (images, sounds, levels data)
+ for the hedgewars package.
+
+Package: icedtea-6-jre-cacao
+Description-md5: 24efc2093c93b3e7670092d00aea59d9
+Description-en: Alternative JVM for OpenJDK, using Cacao
+ The package provides an alternative runtime using the Cacao VM and the
+ Cacao Just In Time Compiler (JIT).  This is a somewhat faster alternative
+ than the Zero port on architectures like alpha, armel, m68k, mips, mipsel,
+ powerpc and s390.
+ .
+ The VM is started with the option `-cacao'. See the README.Debian for details.
+
+Package: icedtea-6-jre-jamvm
+Description-md5: a3b67c2c3683232269f84a02ede3fd4b
+Description-en: Alternative JVM for OpenJDK, using JamVM
+ The package provides an alternative runtime using the JamVM.  This is a
+ somewhat faster alternative than the Zero port on architectures like armel,
+ mips, mipsel, powerpc.
+ .
+ The VM is started with the option `-jamvm'. See the README.Debian for details.
+
+Package: kcm-touchpad
+Description-md5: 910d98ede0498c8f9c4bc991a92bff55
+Description-en: transitional package for kde-config-touchpad
+ This is a dummy transitional package for kde-config-touchpad and can be
+ safely removed after the installation is complete.
+
+Package: kde-config-touchpad
+Description-md5: 8f001391c092714fbba69bbcadab6dc3
+Description-en: touchpad configuration tool (synaptiks)
+ synaptiks touchpad configuration tool. this package contains a
+ configuration  tool for touchpads. The package provides a kcm
+ module (for systemsettings), as well as a plasma widget and kded
+ module to help managing touchpads, especially in KDE environments.
+
+Package: kde-style-oxygen
+Description-md5: 084ab697e72ec56786bd28c41c3d5c6c
+Description-en: Oxygen widget style
+ This package provides the Oxygen widget style. It may be used for KDE and Qt
+ applications.
+ .
+ This package is part of the KDE workspace module.
+
+Package: kde-window-manager
+Description-md5: eba94545d138c2435425606b044262c1
+Description-en: K window manager (KWin)
+ This package contains KWin, the KDE window manager, featuring
+ hardware-accelerated compositing effects.
+ .
+ This package contains the OpenGL accesslarated version.
+ .
+ This package is part of the KDE workspace module.
+
+Package: kde-window-manager-active
+Description-md5: c753ae1566aa55ab17c2766b53645c6a
+Description-en: K window manager (KWinActive)
+ This package contains KWinActive, the KDE window manager, featuring
+ hardware-accelerated compositing effects.
+ .
+ This package contains the OpenGL accelerated version.
+ .
+ This package is part of the KDE workspace module.
+
+Package: kde-window-manager-active-gles
+Description-md5: 9c80f82c74240dcb32802d4c6f0bb656
+Description-en: K window manager (KWinActive) - OpenGL ES binary
+ This package contains KWinActive, the KDE window manager, featuring
+ hardware-accelerated compositing effects.
+ .
+ This package was compiled with support for OpenGL ES 2.0,
+ before installing please make sure your video driver supports it.
+ This package is part of the KDE workspace module.
+
+Package: kde-window-manager-common
+Description-md5: dd8d621653e5bfe60dffd48a23190328
+Description-en: K window manager (KWin) Common Files
+ This package contains KWin common files used by bother OpenGL and OpenGLES
+ version.
+ .
+ This package is part of the KDE workspace module.
+
+Package: kde-window-manager-gles
+Description-md5: de6146dfae597933fc4b55487675c043
+Description-en: K window manager (KWin) - OpenGL ES binary
+ This package contains KWin, the KDE window manager, featuring
+ hardware-accelerated compositing effects.
+ .
+ This package was compiled with support for OpenGL ES 2.0,
+ before installing please make sure your video driver supports it.
+ .
+ This package is part of the KDE workspace module.
+
+Package: kde-workspace
+Description-md5: f3d3d432e8ffcf4aa271d4a5264c2f18
+Description-en: KDE Plasma Workspace components
+ KDE is produced by an international technology team that creates free and open
+ source software for desktop and portable computing. Among KDE's products are a
+ modern desktop system for Linux and UNIX platforms, comprehensive office
+ productivity and groupware suites and hundreds of software titles in many
+ categories including Internet and web applications, multimedia, entertainment,
+ educational, graphics and software development.
+ .
+ This package provides a basic KDE desktop installation.
+
+Package: kde-workspace-bin
+Description-md5: 9df179224fe6313b0c90cad0c1a8a67b
+Description-en: core binaries for the KDE Plasma Workspace
+ This package contains miscellaneous programs needed for a basic desktop
+ installation. Among other standard KDE Workspace components, the package
+ provides startkde scripts, ksmserver (the session manager), krunner,
+ the default KDE screensavers and many KDE configuration modules. This
+ package is essential to start and use KDE Plasma Workspace.
+ .
+ This package is part of the KDE workspace module.
+
+Package: kde-workspace-data
+Description-md5: 13527e906dbfbe7e20c1b9df5bffb4a6
+Description-en: shared data files for the KDE Plasma Workspace
+ This package contains architecture-independent shared data files needed for a
+ basic KDE Workspace installation.
+ .
+ This package is part of the KDE workspace module.
+
+Package: kde-workspace-data-extras
+Description-md5: 955eab8a55f195b5dcee13bc5545617c
+Description-en: transitional package for kde-workspace-data
+ This package is save to remove
+
+Package: kde-workspace-dbg
+Description-md5: cf384158a1745e27f43720a8ea5d925c
+Description-en: debugging symbols for the KDE Plasma Workspaces
+ This package contains debugging files used to investigate problems with
+ binaries included in the KDE base workspace module.
+
+Package: kde-workspace-dev
+Description-md5: b71cdda81024681cbf508d7b36d3bf5e
+Description-en: development files for the KDE Plasma Workspace
+ This package contains development files for building software that uses
+ libraries from the KDE Plasma Workspace.
+ .
+ This package is part of the KDE workspace module.
+
+Package: kde-workspace-kgreet-plugins
+Description-md5: 04086cf57d185891113da2a14193ce73
+Description-en: KDE greet libraries for authentication
+ This package contains libraries needed for kdm and locker authentication.
+ .
+ This package is part of the KDE workspace module.
+
+Package: kde-workspace-randr
+Description-md5: eda45b683d555780da3973fbb6183a61
+Description-en: randr tools from kde-workspace
+ Screen resize and rotate tools from KDE Workspace.
+
+Package: kdebase-workspace
+Description-md5: e055109822cb469a62e87ae0279acb06
+Description-en: transitional package for kde-workspace
+ This is a dummy transitional package for kde-workspace and can be safely
+ removed after the installation is complete.
+
+Package: kdebase-workspace-bin
+Description-md5: 92ef4f03071b9ae3472fc8e846b39b64
+Description-en: transitional package for kde-workspace-bin
+ This is a dummy transitional package for kde-workspace-bin and can be safely
+ removed after the installation is complete.
+
+Package: kdebase-workspace-dbg
+Description-md5: 755315e14b453e45b8c074da88bf7eb1
+Description-en: transitional package for kde-workspace-dbg
+ This is a dummy transitional package for kde-workspace-dbg and can be safely
+ removed after the installation is complete.
+
+Package: kdebase-workspace-dev
+Description-md5: 9d0c2afe533a0f03c1477dbd14cebc2d
+Description-en: transitional package for kde-workspace-dev
+ This is a dummy transitional package for kde-workspace-dev and can be safely
+ removed after the installation is complete.
+
+Package: kdelibs5-plugins
+Description-md5: 47c4a19af28fe26f79c1626027f99953
+Description-en: core plugins for KDE Applications
+ This package contains core plugins for KDE Applications used by KDE
+ Applications and KDE Development Platform libraries at runtime. This package
+ is needed to run most KDE Applications.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: kdm
+Description-md5: 1c79f4398770673edf0c898ce2926e22
+Description-en: KDE Display Manager for X11
+ KDM manages a collection of X servers running on local or remote machines.
+ It allows users to easily log into their preferred desktop environment, connect
+ to a remote XDMCP server, or shut down the system.
+ .
+ KDM supports custom themes and can display a list of users with icons.
+ Additional user icons can be found in the 'kdepasswd' package.
+ .
+ This package is part of the KDE workspace module.
+
+Package: kinfocenter
+Description-md5: 0e3908ff33aec263e1559446d01dcdb0
+Description-en: system information viewer
+ KInfoCenter provides you with a graphical overview of various aspects of your
+ system, such as memory usage, storage capacity, and attached devices.
+ .
+ This package is part of the KDE workspace module.
+
+Package: klipper
+Description-md5: 69afce9f31c71a583de048ecd21bfe4a
+Description-en: clipboard manager
+ Klipper is a clipboard manager. It stores a history of the clipboard
+ contents and can automatically perform actions when certain items are
+ selected, such as launch a web browser when a URL is selected.
+ .
+ This package is part of the KDE workspace module.
+
+Package: kmenuedit
+Description-md5: 3c04ac9711c5cb346f01b9387574cffc
+Description-en: XDG menu editor
+ This package provides an menu editor which may be used to edit the KDE Plasma
+ workspaces menu or any other XDG menu.
+ .
+ This package is part of the KDE workspace module.
+
+Package: kscreen
+Description-md5: 8969ce242f9c059bba53cbbc771347df
+Description-en: KDE monitor hotplug and screen handling
+ The KDE multiple monitor support is trying be as smart as possible
+ adapting the behavior of it to each use case making the configuration
+ of monitors as simple as plugging them to your computer.
+ .
+ This package contains the modules and plugins for monitor hotplut and
+ automatic screen handling.
+
+Package: kscreen-dbg
+Description-md5: d4dee7befc1b07e43b64e763e95a72eb
+Description-en: KDE monitor hotplug and screen handling, debug info
+ The KDE multiple monitor support is trying be as smart as possible
+ adapting the behavior of it to each use case making the configuration
+ of monitors as simple as plugging them to your computer.
+ .
+ This package contains the debugging symbols.
+
+Package: ksysguard
+Description-md5: 62e310ea1c1e5125c97cefc51d4d9368
+Description-en: process monitor and system statistics
+ System Guard allows you to monitor various statistics about your system.
+ .
+ In addition to monitoring the local system, it can connect to remote systems
+ running the System Guard Daemon, which is in the 'ksysguardd' package.
+ .
+ This package is part of the KDE workspace module.
+
+Package: ksysguardd
+Description-md5: 122697a98af62841562cae3dc42be7e5
+Description-en: System Guard Daemon
+ System Guard Daemon can be installed on a remote system so that the KDE
+ System Guard can connect to and monitor it.
+ .
+ This package is part of the KDE workspace module.
+
+Package: ktouchpadenabler
+Description-md5: e9041bf2161496c62561e0ce8f3207db
+Description-en: kded daemon to enable/disable touchpad
+ ktouchpadenabler is a kded daemon to enable and disable the system's touchpad
+ by listening for XF86XK_TouchpadToggle, XF86XK_TouchpadOn, and
+ XF86XK_TouchpadOff key events.
+ .
+ This package is part of the KDE workspace module.
+
+Package: kubuntu-active-default-settings
+Description-md5: 1f317b04f78374dba7d1e14def0b7f80
+Description-en: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: kubuntu-default-settings
+Description-md5: 1f317b04f78374dba7d1e14def0b7f80
+Description-en: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: kubuntu-low-fat-settings
+Description-md5: 1f317b04f78374dba7d1e14def0b7f80
+Description-en: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: kubuntu-netbook-default-settings
+Description-md5: 1f317b04f78374dba7d1e14def0b7f80
+Description-en: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: kubuntu-settings-active
+Description-md5: b6b9e825b1d841b2a5fc9b11994a23f0
+Description-en: Settings and artwork for the Kubuntu (Active)
+ This package contains settings used by Kubuntu. It also
+ includes artwork and Kubuntu branding.
+ .
+ The settings apply to plasma-active based workspaces.
+
+Package: kubuntu-settings-desktop
+Description-md5: c117d536547fca68e9e608d52e89c5f3
+Description-en: Settings and artwork for the Kubuntu (Desktop)
+ This package contains settings used by Kubuntu. It also
+ includes artwork and Kubuntu branding.
+ .
+ The settings apply to plasma-desktop based workspaces.
+
+Package: kubuntu-settings-low-fat
+Description-md5: ff35f75a9085acdc1319a2b7a324ce62
+Description-en: Settings and artwork for the Kubuntu (Low Fat)
+ This package contains settings used by Kubuntu. It also
+ includes artwork and Kubuntu branding.
+ .
+ Compared to the regular settings, this package decativates a lot of
+ less critical features to reduce overall resource consumption.
+
+Package: kubuntu-settings-netbook
+Description-md5: 18d491bac998cfdc159f6939a3ce53bf
+Description-en: Settings and artwork for the Kubuntu (Netbook)
+ This package contains settings used by Kubuntu. It also
+ includes artwork and Kubuntu branding.
+ .
+ The settings apply to plasma-netbook based workspaces.
+
+Package: ledmon
+Description-md5: 007af04ef82b824ecd544a9e11d5cc0b
+Description-en: Enclosure LED Utilities
+ ledmon and ledctl are userspace tools designed to control storage
+ enclosure LEDs. The user must have root privileges to use these tools.
+ .
+ These tools use the SGPIO and SES-2 protocols to monitor and control LEDs.
+ They been verified to work with Intel(R) storage controllers (i.e. the
+ Intel(R) AHCI controller) and have not been tested with storage controllers of
+ other vendors (especially SAS/SCSI controllers).
+ .
+ For backplane enclosures attached to ISCI controllers, support is limited to
+ Intel(R) Intelligent Backplanes.
+
+Package: libhomerun-dev
+Description-md5: 6f4d17df8dbdb68e748d2ef0d2e87db7
+Description-en: application launcher for KDE Plasma desktop - development files
+ Homerun is a launcher and a desktop containment for KDE Plasma desktop
+ written in QML
+ .
+ This package contains development headers for Homerun
+
+Package: libhomerun0
+Description-md5: 73464aed2ecd214955f3f4e72743e2dc
+Description-en: application launcher for KDE Plasma desktop
+ Homerun is a launcher and a desktop containment for KDE Plasma desktop
+ written in QML
+
+Package: libkdecorations4abi1
+Description-md5: 2a8bf0436979443130bcf2a716b18f45
+Description-en: library used by decorations for the KDE window manager
+ This package contains a library used by decorations of the KDE  window
+ manager.
+ .
+ This package is part of the KDE workspace module.
+
+Package: libkephal4abi1
+Description-md5: 42e384b67d64cd84ad83160919b3d53f
+Description-en: API for easier handling of multihead systems
+ This package contains libraries needed for Kephal's D-Bus API.
+ .
+ This package is part of the KDE workspace module.
+
+Package: libkscreen-dbg
+Description-md5: 6ccb96a289069ff7a8b76c888f925872
+Description-en: library for screen management - debug info
+ The KDE multiple monitor support is trying be as smart as possible
+ adapting the behavior of it to each use case making the configuration
+ of monitors as simple as plugging them to your computer.
+ .
+ This package contains the debugging symbols.
+
+Package: libkscreen-dev
+Description-md5: 5a9972d118274e22de9a4ec2ad3410d1
+Description-en: library for screen management - development files
+ The KDE multiple monitor support is trying be as smart as possible
+ adapting the behavior of it to each use case making the configuration
+ of monitors as simple as plugging them to your computer.
+ .
+ This package contains the files necessary for development.
+
+Package: libkscreen0
+Description-md5: 3cd8fb562d4e37428a482afe3debac1e
+Description-en: library for screen management - shared library
+ The KDE multiple monitor support is trying be as smart as possible
+ adapting the behavior of it to each use case making the configuration
+ of monitors as simple as plugging them to your computer.
+ .
+ This package contains the shared library
+
+Package: libkscreensaver5
+Description-md5: aaf614f78abc74c2c1f6882b627b3cc4
+Description-en: library of the KDE Screensaver system
+ This package contains libraries needed for kscreensaver.
+ .
+ This package is part of the KDE workspace module.
+
+Package: libksgrd4
+Description-md5: 341d7843bf1040095415598e0553fc28
+Description-en: library for ksysguard
+ This package contains the library needed for ksysguard, the KDE process
+ monitor and system statistics application, and for applications and Plasma
+ data engines which want to interface with ksysguardd.
+ .
+ This package is part of the KDE workspace module.
+
+Package: libksignalplotter4
+Description-md5: 19bee40dc19e4ba42d9afbec87708309
+Description-en: KSignalPlotter widget
+ This library contains the KSignalPlotter widget, which is a widget that
+ draws a real time graph of data that updates continually.
+ .
+ This package is part of the KDE workspace module.
+
+Package: libkwinactiveeffects1abi4
+Description-md5: 1bf66d172159734bee8dc24e128889fe
+Description-en: library used by effects for the KDE window manager Active
+ This package contains a library used by effects for the KDE window manager
+ Active.
+ .
+ This package is part of the KDE workspace module.
+
+Package: libkwinactiveglesutils1
+Description-md5: be1c1e604b3bb7b6e267d2cf6d70c08d
+Description-en: library used by accelleration for the KDE window manager Active
+ This package contains a library used by accellaration for the KDE window
+ manager Active. This is for the KWin version which uses OpenGLES.
+ .
+ This package is part of the KDE workspace module.
+
+Package: libkwinactiveglutils1abi1
+Description-md5: e022aa47d31036be199e116b7c64119c
+Description-en: library used by accellaration for the KDE window manager Active
+ This package contains a library used by accellaration for the KDE window
+ manager Active. This is for the KWin verwsion which uses OpenGL.
+ .
+ This package is part of the KDE workspace module.
+
+Package: libkwinactivenvidiahack4
+Description-md5: 688195129e32d2d461edd42eeaae3a2b
+Description-en: library used by nvidia cards for the KDE window manager
+ This package contains a library used by nvidia cards for the KDE window
+ manager Active.
+ .
+ This package is part of the KDE workspace module.
+
+Package: libkwineffects1abi4
+Description-md5: 226fe8b1fd095d6dd78c8f8fe31f2153
+Description-en: library used by effects for the KDE window manager
+ This package contains a library used by effects for the KDE window manager.
+ .
+ This package is part of the KDE workspace module.
+
+Package: libkwinglesutils1
+Description-md5: 02fb36e466801cfb9ece05f4c1055cfd
+Description-en: library used by accellaration for the KDE window manager
+ This package contains a library used by accellaration for the KDE window
+ manager. This is for the KWin version which uses OpenGLES.
+ .
+ This package is part of the KDE workspace module.
+
+Package: libkwinglutils1abi1
+Description-md5: f68759abf9ae3aff7fc5e637a6c96217
+Description-en: library used by accellaration for the KDE window manager
+ This package contains a library used by accellaration for the KDE window
+ manager. This is for the KWin verwsion which uses OpenGL.
+ .
+ This package is part of the KDE workspace module.
+
+Package: libkwinnvidiahack4
+Description-md5: 8b389f90065cab8f8df15161f406261b
+Description-en: library used by nvidia cards for the KDE window manager
+ This package contains a library used by nvidia cards for the KDE window
+ manager.
+ .
+ This package is part of the KDE workspace module.
+
+Package: libkworkspace4abi2
+Description-md5: a873721ae6f0b26921ac57d6e8a69dbc
+Description-en: library for the kdebase workspace
+ This package contains libraries needed for the kdebase workspace.
+ .
+ This package is part of the KDE workspace module.
+
+Package: liblsofui4
+Description-md5: 2e54b6fd63d0ce17400d6716824f6073
+Description-en: library for ksysguard based priority scheduling
+ This package contains libraries needed for ksysguard based scheduling
+ priority of a process.
+ .
+ This package is part of the KDE workspace module.
+
+Package: liblxc0
+Description-md5: d757397b1a93a5bea5c72032f3ef485d
+Description-en: Linux Containers userspace tools (library)
+ Containers are insulated areas inside a system, which have their own namespace
+ for filesystem, network, PID, IPC, CPU and memory allocation and which can be
+ created using the Control Group and Namespace features included in the Linux
+ kernel.
+ .
+ This package contains the libraries.
+
+Package: libmuonprivate1
+Description-md5: c0a1b42a6c8a1d6ac2363a6d3a141aa3
+Description-en: Runtime files for the Muon package management suite
+ The Muon package management suite is a collection of package management
+ applications built on the KDE platform.
+ .
+ This package contains runtime libraries
+
+Package: libmysqld-pic
+Description-md5: a6e7a6d26021d6ef468e70ec4ac81167
+Description-en: MySQL database development files
+ MySQL is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package includes the -fPIC version of the embedded server library.
+
+Package: libpam-systemd
+Description-md5: edcf62758ab0554992770cd6ee003898
+Description-en: system and service manager - PAM module
+ systemd is a replacement for sysvinit.  It is dependency-based and
+ able to read the LSB init script headers in addition to parsing rcN.d
+ links as hints.
+ .
+ It also provides process supervision using cgroups and the ability to
+ not only depend on other init script being started, but also
+ availability of a given mount point or dbus service.
+ .
+ This package contains the PAM module which registers user sessions in
+ the systemd control group hierarchy
+
+Package: libplasma-geolocation-interface4
+Description-md5: 9e720109f34f7d14c291b312f7421faf
+Description-en: library for the Plasma geolocation
+ This package contains libraries needed for the Plasma geolocation.
+ .
+ This package is part of the KDE workspace module.
+
+Package: libplasmaclock4abi3
+Description-md5: c8fa9b36e12a32611c7ea9135cd6cbb6
+Description-en: library for Plasma clocks
+ This package contains libraries needed for Plasma clocks.
+ .
+ This package is part of the KDE workspace module.
+
+Package: libplasmagenericshell4
+Description-md5: ed74af5c4c515fdc8670312eec627339
+Description-en: shared elements for all the plasma shells
+ This library contains elements shared by the plasma desktop shell,
+ the plasma netbook shell and the plasma screensaver overlay.
+ .
+ This package is part of the KDE workspace module.
+
+Package: libprocesscore4abi1
+Description-md5: 6e705d4cec4b60ad924e968ddaf568dd
+Description-en: library for ksysguard based process view
+ This package contains libraries needed for ksysguard based process view.
+ .
+ This package is part of the KDE workspace module.
+
+Package: libprocessui4a
+Description-md5: 75433a9b96fe7d0a471ec8283a60861b
+Description-en: library for ksysguard process user interface
+ This package contains libraries needed for ksysguard process user interface.
+ .
+ This package is part of the KDE workspace module.
+
+Package: libsolidcontrol4abi2
+Description-md5: 775ce00273b9e03bbdcfb2abaca84cb8
+Description-en: library for Solid based network management
+ This package contains libraries needed for Solid based network management.
+ .
+ This package is part of the KDE workspace module.
+
+Package: libsolidcontrolifaces4abi2
+Description-md5: f91ce7aa5a2345b3391699d8de2154bc
+Description-en: library for Solid based network interface management
+ This package contains libraries needed for Solid based network interface
+ management.
+ .
+ This package is part of the KDE workspace module.
+
+Package: libtaskmanager4abi3
+Description-md5: d758f8ed1b6e11e99bcc7737bf8ad28a
+Description-en: library which provides task management facilities
+ This package contains libraries which provide task management facilities.
+ .
+ This package is part of the KDE workspace module.
+
+Package: libtiff-opengl
+Description-md5: 8b1debea0e0eac5de9dc7eb9a32524a2
+Description-en: TIFF manipulation and conversion tools
+ libtiff is a library providing support for the Tag Image File Format
+ (TIFF), a widely used format for storing image data.  This package
+ contains libtiff tools that depend upon opengl.  It complements the
+ libtiff-tools package, which contains the libtiff tools that don't
+ depend upon opengl.
+
+Package: libwagon2-java
+Description-md5: 45ebdc178610751f4a178d4ce734b5d2
+Description-en: resources' transport abstraction that is used in Maven
+ The Wagon project defines a simple API for transferring resources
+ (artifacts) to and from repositories. The word repository is used in this
+ context as it is commonly used in Maven and means a storage of artifacts.
+ It is also used to deploy the Maven generated site to a server.
+ .
+ Wagon defines a unified API, and it currently has the following providers:
+  * File
+  * HTTP
+  * HTTP lightweight
+  * FTP
+  * SSH/SCP
+  * WebDAV
+  * SCM (in progress)
+
+Package: libweather-ion6
+Description-md5: 95b9557720a0eb548693436f843a7b0f
+Description-en: library which provides an interface for weather information services
+ This package contains the library used to implement new ions (i.e. information
+ fetching plugins) for the Plasma weather engine.
+ .
+ This package is part of the KDE workspace module.
+
+Package: linux-headers-3.8.0-22-lowlatency
+Description-md5: 684d3338ec1a5cb1a3208923bf45f659
+Description-en: Linux kernel headers for version 3.8.0 on x86/x86_64
+ This package provides kernel header files for version 3.8.0 on
+ x86/x86_64.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-3.8.0-22/debian.README.gz for details.
+
+Package: linux-headers-lowlatency
+Description-md5: b28bf5c7c758bfbbbd15e31ed4c78ed6
+Description-en: lowlatency Linux kernel headers
+ This package will always depend on the latest lowlatency kernel headers
+ available.
+
+Package: linux-image-3.8.0-22-lowlatency
+Description-md5: 11b5789bd5292a8b16f63a1373a1622c
+Description-en: Linux kernel image for version 3.8.0 on x86/x86_64
+ This package contains the Linux kernel image for version 3.8.0 on
+ x86/x86_64.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Lowlatency processors.
+ .
+ Geared toward lowlatency desktop systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-lowlatency meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-lowlatency
+Description-md5: 81c6fc6425f7566aa856ff1be6d8b320
+Description-en: lowlatency Linux kernel image
+ This package will always depend on the latest lowlatency kernel image
+ available.
+
+Package: linux-lowlatency
+Description-md5: b52e19b8044c25aff9dce108f24e2ee9
+Description-en: Complete lowlatency Linux kernel
+ This package will always depend on the latest complete lowlatency Linux kernel
+ available.
+
+Package: linux-lowlatency-headers-3.8.0-22
+Description-md5: ddb46938f931498da6a750c7dcec761b
+Description-en: Header files related to Linux kernel version 3.8.0
+ This package provides kernel header files for version 3.8.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-lowlatency-headers-3.8.0-22/debian.README.gz for details
+
+Package: lxc
+Description-md5: 4ece0dffd153c29e95ffdb89f8238dfc
+Description-en: Linux Containers userspace tools
+ Containers are insulated areas inside a system, which have their own namespace
+ for filesystem, network, PID, IPC, CPU and memory allocation and which can be
+ created using the Control Group and Namespace features included in the Linux
+ kernel.
+ .
+ This package provides the lxc-* tools, which can be used to start a single
+ daemon in a container, or to boot an entire "containerized" system, and to
+ manage and debug your containers.
+
+Package: lxc-dbg
+Description-md5: 9ec9c23e26368a478bce79545cfbb782
+Description-en: Linux Containers userspace tools (debug)
+ Containers are insulated areas inside a system, which have their own namespace
+ for filesystem, network, PID, IPC, CPU and memory allocation and which can be
+ created using the Control Group and Namespace features included in the Linux
+ kernel.
+ .
+ This package contains the debugging symbols.
+
+Package: lxc-dev
+Description-md5: c719178b7e79ce1ed39519707c589961
+Description-en: Linux Containers userspace tools (development)
+ Containers are insulated areas inside a system, which have their own namespace
+ for filesystem, network, PID, IPC, CPU and memory allocation and which can be
+ created using the Control Group and Namespace features included in the Linux
+ kernel.
+ .
+ This package contains the development files.
+
+Package: lxc-templates
+Description-md5: b7b10bcdeb3296f4cf9e69a256d87261
+Description-en: Linux Containers userspace tools (development)
+ Containers are insulated areas inside a system, which have their own namespace
+ for filesystem, network, PID, IPC, CPU and memory allocation and which can be
+ created using the Control Group and Namespace features included in the Linux
+ kernel.
+ .
+ This package contains the templates.
+
+Package: mcp-account-manager-goa
+Description-md5: 6e08dbca405d19327c7550aed2983389
+Description-en: GNOME multi-protocol chat and call client (GOA plugin)
+ Instant messaging program supporting text, voice, video, file transfers
+ and inter-application communication over many different protocols,
+ including: AIM, MSN, Google Talk (Jabber/XMPP), Facebook, Yahoo!, Salut,
+ Gadu-Gadu, Groupwise, ICQ and QQ.
+ .
+ This package contains GNOME Online Accounts plugin for Mission Control.
+
+Package: muon
+Description-md5: d0764060b8494cbe357e5b35a8a849b8
+Description-en: package manager for KDE
+ Muon is a graphical package manager for KDE.
+ .
+ Features of note include:
+  * A powerful, yet intuitive interface
+  * Fast, accurate package search using the apt-xapian index and the Synaptic
+    search algorithm
+  * Support for filtering packages by status and category
+  * Media change support
+  * Support for configuring packages through the debconf system
+  * Warn about/disallow the installation of untrusted packages, depending on
+    APT settings
+  * Uses Polkit for running privileged actions for enhanced security,
+    convenience, and desktop integration
+  * Power management suspension during package downloads, installations and
+    removals
+  * Support for download the latest changelog of a package
+  * Package screenshots
+
+Package: muon-dbg
+Description-md5: 83ab654a809e56129d4ea5474bb3ed33
+Description-en: Muon debugging symbols
+ This package contains debugging symbols for Muon.
+ When Muon crashes, in most cases this package is
+ needed to get a backtrace that is useful for developers. If you have
+ experienced a Muon crash without this package
+ installed, please install it, try to reproduce the problem and fill a bug
+ report with a new backtrace attached.
+
+Package: muon-discover
+Description-md5: 3f2baea144676a2404459b5d3dac09ea
+Description-en: Utility for browsing, installing, and removing applications
+ Muon Discover will help you browse through the huge applications library you
+ have available and help you find the applications you're looking for.
+ .
+ To install or remove software using the Center, you need administrator
+ access on the computer.
+
+Package: muon-installer
+Description-md5: 492a6b75e21703ec48e232f0d1648d44
+Description-en: Utility for browsing, installing, and removing applications
+ The Muon Software Center lets you browse and install thousands of
+ applications available for Ubuntu. You can view available
+ applications by category, or search quickly by name or description.
+ You can also examine the applications already installed, and remove
+ those you no longer need.
+ .
+ To install or remove software using the Center, you need administrator
+ access on the computer.
+
+Package: muon-notifier
+Description-md5: 8908b0c80c694fd60989543a956db1ed
+Description-en: update notifier for KDE
+ The Muon Notifier is an update notification daemon for KDE. It uses the KDE
+ Daemon frame (KDED) framework to present the user with update notifications,
+ providing an opportunity to launch the Muon Updater to deal with these
+ updates.
+
+Package: muon-updater
+Description-md5: 9d647e68762ae25944f45e89608f823a
+Description-en: update manager for KDE
+ Muon Updater is a graphical update manager for KDE. It is part of the Muon
+ family of software and provides an interface similar to that of Muon.
+
+Package: mysql-source-5.5
+Description-md5: 9bacc0267862ea6c169da6cfe76d3aef
+Description-en: MySQL source
+ MySQL is a fast, stable, and true multi-user, multi-threaded SQL database
+ server.  SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package includes the MySQL source code as configured before building.
+
+Package: mysql-testsuite
+Description-md5: a3c0fd28b808fa1a0d62a5bfb5ba8923
+Description-en: MySQL testsuite
+ This is an empty package that depends on the current "best" version of
+ mysql-testsuite (currently mysql-testsuite-5.5), as determined by the
+ MySQL maintainers.  Install this package if in doubt about which MySQL
+ version you want, as this is the one we consider to be in the best shape.
+
+Package: mysql-testsuite-5.5
+Description-md5: 3e88fc28903eb44dd0b2a0eb9f813181
+Description-en: MySQL testsuite
+ MySQL is a fast, stable, and true multi-user, multi-threaded SQL database
+ server.  SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package includes the MySQL testsuite.
+
+Package: nginx
+Description-md5: 19a4ea43e33eae4a46abf8a78966deb5
+Description-en: small, powerful, scalable web/proxy server
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This is a dependency package to install either nginx-full (by default) or
+  nginx-light.
+
+Package: nginx-common
+Description-md5: 9e23931d84d07adbee5412aefdad8a90
+Description-en: small, powerful, scalable web/proxy server - common files
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package contains base configuration files used by all versions of
+ nginx.
+
+Package: nginx-doc
+Description-md5: fd841a2b53e39ae89ec191f0e1278a05
+Description-en: small, powerful, scalable web/proxy server - documentation
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides extra documentation to help unleash the power of Nginx.
+
+Package: nginx-extras
+Description-md5: 5b3494bcc5c46937a8b11b44469c77b3
+Description-en: nginx web/proxy server (extended version)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides a version of nginx with the standard modules, plus
+ extra features and modules such as the Perl module, which allows the
+ addition of Perl in configuration files.
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Browser,
+ Charset, Empty GIF, FastCGI, Geo, Gzip, Headers, Index, Limit Requests,
+ Limit Zone, Log, Map, Memcached, Proxy, Referer, Rewrite, SCGI,
+ Split Clients, SSI, Upstream, User ID, UWSGI.
+ .
+ OPTIONAL HTTP MODULES: Addition, Debug, Embedded Perl, FLV, GeoIP,
+ Gzip Precompression, Image Filter, IPv6, MP4, Random Index, Real IP,
+ Secure Link, SSL, Stub Status, Substitution, WebDAV, XSLT.
+ .
+ MAIL MODULES: Mail Core, IMAP, POP3, SMTP, SSL.
+ .
+ THIRD PARTY MODULES: Auth PAM, Chunkin, DAV Ext, Echo, Embedded Lua,
+ HttpHeadersMore, http push, Nginx Development Kit, Upload module,
+ Upload Progress, Upstream Fair Queue.
+
+Package: nginx-extras-dbg
+Description-md5: dfe40e4b526a7896997294d525c6e22f
+Description-en: nginx web/proxy server (extended version) - debugging symbols
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides debugging symbols for nginx-extras, to assist in
+ debugging issues that you may find. It should not be required for normal
+ operation.
+
+Package: nginx-full
+Description-md5: b334eec6202adf5e9045cc6066a082d1
+Description-en: nginx web/proxy server (standard version)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides a version of nginx with the complete set of
+ standard modules included (but omitting some of those included in
+ nginx-extra).
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Browser,
+ Charset, Empty GIF, FastCGI, Geo, Gzip, Headers, Index, Limit Requests,
+ Limit Zone, Log, Map, Memcached, Proxy, Referer, Rewrite, SCGI,
+ Split Clients, SSI, Upstream, User ID, UWSGI.
+ .
+ OPTIONAL HTTP MODULES: Addition, Debug, GeoIP, Gzip Precompression,
+ HTTP Sub, Image Filter, IPv6, Real IP, SSL, Stub Status, Substitution,
+ WebDAV, XSLT.
+ .
+ MAIL MODULES: Mail Core, IMAP, POP3, SMTP, SSL.
+ .
+ THIRD PARTY MODULES: Auth PAM, DAV Ext, Echo, Upstream Fair Queue.
+
+Package: nginx-full-dbg
+Description-md5: 4fc48d7c2fc05abcfaf9ba94a20baab2
+Description-en: nginx web/proxy server (standard version) - debugging symbols
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides debugging symbols for nginx-full, to assist in debugging
+ issues that you may find. It should not be required for normal operation.
+
+Package: nginx-light
+Description-md5: 58688ce5740ab964dd765536c7dab1be
+Description-en: nginx web/proxy server (basic version)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides a very light version of nginx with only the
+ minimal set of features and modules.
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Charset,
+ Empty GIF, FastCGI, Gzip, Headers, Index, Log, Map, Proxy, Rewrite, Upstream.
+ .
+ OPTIONAL HTTP MODULES: Gzip Precompression, IPv6, SSL, Stub Status.
+ .
+ THIRD PARTY MODULES: Echo.
+
+Package: nginx-light-dbg
+Description-md5: edb5bef4d4f6057eb92dd3469c513461
+Description-en: nginx web/proxy server (basic version) - debugging symbols
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides debugging symbols for nginx-light, to assist in
+ debugging issues that you may find. It should not be required for normal
+ operation.
+
+Package: nginx-naxsi
+Description-md5: d7d02f3ebd5773120a7bcfd6ff21349d
+Description-en: nginx web/proxy server (version with naxsi)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides a version of nginx with the basic modules, plus
+ the naxsi Web Application Firewall module.
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Browser,
+ Charset, Core, Empty GIF, FastCGI, Geo, Gzip, Headers, Index,
+ Limit Requests, Limit Zone, Log, Map, Memcached, Proxy, Referer,
+ Rewrite, Split Clients, SSI, Upstream, User ID.
+ .
+ OPTIONAL HTTP MODULES: IPv6, Real IP, SSL, Stub Status.
+ .
+ THIRD PARTY MODULES: Naxsi, Cache Purge, Upstream Fair.
+
+Package: nginx-naxsi-dbg
+Description-md5: 41b4fdf0b0c301cbe552d080920cce9e
+Description-en: nginx web/proxy server (version with naxsi) - debugging symbols
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides debugging symbols for nginx-naxsi, to assist in
+ debugging issues that you may find. It should not be required for normal
+ operation.
+
+Package: nginx-naxsi-ui
+Description-md5: 76b310dfbfdb9a001aa49435bb2e29b1
+Description-en: nginx web/proxy server - naxsi configuration front-end
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides the autolearning daemon and web user interface for
+ nginx's naxsi module.
+ .
+ It includes an interceptor (listening on TCP port 8080), which monitors
+ HTTP requests from naxsi, and an extractor (running on TCP port 8081),
+ which reads the database and prints reports about blocked requests.
+
+Package: nova-ajax-console-proxy
+Description-md5: 571664bc0008e44d5df6784807a6ecf0
+Description-en: OpenStack Compute - AJAX console proxy - transitional package
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This package used to provide the AJAX proxy, which is now gone.
+
+Package: nova-api-ec2
+Description-md5: 0e9ce8f6a74cac1c566caae9b960a494
+Description-en: OpenStack Compute - EC2 API frontend
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This package provides the EC2 API.
+
+Package: nova-api-metadata
+Description-md5: ae9cd778d7894b1a89d138fe3587a7da
+Description-en: OpenStack Compute - metadata API frontend
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ This package provides the metadata API backend for guest VMs.
+
+Package: nova-api-os-compute
+Description-md5: 32fe3c17415adfec970c371f4bdff9b6
+Description-en: OpenStack Compute - OpenStack Compute API frontend
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ This package provides the OpenStack Compute API frontend.
+
+Package: nova-api-os-volume
+Description-md5: f8cc143de25afd88a62e482808826104
+Description-en: OpenStack Compute - OpenStack Volume API frontend
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ This is a dummy transitional package that can be removed after upgrade.
+
+Package: nova-baremetal
+Description-md5: dd89bf0e5966b9bacefdc658ed860ddc
+Description-en: Openstack Compute - baremetal virt
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This is the baremetal virt component.
+
+Package: nova-cells
+Description-md5: a630a337cf802c4d29d91c1a6283fac5
+Description-en: Openstack Compute - cells
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This is the Nova cells component.
+
+Package: nova-compute-qemu
+Description-md5: 46acbb1c9b077142e1930821f7a05aed
+Description-en: OpenStack Compute - compute node (QEmu)
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ Install this package on your compute nodes if you're using QEmu.
+
+Package: nova-compute-uml
+Description-md5: 2e1f1302cc5d8396d81672f231d5bb7c
+Description-en: OpenStack Compute - compute node (UserModeLinux)
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ Install this package on your compute nodes if you're using UserModeLinux.
+
+Package: nova-compute-xcp
+Description-md5: 6fd4957314ca7de30f757939193076b4
+Description-en: OpenStack Compute - compute node (XCP)
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ Install this dependency package on your compute nodes if you're using xcp
+
+Package: nova-compute-xen
+Description-md5: 8268c70ad765a6427d184e1c58a4472c
+Description-en: OpenStack Compute - compute node (Xen)
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ Install this package on your compute nodes if you're using Xen.
+
+Package: nova-conductor
+Description-md5: 0b6894258f8fbaad9a8f7daf4cae4456
+Description-en: OpenStack Compute - conductor service
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This is the Nova conductor service component
+
+Package: nova-console
+Description-md5: 095d3c39f30a44dd0768d8a869e4fa67
+Description-en: OpenStack Compute - Console
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This package provides the console server.  This enables the use of consoles
+ to be used along with XVP and XenServer.  It is a publically reachable
+ component which proxies access to VNCs running on compute nodes.
+
+Package: nova-consoleauth
+Description-md5: 471ffbc52e68b19718599b8e938708d2
+Description-en: OpenStack Compute - Console Authenticator
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This package provides the authentication service for nova-console.  It grants
+ user requests for console access based on tokens in the identity service and
+ allows access to virtual consoles via a browser.
+
+Package: nova-novncproxy
+Description-md5: f71a025ccadd58aa7f26e66e99818fa8
+Description-en: OpenStack Compute - NoVNC proxy
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This package provides the VNC proxy. It is a publically reachable
+ component which proxies access to VNCs running on compute nodes.
+
+Package: nova-spiceproxy
+Description-md5: ea77a7b8b1a9e5a1953479bb5b89e219
+Description-en: OpenStack Compute - spice html5 proxy
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This package provides the spice proxy. It is a publically reachable
+ component which proxies access to qemu-space running on compute nodes
+
+Package: nova-xcp-network
+Description-md5: c098f07b818aec1687bd6347b404e5b5
+Description-en: OpenStack Compute network plugin for the Xen Cloud Platform
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This package is to be installed on the server where you have installed your
+ master Xen API server (see the xcp-xapi package), so that nova can remotely
+ configure the network of your XCP servers.
+
+Package: nova-xcp-plugins
+Description-md5: 77e27c2a30cc03fc385be9dd5a21fa09
+Description-en: OpenStack Compute plugin for the Xen Cloud Platform
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This package is to be installed on the server where you have installed your
+ master Xen API server (see the xcp-xapi package), so that nova-compute can
+ remotely control your XCP nodes and start VM instances.
+
+Package: nova-xvpvncproxy
+Description-md5: b3739b7ab9595f5c68b1c0e141861b74
+Description-en: OpenStack Compute - XVP VNC proxy
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This package provides the VNC proxy. It is a publically reachable
+ component which proxies access to VNCs running on compute nodes.
+
+Package: oem-config-kde
+Description-md5: 97a76af3c01b8626949160b1d8f526ba
+Description-en: KDE frontend for end-user post-OEM-install configuration
+ The oem-config script re-asks a number of questions that are normally asked
+ during installation, and reconfigures the system accordingly. This allows a
+ vendor to install a skeleton system, clone it onto a large number of
+ machines, and ship it to end users, while still allowing end users to set
+ up their own username and password, language, timezone, and so on.
+ .
+ This is a KDE frontend to oem-config.
+
+Package: oem-config-remaster
+Description-md5: b888546fc6f218e1af4c6b8e46901fd5
+Description-en: Remaster a CD with additional oem-config functionality
+ This script remasters a CD with additional packages and optional oem-config
+ preseed data.
+
+Package: openjdk-6-dbg
+Description-md5: 62cbbd2d3e6bc94279f18db4f735142b
+Description-en: Java runtime based on OpenJDK (debugging symbols)
+ OpenJDK is a development environment for building applications,
+ applets, and components using the Java programming language.
+ .
+ This package contains the debugging symbols.
+ .
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: openjdk-6-demo
+Description-md5: c2a5624aa60e4de3025a249886fa82d7
+Description-en: Java runtime based on OpenJDK (demos and examples)
+ OpenJDK Java runtime
+ .
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: openjdk-6-doc
+Description-md5: c1aebd5e8058a6cce0d5690571eddb7b
+Description-en: OpenJDK Development Kit (JDK) documentation
+ OpenJDK is a development environment for building applications,
+ applets, and components using the Java programming language.
+ .
+ This package contains the API documentation.
+ .
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: openjdk-6-jdk
+Description-md5: eaff50443f15582a8beb0901034b62cf
+Description-en: OpenJDK Development Kit (JDK)
+ OpenJDK is a development environment for building applications,
+ applets, and components using the Java programming language.
+ .
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: openjdk-6-jre
+Description-md5: 914d96407295e5ec532d2032973e96af
+Description-en: OpenJDK Java runtime, using Hotspot JIT
+ Full Java runtime environment - needed for executing Java GUI and Webstart
+ programs. Using Hotspot JIT.
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: openjdk-6-jre-headless
+Description-md5: c5ec89b1a6bac9cd86f6e61756d18fb9
+Description-en: OpenJDK Java runtime, using Hotspot JIT (headless)
+ Minimal Java runtime - needed for executing non GUI Java programs.
+ Using Hotspot JIT.
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: openjdk-6-jre-lib
+Description-md5: a996626aed77fd374bd7291146f8d6ee
+Description-en: OpenJDK Java runtime (architecture independent libraries)
+ OpenJDK Java runtime, using Hotspot JIT.
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: openjdk-6-jre-zero
+Description-md5: ca0db1fb38a237b982a1de5e6d632720
+Description-en: Alternative JVM for OpenJDK, using Zero/Shark
+ The package provides an alternative runtime using the Zero VM and the
+ Shark Just In Time Compiler (JIT).  Built on architectures in addition
+ to the Hotspot VM as a debugging aid for those architectures which don't
+ have a Hotspot VM.
+ .
+ The VM is started with the option `-zero'. See the README.Debian for details.
+
+Package: openjdk-6-source
+Description-md5: 328263bb6fbf81f04f5d459d67244ea0
+Description-en: OpenJDK Development Kit (JDK) source files
+ OpenJDK is a development environment for building applications,
+ applets, and components using the Java programming language.
+ .
+ This package contains the Java programming language source files
+ (src.zip) for all classes that make up the Java core API.
+ .
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: plasma-dataengines-workspace
+Description-md5: da5f0488f0f91f2bd91425fbdd1ddae9
+Description-en: KDE Plasma data engines
+ This package contains standard Plasma data engines shipped in KDE Plasma
+ workspace. These engines are needed by the standard KDE base
+ workspace Plasma widgets, but they may be useful for any other Plasma widget
+ too.
+ .
+ This package is part of the KDE workspace module.
+
+Package: plasma-desktop
+Description-md5: 1ac351b9207b4274bb2fd6e7992ad957
+Description-en: KDE Plasma workspace for desktop and laptop computers
+ Provides the environment for running and managing applications and integrating
+ interaction of applications. It is designed as generic environment for all
+ kinds of desktop applications, not only applications built on the KDE Platform.
+ It integrates best with applications following the standards used by the KDE
+ Platform.
+ .
+ This package is part of the KDE workspace module.
+
+Package: plasma-netbook
+Description-md5: 30517752a0583ecc69212f2983cfe76c
+Description-en: KDE Plasma workspace for netbook computers
+ Provides the environment for running and managing applications and integrating
+ interaction of applications. It is designed as generic environment for all
+ kinds of applications in a netbook environment, not only applications built on
+ the KDE Platform. It integrates best with applications following the standards
+ used by the KDE Platform.
+ .
+ This package is part of the KDE workspace module.
+
+Package: plasma-scriptengine-python
+Description-md5: a23e91aedfe72b18922bbac255d51b31
+Description-en: Python script engine for Plasma
+ This package provides the Python script engine for Plasma. You have to install
+ it if you want to use Plasma widgets and data engines written in Python.
+ .
+ This package is part of the KDE workspace module.
+
+Package: plasma-scriptengine-ruby
+Description-md5: ef1b2912878ef04ed8182526303603db
+Description-en: Ruby script engine for Plasma
+ This package provides the Ruby script engine for Plasma. You have to install it
+ if you want to use Plasma widgets and data engines written in Ruby.
+ .
+ This package is part of the KDE workspace module.
+
+Package: plasma-scriptengine-webkit
+Description-md5: 5de00ccb868257aed0c515ba3aa77a9e
+Description-en: Web and Mac OS X dashboard widget support for Plasma
+ This package provides the WebKit script engine for Plasma which adds support
+ for the webpage widgets written in HTML and JavaScript and for the Apple
+ Mac OS X dashboard widgets. You have to install this package if you want to be
+ able to load these widgets in your Plasma shell.
+ .
+ This package is part of the KDE workspace module.
+
+Package: plasma-scriptengines
+Description-md5: 68687ddc136ff4942bbe4aa13bbe039d
+Description-en: metapackage to install all Plasma script engines
+ This metapackage depends on all Plasma script engines which kde-workspace
+ module provides and suggests script engines from other official KDE modules.
+ .
+ This package is part of the KDE workspace module.
+
+Package: plasma-widget-homerun
+Description-md5: 739626d8e68361b56217a616231c33a1
+Description-en: application launcher for KDE Plasma desktop - development files
+ Homerun is a launcher and a desktop containment for KDE Plasma desktop
+ written in QML
+ .
+ This package contains the actual Plasma widget
+
+Package: plasma-widgets-workspace
+Description-md5: dbe16b361b9858c72c6f9a4069a63dd8
+Description-en: plasma widgets and containments for the KDE Plasma Workspace
+ This package contains standard Plasma widgets and containments shipped in the
+ KDE base workspace module. They provide such basic desktop functionality as
+ the panel, task manager, application laucher, clock and more. The default KDE
+ Workspace is a combination of these visual components.
+ .
+ This package also includes the default animator used by the main KDE Plasma
+ Desktop shell.
+ .
+ This package is part of the KDE workspace module.
+
+Package: plymouth-theme-fade-in
+Description-md5: efc0a4e57cc60e6f31a0cfc518d0b355
+Description-en: graphical boot animation and logger - fade-in theme
+ Plymouth is an application that runs very early in the boot process
+ (even before the root filesystem is mounted!) that provides a graphical
+ boot animation while the boot process happens in the background.
+ .
+ This package contains the fade-in theme that features a centred logo
+ which fades in and out while stars twinkle around it.
+ .
+ These theme may not correctly display messages from filesystem
+ decryption, checking or error handling.
+
+Package: plymouth-theme-glow
+Description-md5: fd83f5b3b39eb37bdb9b263ddd537b92
+Description-en: graphical boot animation and logger - glow theme
+ Plymouth is an application that runs very early in the boot process
+ (even before the root filesystem is mounted!) that provides a graphical
+ boot animation while the boot process happens in the background.
+ .
+ This package contains the glow theme that features a corporate-looking
+ pie chart for boot progress followed by a glowing logo once boot finishes.
+ .
+ These theme may not correctly display messages from filesystem
+ decryption, checking or error handling.
+
+Package: plymouth-theme-kubuntu-logo
+Description-md5: 08f9fd33f3dc501ae15329be51e9c9a4
+Description-en: graphical boot animation and logger - kubuntu-logo theme
+ Plymouth is an application that runs very early in the boot process
+ (even before the root filesystem is mounted!) that provides a graphical
+ boot animation while the boot process happens in the background.
+ .
+ This package contains the default kubuntu-logo theme.
+
+Package: plymouth-theme-kubuntu-text
+Description-md5: 4cc78ed25bb690bddff9000d2eb1f51b
+Description-en: graphical boot animation and logger - kubuntu-text theme
+ Plymouth is an application that runs very early in the boot process
+ (even before the root filesystem is mounted!) that provides a graphical
+ boot animation while the boot process happens in the background.
+ .
+ This package contains the default kubuntu-text theme used when no
+ support for a graphical theme is found on your system.
+
+Package: plymouth-theme-script
+Description-md5: 6ab1e0acb8bfbad08f93b9ef475dfc32
+Description-en: graphical boot animation and logger - script theme
+ Plymouth is an application that runs very early in the boot process
+ (even before the root filesystem is mounted!) that provides a graphical
+ boot animation while the boot process happens in the background.
+ .
+ This package contains the example script theme, useful for theme developers.
+ .
+ These theme may not correctly display messages from filesystem
+ decryption, checking or error handling.
+
+Package: plymouth-theme-solar
+Description-md5: a05050529bca7085989e0f452ac47223
+Description-en: graphical boot animation and logger - solar theme
+ Plymouth is an application that runs very early in the boot process
+ (even before the root filesystem is mounted!) that provides a graphical
+ boot animation while the boot process happens in the background.
+ .
+ This package contains the solar theme that features a violent blue
+ flaring star, and other space-like animations.
+ .
+ These theme may not correctly display messages from filesystem
+ decryption, checking or error handling.
+
+Package: plymouth-theme-spinfinity
+Description-md5: d22e6ece21f0eea458ae7c05edd0a2b2
+Description-en: graphical boot animation and logger - spinfinity theme
+ Plymouth is an application that runs very early in the boot process
+ (even before the root filesystem is mounted!) that provides a graphical
+ boot animation while the boot process happens in the background.
+ .
+ This package contains the spinfinity theme that features a rotating
+ infinity sign beneath the logo.
+ .
+ These theme may not correctly display messages from filesystem
+ decryption, checking or error handling.
+
+Package: plymouth-theme-text
+Description-md5: 70944c5b54f1648dabab835c78a4bf4c
+Description-en: graphical boot animation and logger - text theme
+ Plymouth is an application that runs very early in the boot process
+ (even before the root filesystem is mounted!) that provides a graphical
+ boot animation while the boot process happens in the background.
+ .
+ This package contains the text theme used when no support for a
+ graphical theme is found on your system.
+ .
+ These theme may not correctly display messages from filesystem
+ decryption, checking or error handling.
+
+Package: plymouth-x11
+Description-md5: 9f1a92f7b5eccaeda62ed2595a6135c0
+Description-en: graphical boot animation and logger - X11 interface
+ Plymouth is an application that runs very early in the boot process
+ (even before the root filesystem is mounted!) that provides a graphical
+ boot animation while the boot process happens in the background.
+ .
+ This package contains the X11 renderer, which allows plymouth to interact
+ with running X sessions.
+
+Package: print-manager
+Description-md5: 4b630a1ade570ab8b6653e7afb3a2d85
+Description-en: printer config and monitor tool
+ A printer configuration tool for KDE's System Settings and a Plasma
+ panel applet.
+
+Package: python-systemd
+Description-md5: 5b36e2213f1f81431e26afb7660e6825
+Description-en: python bindings for the systemd journal
+ This package contains Python bindings for the journal submission API.
+
+Package: python3-dns
+Description-md5: bc46a4d62ff67d35816f4e0b0942d158
+Description-en: DNS client module for Python 3
+ This Python 3 module provides an DNS API for looking up DNS entries from
+ within Python 3 modules and applications. This module is a simple,
+ lightweight implementation. It is not as complete as python-dnspython, but is
+ useful for many common applications.
+
+Package: python3-lxc
+Description-md5: ee623a31db200104a7207d9de42b8f04
+Description-en: Linux Containers userspace tools (Python 3.x bindings)
+ Containers are insulated areas inside a system, which have their own namespace
+ for filesystem, network, PID, IPC, CPU and memory allocation and which can be
+ created using the Control Group and Namespace features included in the Linux
+ kernel.
+ .
+ This package contains the Python 3.x bindings.
+
+Package: r8168-dkms
+Description-md5: 4f87c7e9749a3f267a4b9b25f034265a
+Description-en: dkms source for the r8168 network driver
+ r8168 is the Linux device driver released for RealTek RTL8168B/8111B,
+ RTL8168C/8111C, RTL8168CP/8111CP, RTL8168D/8111D, and RTL8168DP/8111DP, and
+ RTK8168E/8111E Gigabit Ethernet controllers with PCI-Express interface.
+ .
+ This driver should only be used for devices not yet supported by the
+ in-kernel driver r8169. Please see the README.Debian for instructions how
+ to report bugs against r8169 that made it necessary to use r8168-dkms.
+ .
+ Installation of the r8168-dkms package will disable the in-kernel r8169
+ module. To re-enable r8169, the r8168-dkms package must be purged.
+ .
+ This package provides the dkms source code for the r8168 kernel modules.
+ Kernel source or headers are required to compile these modules.
+
+Package: s3ql
+Description-md5: 53a3bb30a891b86a7ab639f4eb082b1e
+Description-en: Full-featured file system for online data storage
+ S3QL is a file system that stores all its data online. It supports
+ online storage services like Amazon S3 as well as arbitrary FTP or
+ SFTP servers. It effectively provides you with a hard disk of
+ infinite capacity that can be accessed from any computer with
+ internet access.
+ .
+ S3QL has been designed mainly for backup and archival purposes and
+ many of its features are especially geared towards this. However,
+ since S3QL is providing a standard UNIX file system, it can in
+ principle be used for any other application as well.
+ .
+ S3QL is designed to favor simplicity and elegance over performance
+ and feature-richness. Care has been taken to make the source code as
+ readable and serviceable as possible. Solid error detection and error
+ handling have been included from the very first line, and S3QL comes
+ with extensive automated test cases for all its components.
+
+Package: s3ql-dbg
+Description-md5: fe894f3cfa6d836661acc90f3319151b
+Description-en: Full-featured file system for online data storage (debugging symbols)
+ S3QL is a file system that stores all its data online. It supports
+ online storage services like Amazon S3 as well as arbitrary FTP or
+ SFTP servers. It effectively provides you with a hard disk of
+ infinite capacity that can be accessed from any computer with
+ internet access.
+ .
+ S3QL has been designed mainly for backup and archival purposes and
+ many of its features are especially geared towards this. However,
+ since S3QL is providing a standard UNIX file system, it can in
+ principle be used for any other application as well.
+ .
+ S3QL is designed to favor simplicity and elegance over performance
+ and feature-richness. Care has been taken to make the source code as
+ readable and serviceable as possible. Solid error detection and error
+ handling have been included from the very first line, and S3QL comes
+ with extensive automated test cases for all its components.
+ .
+ This package contains the debugging symbols as well as the extension
+ built for the Python 2 debug interpreter.
+
+Package: systemsettings
+Description-md5: 56b38392ac8e1d316baa674d95fcffe7
+Description-en: System Settings
+ System Settings is an improved user interface for configuring the desktop
+ and other aspects of the system.
+ .
+ This package is part of the KDE workspace module.
+
+Package: thunderbird-mozsymbols
+Description-md5: ac1a6a5ccd00092e19efbf6f6f9538a0
+Description-en: Email, RSS and newsgroup client - Breakpad symbols
+ Thunderbird is a full-featured email, RSS and newsgroup client that makes
+ emailing safer, faster and easier than ever before. It supports different mail
+ accounts (POP, IMAP, Gmail), has a simple mail account setup wizard, one-
+ click address book, tabbed interface, an integrated learning spam filter,
+ advanced search and indexing capabilities, and offers easy organization
+ of mails with tagging and virtual folders. It also features unrivalled
+ extensibility.
+ .
+ This package contains the Firefox symbols in a format expected by Mozilla's
+ Breakpad. Eventually this package should go away and the symbol upload be
+ implemented in soyuz (or other builders that build this package)
+
+Package: tomcat7-user
+Description-md5: f0f735a1a5d3acaabdc873d63b8b405b
+Description-en: Servlet and JSP engine -- tools to create user instances
+ Apache Tomcat implements the Java Servlet and the JavaServer Pages (JSP)
+ specifications from Sun Microsystems, and provides a "pure Java" HTTP web
+ server environment for Java code to run.
+ .
+ This package contains files needed to create a user Tomcat instance.
+ This user Tomcat instance can be started and stopped using the scripts
+ provided in the Tomcat instance directory.
+
+Package: ubiquity-frontend-kde
+Description-md5: 18525a27bf09029b1b67c008f57f3d0b
+Description-en: KDE frontend for Ubiquity live installer
+ This package provides a KDE-based user interface frontend for the Ubiquity
+ live CD installer.
+
+Package: unity-tweak-tool
+Description-md5: 4cff05d22ddf242b4a072071c84dc370
+Description-en: configuration manager for Unity desktop environment
+ Unity Tweak Tool is a settings manager for Ubuntu Unity.
+ It is a handy tool for  both power users as well as novice users
+ and contains  most settings that any user might want to configure.
+ It is simple, fast, well-designed and packed with plenty of useful features
+ relevant to Unity and Compiz.
+
+Package: xen-docs-4.2
+Description-md5: 6cae9b51dadf4d0824b74e2b7ff1077f
+Description-en: Documentation for Xen
+ This package contains all the large documentation files for Xen.  This
+ includes a description interface (both the API, and a nice explanation of
+ how XEN works).
+
+Package: xen-hypervisor-4.2-amd64
+Description-md5: 30d22c56057f827a5cc3329925199782
+Description-en: Xen Hypervisor on AMD64
+ The hypervisor is the "core" for XEN itself.  It gets booted by the boot
+ loader and controls cpu and memory, sharing them between your
+ administrative domain (Domain 0) and the virtual guest systems.
+ .
+ In order to boot a XEN system along with this package you also need a
+ kernel specifically crafted to work as the Domain 0, mediating hardware
+ access for XEN itself.
+
+Package: xen-system-amd64
+Description-md5: f9a399da9b1f85d66b7c24b24d068efc
+Description-en: Xen System on AMD64 (meta-package)
+ This package depends on the latest Xen hypervisor for use on AMD64 and the
+ Xen utils.
+
+Package: xen-utils-4.2
+Description-md5: bd953dd4214727fe5759b05287bffcbe
+Description-en: XEN administrative tools
+ The userspace tools to manage a system virtualized through the XEN virtual
+ machine monitor.
+
+Package: xen-utils-common
+Description-md5: 8af52ba7dfa8ab5d2f2013a4e86ceb1e
+Description-en: Xen administrative tools - common files
+ The userspace tools to manage a system virtualized through the Xen virtual
+ machine monitor.
+
+Package: xenstore-utils
+Description-md5: cfed1da00b837e11d5cbc87fffd781d4
+Description-en: Xenstore utilities for Xen
+ This package contains the Xenstore utilities.
+
+Package: xmp
+Description-md5: d567c319899b63601bd152bacfda1271
+Description-en: module player supporting AWE32, GUS, and software-mixing
+ xmp is a multi-format module player for UNIX. In machines with GUS or
+ AWE cards xmp takes advantage of the OSS sequencer to play modules with
+ virtually no system load. Using software mixing, xmp plays at sampling
+ rates up to 48 kHz in mono or stereo, 8 or 16 bits, signed or unsigned,
+ little or big endian samples with 32 bit linear interpolation. xmp
+ currently supports more than 40 module formats.
+
+Package: xmp-audacious
+Description-md5: 5a110bdf0f4f25daf296b266b066f3fc
+Description-en: XMP plugin for Audacious
+ This package contains an xmp plugin for Audacious, supporting more
+ than 40 module formats including Protracker variants, packed MODs,
+ S3M, XM, IT with filters, exotic formats and Adlib modules.
+
+Package: xmp-common
+Description-md5: 6587c2615027771ab071a400bfe9978f
+Description-en: common files for xmp and the xmp Audacious plugin
+ This package contains configuration and documentation files and
+ the OSS PCM audio and sequencer drivers for xmp and
+ xmp-audacious.
+
+Package: openjdk-6-jre
+Description-md5: 91d05a39b9f10650db7458e30c6b492b
+Description-en: OpenJDK Java runtime, using Hotspot Zero
+ Full Java runtime environment - needed for executing Java GUI and Webstart
+ programs. Using Hotspot Zero.
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: openjdk-6-jre-headless
+Description-md5: 66d576ba5edb414029e68aaa8b29d079
+Description-en: OpenJDK Java runtime, using Hotspot Zero (headless)
+ Minimal Java runtime - needed for executing non GUI Java programs.
+ Using Hotspot Zero.
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: linux-headers-lowlatency-pae
+Description-md5: 6af73404b873a966ac6255b05036407d
+Description-en: Transitional package
+ This package will always depend on linux-headers-lowlatency
+
+Package: linux-image-lowlatency-pae
+Description-md5: 6843cc37a69c40820f7d377dff479023
+Description-en: Transitional package
+ This package will always depend on linux-image-lowlatency
+
+Package: linux-lowlatency-pae
+Description-md5: 0aa935414a87ff9b660c4f39bab85ed9
+Description-en: Transitional package
+ This package will always depend on linux-lowlatency
+
+Package: xen-hypervisor-4.2-i386
+Description-md5: 829bcfa57e4b5d520b5b4e141e3e6476
+Description-en: Xen Hypervisor on i386
+ The hypervisor is the "core" for XEN itself.  It gets booted by the boot
+ loader and controls cpu and memory, sharing them between your
+ administrative domain (Domain 0) and the virtual guest systems.
+ .
+ In order to boot a XEN system along with this package you also need a
+ kernel specifically crafted to work as the Domain 0, mediating hardware
+ access for XEN itself.
+
+Package: xen-system-i386
+Description-md5: 299e8fd765fcedc2114cbce4ebd59691
+Description-en: Xen System on i386 (meta-package)
+ This package depends on the latest Xen hypervisor for use on i386 and the
+ Xen utils.
+

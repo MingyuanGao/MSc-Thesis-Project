@@ -1,0 +1,7 @@
+# Aliases for symbols, used by symbol_request().
+alias symbol:crypto_get_default_rng rng
+alias symbol:crypto_default_rng rng
+alias symbol:crypto_put_default_rng rng
+alias symbol:xfrm4_tunnel_register tunnel4
+alias symbol:xfrm4_tunnel_deregister tunnel4
+alias symbol:crypto_rng_type rng

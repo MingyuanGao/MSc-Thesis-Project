@@ -1,0 +1,6 @@
+0x00000000	xfrm4_tunnel_register	net/ipv4/tunnel4	EXPORT_SYMBOL
+0x00000000	xfrm4_tunnel_deregister	net/ipv4/tunnel4	EXPORT_SYMBOL
+0x00000000	crypto_rng_type	crypto/rng	EXPORT_SYMBOL_GPL
+0x00000000	crypto_default_rng	crypto/rng	EXPORT_SYMBOL_GPL
+0x00000000	crypto_get_default_rng	crypto/rng	EXPORT_SYMBOL_GPL
+0x00000000	crypto_put_default_rng	crypto/rng	EXPORT_SYMBOL_GPL

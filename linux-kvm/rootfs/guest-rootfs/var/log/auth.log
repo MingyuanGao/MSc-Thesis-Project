@@ -1,0 +1,14 @@
+Jan  1 00:00:07 mingyuan sshd[619]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:08 mingyuan sshd[619]: Received signal 15; terminating.
+Jan  1 00:00:08 mingyuan sshd[1142]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:13 mingyuan getty[1239]: /dev/ttySAC2: No such file or directory
+Jun  2 09:25:17 mingyuan login[1237]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+Jun  2 09:25:17 mingyuan login[1237]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jun  2 09:25:17 mingyuan login[1261]: ROOT LOGIN  on '/dev/ttyAMA0'
+Jun  2 09:25:23 mingyuan getty[1273]: /dev/ttySAC2: No such file or directory
+Jun  2 09:25:33 mingyuan getty[1274]: /dev/ttySAC2: No such file or directory
+Jun  2 09:25:43 mingyuan getty[1277]: /dev/ttySAC2: No such file or directory
+Jun  2 09:25:53 mingyuan getty[1278]: /dev/ttySAC2: No such file or directory
+Jun  2 09:26:03 mingyuan getty[1279]: /dev/ttySAC2: No such file or directory
+Jun  2 09:26:14 mingyuan getty[1280]: /dev/ttySAC2: No such file or directory
+Jun  2 09:26:24 mingyuan getty[1281]: /dev/ttySAC2: No such file or directory

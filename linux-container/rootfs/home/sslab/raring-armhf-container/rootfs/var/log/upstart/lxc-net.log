@@ -1,0 +1,15 @@
+FATAL: Module ip_tables not found.
+iptables v1.4.12: can't initialize iptables table `nat': No chain/target/match by that name
+Perhaps iptables or your kernel needs to be upgraded.
+lxc-net stop/pre-start, process 3547
+/proc/self/fd/9: 26: /proc/self/fd/9: iptables: not found
+/proc/self/fd/9: 26: /proc/self/fd/9: iptables: not found
+/proc/self/fd/9: 26: /proc/self/fd/9: iptables: not found
+/proc/self/fd/9: 26: /proc/self/fd/9: iptables: not found
+/proc/self/fd/9: 26: /proc/self/fd/9: iptables: not found
+/proc/self/fd/9: 26: /proc/self/fd/9: iptables: not found
+/proc/self/fd/9: 26: /proc/self/fd/9: iptables: not found
+/proc/self/fd/9: 26: /proc/self/fd/9: iptables: not found
+/proc/self/fd/9: 26: /proc/self/fd/9: iptables: not found
+/proc/self/fd/9: 26: /proc/self/fd/9: iptables: not found
+/proc/self/fd/9: 26: /proc/self/fd/9: iptables: not found

@@ -1,0 +1,11 @@
+651aa0c41a6e617426000194eec00685  usr/share/doc/python-distro-info/changelog.gz
+512519f96bd3c0c30dc2b260742d95e5  usr/share/doc/python-distro-info/copyright
+735d77793be4a7cb65c425905e2e15f6  usr/share/pyshared/distro_info-0.10.egg-info/PKG-INFO
+dd2015ebe05500bf2ad7b4485bc168ae  usr/share/pyshared/distro_info-0.10.egg-info/SOURCES.txt
+68b329da9893e34099c7d8ad5cb9c940  usr/share/pyshared/distro_info-0.10.egg-info/dependency_links.txt
+46ffdcab0bdb181ea5bf8d98bf0b72ed  usr/share/pyshared/distro_info-0.10.egg-info/top_level.txt
+816f4b8072b32f9a67e5d10d121f9705  usr/share/pyshared/distro_info.py
+03879b9fb23b7fb83f95a7eb5c3168da  usr/share/pyshared/distro_info_test/__init__.py
+7612415ee8e34b23082aab8581dec355  usr/share/pyshared/distro_info_test/test_distro_info.py
+bb1ad5954a6e86476dab18eb5382b801  usr/share/pyshared/distro_info_test/test_help.py
+8ecf2dcf13bfcf97dfb96b9f077526b1  usr/share/pyshared/distro_info_test/test_pylint.py

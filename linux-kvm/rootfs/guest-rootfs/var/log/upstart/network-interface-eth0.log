@@ -1,0 +1,16 @@
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/52:54:00:12:34:56
+Sending on   LPF/eth0/52:54:00:12:34:56
+Sending on   Socket/fallback
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x13f2fe71)
+DHCPREQUEST of 141.223.83.6 on eth0 to 255.255.255.255 port 67 (xid=0x13f2fe71)
+DHCPOFFER of 141.223.83.6 from 141.223.83.127
+DHCPACK of 141.223.83.6 from 141.223.83.127
+RTNETLINK answers: File exists
+bound to 141.223.83.6 -- renewal in 253 seconds.
+ssh stop/waiting
+ssh start/running, process 1142

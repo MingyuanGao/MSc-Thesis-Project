@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libpulse-mainloop-glib.so.0.0.4
+/usr/share
+/usr/share/doc
+/usr/share/doc/libpulse-mainloop-glib0
+/usr/share/doc/libpulse-mainloop-glib0/copyright
+/usr/lib/arm-linux-gnueabihf/libpulse-mainloop-glib.so.0
+/usr/share/doc/libpulse-mainloop-glib0/README
+/usr/share/doc/libpulse-mainloop-glib0/changelog.Debian.gz

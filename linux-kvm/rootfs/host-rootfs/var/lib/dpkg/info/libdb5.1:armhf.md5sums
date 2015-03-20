@@ -1,0 +1,6 @@
+ec5daecd39553491c5dd56f02159913e  usr/lib/arm-linux-gnueabihf/libdb-5.1.so
+2e9eb865304eeeadd774f8f52ef012fc  usr/share/doc/libdb5.1/build_signature_amd64.txt
+50134306e5856be06b9b70f3681195de  usr/share/doc/libdb5.1/build_signature_armhf.txt
+641a027e4ac4b6b0c3404d4fefaadfeb  usr/share/doc/libdb5.1/changelog.Debian.gz
+73e00aa8871093e6d4f0e03a47d384ea  usr/share/doc/libdb5.1/copyright
+5b54ebe4669d006d3901237db8b9ce3e  usr/share/lintian/overrides/libdb5.1

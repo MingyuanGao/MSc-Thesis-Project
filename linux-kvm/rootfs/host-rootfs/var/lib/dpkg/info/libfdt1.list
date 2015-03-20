@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libfdt1
+/usr/share/doc/libfdt1/changelog.Debian.gz
+/usr/share/doc/libfdt1/copyright
+/usr/lib
+/usr/lib/libfdt-1.3.0.so
+/usr/lib/libfdt.so.1

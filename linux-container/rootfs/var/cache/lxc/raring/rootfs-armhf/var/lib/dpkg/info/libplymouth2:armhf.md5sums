@@ -1,0 +1,7 @@
+9ba4507e6196ff18b15205cd723e22e2  lib/arm-linux-gnueabihf/libply-boot-client.so.2.1.0
+2ec440f53d38703846dd6c309d7a615c  lib/arm-linux-gnueabihf/libply-splash-core.so.2.1.0
+4912f816e0ba1eed782f1d2749872d4f  lib/arm-linux-gnueabihf/libply-splash-graphics.so.2.1.0
+99299288bd5625404ddb36a9ae0e470f  lib/arm-linux-gnueabihf/libply.so.2.1.0
+673e9d355d180f73d8926d9859886cd6  usr/share/apport/package-hooks/source_plymouth.py
+f2d95323735a3fddcc5352a7643bde6a  usr/share/doc/libplymouth2/changelog.Debian.gz
+ca8eb4d38386aa5de79023eb309ee8e9  usr/share/doc/libplymouth2/copyright

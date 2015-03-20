@@ -1,0 +1,1 @@
+cmd_net/ipv6/xfrm6_mode_transport.ko := ld -EL -r  -T /lib/modules/3.8.0-rc4/build/scripts/module-common.lds --build-id  -o net/ipv6/xfrm6_mode_transport.ko net/ipv6/xfrm6_mode_transport.o net/ipv6/xfrm6_mode_transport.mod.o

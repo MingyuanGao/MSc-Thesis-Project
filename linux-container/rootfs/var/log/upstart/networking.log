@@ -1,0 +1,54 @@
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/1e:69:9a:2f:ff:1b
+Sending on   LPF/eth0/1e:69:9a:2f:ff:1b
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 141.223.83.127 port 67 (xid=0x5874896e)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/e2:5a:b6:7e:13:35
+Sending on   LPF/eth0/e2:5a:b6:7e:13:35
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 141.223.83.127 port 67 (xid=0x271971ba)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/02:95:75:98:38:b9
+Sending on   LPF/eth0/02:95:75:98:38:b9
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 141.223.83.127 port 67 (xid=0xeecb69d)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/aa:6c:3d:a5:e9:0b
+Sending on   LPF/eth0/aa:6c:3d:a5:e9:0b
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 141.223.83.127 port 67 (xid=0x1174aa70)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/76:c6:32:f8:51:bf
+Sending on   LPF/eth0/76:c6:32:f8:51:bf
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 141.223.83.127 port 67 (xid=0x9abe105)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/56:4a:ef:d3:a5:08
+Sending on   LPF/eth0/56:4a:ef:d3:a5:08
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 141.223.83.127 port 67 (xid=0x15f398db)

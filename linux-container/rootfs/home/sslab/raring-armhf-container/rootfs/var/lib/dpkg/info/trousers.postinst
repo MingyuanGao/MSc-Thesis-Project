@@ -1,0 +1,45 @@
+#!/bin/sh
+
+set -e
+
+case "${1}" in
+	configure)
+		# Adding tss system user
+		adduser --system --quiet --home /var/lib/tpm --shell /bin/false --no-create-home --group tss
+
+		# Setting owner
+		chown tss:tss /var/lib/tpm -R
+		chown tss:tss /etc/tcsd.conf
+
+		# Setting permissions
+		chmod 0600 /etc/tcsd.conf
+		chmod 0700 /var/lib/tpm
+
+		# ask udev to check for new udev rules (and fix device permissions)
+		if [ -x /etc/init.d/udev ] && pidof udevd > /dev/null; then
+			udevadm control --reload-rules
+			udevadm trigger --sysname-match="tpm[0-9]*"
+		fi
+		;;
+
+	abort-upgrade|abort-remove|abort-deconfigure)
+
+		;;
+
+	*)
+		echo "postinst called with unknown argument \`${1}'" >&2
+		exit 1
+		;;
+esac
+
+# Automatically added by dh_installinit
+if [ -x "/etc/init.d/trousers" ]; then
+	if [ ! -e "/etc/init/trousers.conf" ]; then
+		update-rc.d trousers defaults >/dev/null
+	fi
+	invoke-rc.d trousers start || exit $?
+fi
+# End automatically added section
+
+
+exit 0

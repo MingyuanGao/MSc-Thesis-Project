@@ -1,0 +1,2 @@
+#!/bin/bash
+./qemu-system-arm -enable-kvm -kernel guest-zImage -nographic -dtb ./guest-vexpress.dtb -m 512 -M vexpress-a15 -cpu cortex-a15 -netdev type=tap,id=net0,script=no,downscript=no,ifname="tap0" -device virtio-net,transport=virtio-mmio.1,netdev=net0 -device virtio-blk,drive=virtio-blk,transport=virtio-mmio.0 -drive file=./guest-rootfs.img,id=virtio-blk,if=none -append "earlyprintk console=ttyAMA0 mem=512M root=/dev/vda rw ip=dhcp virtio_mmio.device=1M@0x4e000000:74:0 virtio_mmio.device=1M@0x4e100000:75:1"

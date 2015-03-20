@@ -1,0 +1,15 @@
+3140e4d13bd9a43bc8abf3f928a6110a  usr/include/slang.h
+5ed2bfe89c498dfeb4e7802427ced845  usr/include/slcurses.h
+101f39dfbea031357e97b3c66b003f86  usr/lib/arm-linux-gnueabihf/libslang.a
+05f65c47a69b01345029f9688dadc75f  usr/lib/arm-linux-gnueabihf/pkgconfig/slang.pc
+0cf2ff02c4849e87fbe3cb132502bf74  usr/share/doc/libslang2-dev/README.Debian
+61dd280d6e95363b627cdc79bade2a51  usr/share/doc/libslang2-dev/copyright
+fe8b7d325f6ffa6edccd798e7d1ec2a5  usr/share/doc/libslang2-dev/cref.txt.gz
+39c59580b9065e59f8a7c8191d21d4bd  usr/share/doc/libslang2-dev/cslang.txt.gz
+7fa296de04cc76471e993868887e1097  usr/share/doc/libslang2-dev/examples/Makefile.in
+6e72a33fa062a66abd0336aae2e41bc7  usr/share/doc/libslang2-dev/examples/README
+7c463b10bde986d4aebb35e701bb361c  usr/share/doc/libslang2-dev/examples/demolib.c
+446be157d3d3881137448a3dda2b9ca2  usr/share/doc/libslang2-dev/examples/keypad.c
+0abc47e785d834318e7edf6a2fe71e6f  usr/share/doc/libslang2-dev/examples/pager.c
+cd584527ef0db43679bffed0904ef449  usr/share/doc/libslang2-dev/examples/smgtest.c
+0aae838b3b629886d7e743f42d145565  usr/share/doc/libslang2-dev/examples/useropen.c

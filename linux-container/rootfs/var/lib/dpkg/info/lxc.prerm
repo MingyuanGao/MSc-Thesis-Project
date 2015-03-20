@@ -1,0 +1,29 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper mv_conffile /etc/lxc/lxc.conf /etc/lxc/default.conf 0.9.0~alpha2-0ubuntu1+b1~bzr1108-28~ lxc -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper mv_conffile /etc/dnsmasq.d/lxc /etc/dnsmasq.d-available/lxc 0.8.0~rc1-4ubuntu48 lxc -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper mv_conffile /etc/apparmor.d/abstractions/lxc-start-container /etc/apparmor.d/abstractions/lxc/start-container 0.8.0~rc1-4ubuntu18 lxc -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper mv_conffile /etc/apparmor.d/abstractions/lxc-container-default /etc/apparmor.d/abstractions/lxc/container-base 0.8.0~rc1-4ubuntu18 lxc -- "$@"
+# End automatically added section
+# Automatically added by dh_installinit
+if [ -x "/etc/init.d/lxc-instance" ] && [ "$1" = remove ]; then
+	invoke-rc.d lxc-instance stop || exit $?
+fi
+# End automatically added section
+# Automatically added by dh_installinit
+if [ -x "/etc/init.d/lxc-net" ] && [ "$1" = remove ]; then
+	invoke-rc.d lxc-net stop || exit $?
+fi
+# End automatically added section
+# Automatically added by dh_installinit
+if [ -x "/etc/init.d/lxc" ] && [ "$1" = remove ]; then
+	invoke-rc.d lxc stop || exit $?
+fi
+# End automatically added section

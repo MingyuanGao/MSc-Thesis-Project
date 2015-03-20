@@ -1,0 +1,12 @@
+d3daa91d6d3c29965ba5719b382359a5  usr/share/doc/lxc-templates/copyright
+0bafb693507f965c21f78f28da13f27b  usr/share/lxc/templates/lxc-alpine
+ae33e146807a281abc150f55670c803b  usr/share/lxc/templates/lxc-altlinux
+dd9316ce15ad1968edea6cb0f508e981  usr/share/lxc/templates/lxc-archlinux
+83c93b98a16acada2a94b1e2278f7300  usr/share/lxc/templates/lxc-busybox
+754804c63b68fee28587bf4ee3144afb  usr/share/lxc/templates/lxc-debian
+d03f4e44ed7992bac45d2daab047fe4d  usr/share/lxc/templates/lxc-fedora
+b4237e26abf4a09be47ed2664bf8f3a8  usr/share/lxc/templates/lxc-opensuse
+b08c5a85fe0a012f413faa3bce1ca8cf  usr/share/lxc/templates/lxc-oracle
+edcadb1f7fc80fb9e37e8259578c3304  usr/share/lxc/templates/lxc-sshd
+3ac349a53978e8b1f0ff03485c22b312  usr/share/lxc/templates/lxc-ubuntu
+ed57ca2c86626f8117606d5ae4ac0e31  usr/share/lxc/templates/lxc-ubuntu-cloud

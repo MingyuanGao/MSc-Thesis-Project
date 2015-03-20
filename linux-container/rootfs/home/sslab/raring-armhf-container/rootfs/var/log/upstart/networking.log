@@ -1,0 +1,158 @@
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/1e:69:9a:2f:ff:1b
+Sending on   LPF/eth0/1e:69:9a:2f:ff:1b
+Sending on   Socket/fallback
+DHCPRELEASE on eth0 to 141.223.83.127 port 67 (xid=0x5874896e)
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:26:5e:70
+Sending on   LPF/eth0/00:16:3e:26:5e:70
+Sending on   Socket/fallback
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x2a05dcfd)
+DHCPREQUEST of 141.223.83.23 on eth0 to 255.255.255.255 port 67 (xid=0x2a05dcfd)
+DHCPOFFER of 141.223.83.23 from 141.223.83.127
+DHCPACK of 141.223.83.23 from 141.223.83.127
+bound to 141.223.83.23 -- renewal in 274 seconds.
+ssh stop/waiting
+ssh start/running, process 238
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:26:5e:70
+Sending on   LPF/eth0/00:16:3e:26:5e:70
+Sending on   Socket/fallback
+DHCPREQUEST of 141.223.83.23 on eth0 to 255.255.255.255 port 67 (xid=0x2bc4c2f)
+DHCPACK of 141.223.83.23 from 141.223.83.127
+bound to 141.223.83.23 -- renewal in 232 seconds.
+ssh stop/waiting
+ssh start/running, process 237
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:26:5e:70
+Sending on   LPF/eth0/00:16:3e:26:5e:70
+Sending on   Socket/fallback
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x3add429c)
+DHCPREQUEST of 141.223.83.23 on eth0 to 255.255.255.255 port 67 (xid=0x3add429c)
+DHCPOFFER of 141.223.83.23 from 141.223.83.127
+DHCPACK of 141.223.83.23 from 141.223.83.127
+bound to 141.223.83.23 -- renewal in 290 seconds.
+ssh stop/waiting
+ssh start/running, process 237
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:26:5e:70
+Sending on   LPF/eth0/00:16:3e:26:5e:70
+Sending on   Socket/fallback
+DHCPREQUEST of 141.223.83.23 on eth0 to 255.255.255.255 port 67 (xid=0x5c5376a5)
+DHCPACK of 141.223.83.23 from 141.223.83.127
+bound to 141.223.83.23 -- renewal in 283 seconds.
+ssh stop/waiting
+ssh start/running, process 237
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:26:5e:70
+Sending on   LPF/eth0/00:16:3e:26:5e:70
+Sending on   Socket/fallback
+DHCPREQUEST of 141.223.83.23 on eth0 to 255.255.255.255 port 67 (xid=0x57131b98)
+DHCPACK of 141.223.83.23 from 141.223.83.127
+bound to 141.223.83.23 -- renewal in 288 seconds.
+ssh stop/waiting
+ssh start/running, process 237
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:26:5e:70
+Sending on   LPF/eth0/00:16:3e:26:5e:70
+Sending on   Socket/fallback
+DHCPREQUEST of 141.223.83.23 on eth0 to 255.255.255.255 port 67 (xid=0x7a34dac5)
+DHCPACK of 141.223.83.23 from 141.223.83.127
+bound to 141.223.83.23 -- renewal in 233 seconds.
+ssh stop/waiting
+ssh start/running, process 237
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:26:5e:70
+Sending on   LPF/eth0/00:16:3e:26:5e:70
+Sending on   Socket/fallback
+DHCPREQUEST of 141.223.83.23 on eth0 to 255.255.255.255 port 67 (xid=0x7290464f)
+DHCPACK of 141.223.83.23 from 141.223.83.127
+bound to 141.223.83.23 -- renewal in 259 seconds.
+ssh stop/waiting
+ssh start/running, process 237
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:26:5e:70
+Sending on   LPF/eth0/00:16:3e:26:5e:70
+Sending on   Socket/fallback
+DHCPREQUEST of 141.223.83.23 on eth0 to 255.255.255.255 port 67 (xid=0x58a5e585)
+DHCPACK of 141.223.83.23 from 141.223.83.127
+bound to 141.223.83.23 -- renewal in 300 seconds.
+ssh stop/waiting
+ssh start/running, process 237
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:26:5e:70
+Sending on   LPF/eth0/00:16:3e:26:5e:70
+Sending on   Socket/fallback
+DHCPREQUEST of 141.223.83.23 on eth0 to 255.255.255.255 port 67 (xid=0x13ba7e6f)
+DHCPACK of 141.223.83.23 from 141.223.83.127
+bound to 141.223.83.23 -- renewal in 263 seconds.
+ssh stop/waiting
+ssh start/running, process 237
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:26:5e:70
+Sending on   LPF/eth0/00:16:3e:26:5e:70
+Sending on   Socket/fallback
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x3367e248)
+DHCPREQUEST of 141.223.83.23 on eth0 to 255.255.255.255 port 67 (xid=0x3367e248)
+DHCPOFFER of 141.223.83.23 from 141.223.83.127
+DHCPACK of 141.223.83.23 from 141.223.83.127
+bound to 141.223.83.23 -- renewal in 236 seconds.
+ssh stop/waiting
+ssh start/running, process 237
+Internet Systems Consortium DHCP Client 4.2.4
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/00:16:3e:26:5e:70
+Sending on   LPF/eth0/00:16:3e:26:5e:70
+Sending on   Socket/fallback
+DHCPREQUEST of 141.223.83.23 on eth0 to 255.255.255.255 port 67 (xid=0x278122e0)
+DHCPACK of 141.223.83.23 from 141.223.83.127
+bound to 141.223.83.23 -- renewal in 286 seconds.
+ssh stop/waiting
+ssh start/running, process 237

@@ -1,0 +1,17 @@
+ef2e7a0e2f788ce085b3dc41af741ddc  usr/bin/Xtightvnc
+1d51753556bdeb57f1367d454c94ed93  usr/bin/tightvncconnect
+cc642ba0ba6f9371a2f8d4424e7b7e0d  usr/bin/tightvncpasswd
+85cb2fcadfda17cfb62cbdc70423163d  usr/bin/tightvncserver
+bace61a8a7b3e987af04fae99dfc65dd  usr/share/doc-base/tightvncserver
+f7058e699988060d9712833a9b9ca4e3  usr/share/doc/tightvncserver/README.inetd
+7e6f0a39729cbd2104d82621906cfe35  usr/share/doc/tightvncserver/changelog.Debian.gz
+6162faa4cb87cf5be03f9fcd30ed54ab  usr/share/doc/tightvncserver/copyright
+60f5b236bef2375a28d995c3b0b8359e  usr/share/doc/tightvncserver/examples/vnc.conf.gz
+ef904c81967520c07af546492e83193c  usr/share/doc/tightvncserver/faq.html
+a1358924a5357fc3276727bea66410cb  usr/share/doc/tightvncserver/faq.txt.gz
+197f2faab0014b1b8d5f28c4ac3c1653  usr/share/doc/tightvncserver/start.html
+fe5003403632d1ce7ea75920a920f22c  usr/share/doc/tightvncserver/start.txt.gz
+d1de082fd3f689cd8db7eab4d811b4f7  usr/share/man/man1/Xtightvnc.1.gz
+fe6ec56063e11fbf337bd14ee386eab3  usr/share/man/man1/tightvncconnect.1.gz
+08902906f5d4fac95cd373b5dd8c6851  usr/share/man/man1/tightvncpasswd.1.gz
+72646f760b5f550dee9d97b31e32e845  usr/share/man/man1/tightvncserver.1.gz

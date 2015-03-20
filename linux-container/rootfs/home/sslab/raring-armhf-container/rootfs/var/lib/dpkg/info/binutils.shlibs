@@ -1,0 +1,2 @@
+libbfd 2.23.2-system binutils (>= 2.23.2), binutils (<< 2.23.3)
+libopcodes 2.23.2-system binutils (>= 2.23.2), binutils (<< 2.23.3)

@@ -1,0 +1,17 @@
+#! /bin/sh
+
+set -e
+
+if [ "$1" = "purge" ]; then
+    for d in `find /usr/lib/python3.3 -depth -type d -empty 2> /dev/null`; do \
+        while rmdir $d 2> /dev/null; do d=`dirname $d`; done; \
+    done
+    rm -rf /etc/python3.3/site.py /etc/python3.3/sitecustomize.py /etc/python3.3/__pycache__
+    if [ -d /etc/python3.3 ]; then
+	rmdir --ignore-fail-on-non-empty /etc/python3.3
+    fi
+fi
+
+
+
+exit 0

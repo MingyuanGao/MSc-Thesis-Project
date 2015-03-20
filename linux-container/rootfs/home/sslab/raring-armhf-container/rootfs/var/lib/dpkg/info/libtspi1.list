@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libtspi1
+/usr/share/doc
+/usr/share/doc/libtspi1
+/usr/share/doc/libtspi1/copyright
+/usr/share/doc/libtspi1/changelog.Debian.gz
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libtspi.so.1.2.0
+/usr/lib/arm-linux-gnueabihf/libtspi.so.1

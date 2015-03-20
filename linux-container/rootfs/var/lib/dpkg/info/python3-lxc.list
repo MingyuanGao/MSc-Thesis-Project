@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/python3-lxc
+/usr/share/doc/python3-lxc/examples
+/usr/share/doc/python3-lxc/examples/api_test.py.gz
+/usr/share/doc/python3-lxc/copyright
+/usr/lib
+/usr/lib/python3
+/usr/lib/python3/dist-packages
+/usr/lib/python3/dist-packages/_lxc.cpython-33m.so
+/usr/lib/python3/dist-packages/lxc
+/usr/lib/python3/dist-packages/lxc/__init__.py
+/usr/lib/python3/dist-packages/_lxc-0.1.egg-info
+/usr/share/doc/python3-lxc/changelog.Debian.gz

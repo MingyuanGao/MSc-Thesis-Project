@@ -1,0 +1,8 @@
+f8e8b0a10db59332197faf42613f50b0  usr/include/GL/glxint.h
+134c209bd939f16fec2874011c1b9379  usr/include/GL/glxmd.h
+961ea2ec74b112747172d8b5c9ee5c6d  usr/include/GL/glxproto.h
+aee5218a6d7cf66ee44635c0613957d8  usr/include/GL/glxtokens.h
+1a546ca3c6628a55c33647b9ace8b134  usr/include/GL/internal/glcore.h
+9157f041a384e9c832b80cd34c8696d3  usr/share/doc/x11proto-gl-dev/changelog.Debian.gz
+0cc2e0f1d31d3af45dca8434a7d574a5  usr/share/doc/x11proto-gl-dev/copyright
+086df5f46a422ea8ebe630d2f9ab6e01  usr/share/pkgconfig/glproto.pc

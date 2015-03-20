@@ -1,0 +1,4 @@
+bc2e507436c36f5a6976e954ee072b3d  bin/cgroups-mount
+ea33c70c68b9c46d227a60b1d3df171a  bin/cgroups-umount
+97d27d5a53a2fb914860f5836b5b2494  usr/share/doc/cgroup-lite/changelog.gz
+5d5da4e0867cf06014f87102154d0102  usr/share/doc/cgroup-lite/copyright

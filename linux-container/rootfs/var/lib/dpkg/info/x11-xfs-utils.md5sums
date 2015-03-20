@@ -1,0 +1,10 @@
+e97e97bfe704eb5ae79ecbe6fd5d9247  usr/bin/fslsfonts
+081d0952054fe94f91872998ff1bbc3e  usr/bin/fstobdf
+b71b022b5d8756261632c5d2d0fb92d5  usr/bin/showfont
+0b113331fdb6c9b72f7597c6241e182e  usr/bin/xfsinfo
+c8294654e4d81dd3ff1b80cff0b076b2  usr/share/doc/x11-xfs-utils/changelog.gz
+74d0017d5bc45dc510b390abd3c414bf  usr/share/doc/x11-xfs-utils/copyright
+6f91dcfd2be0d113350703b18f6adc8f  usr/share/man/man1/fslsfonts.1.gz
+8fcb3ecae2048d6a493ea444a349a2f2  usr/share/man/man1/fstobdf.1.gz
+508ea182d79d8dc63ac4f6c2f63494f1  usr/share/man/man1/showfont.1.gz
+69a8fe7dd7789e7fb1bf9608754b8472  usr/share/man/man1/xfsinfo.1.gz

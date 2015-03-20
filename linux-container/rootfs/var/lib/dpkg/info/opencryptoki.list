@@ -1,0 +1,6 @@
+/var
+/var/lib
+/var/lib/opencryptoki
+/etc
+/etc/init.d
+/etc/init.d/opencryptoki

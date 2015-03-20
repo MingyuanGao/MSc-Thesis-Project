@@ -1,0 +1,5 @@
+/etc
+/etc/X11
+/etc/X11/xinit
+/etc/X11/xinit/xinitrc
+/etc/X11/xinit/xserverrc

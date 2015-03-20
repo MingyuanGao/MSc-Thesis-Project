@@ -1,0 +1,980 @@
+Package: clamav-milter
+Description-md5: bdf4d5012233691e2d3d904e79a57dcf
+Description-en: anti-virus utility for Unix - sendmail integration
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav6, which can be used by other software.
+ .
+ This package contains the ClamAV milter for use with sendmail. It can
+ be configured to be run either standalone, or using clamav-daemon.
+
+Package: clamav-testfiles
+Description-md5: 02a1eb16b2a0a9f53fc09fe0d784518c
+Description-en: anti-virus utility for Unix - test files
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav6, which can be used by other software.
+ .
+ This package contains files 'infected' with a test signature. The test
+ signature (ClamAV-Test-Signature) should be detectable by all
+ anti-virus programs.
+
+Package: firefox-mozsymbols
+Description-md5: 1398643ad4fb0f820933502f6bba9816
+Description-en: Safe and easy web browser from Mozilla - Breakpad symbols
+ Firefox delivers safe, easy web browsing. A familiar user interface,
+ enhanced security features including protection from online identity theft,
+ and integrated search let you get the most out of the web.
+ .
+ This package contains the Firefox symbols in a format expected by Mozilla's
+ Breakpad. Eventually this package should go away and the symbol upload be
+ implemented in soyuz (or other builders that build this package)
+
+Package: firefox-testsuite
+Description-md5: 1c5406dea364e8840846b9dacd3c8955
+Description-en: Safe and easy web browser from Mozilla - testsuite
+ Firefox delivers safe, easy web browsing. A familiar user interface,
+ enhanced security features including protection from online identity theft,
+ and integrated search let you get the most out of the web.
+ .
+ This package contains the Firefox testsuite
+
+Package: fwlogwatch
+Description-md5: 9fb0eca840377b5b84c214320b65b9ff
+Description-en: Firewall log analyzer
+ fwlogwatch produces ipchains, netfilter/iptables, ipfilter, Cisco IOS and
+ Cisco PIX log summary reports in text and HTML form and has a lot of
+ options to find and display relevant patterns in connection attempts. With
+ the data found it can also generate customizable incident reports from a
+ template and send them to abuse contacts at offending sites or CERT
+ coordination centers. Finally, it can also run as daemon and report
+ anomalies or start countermeasures.
+
+Package: icedtea-6-jre-cacao
+Description-md5: 24efc2093c93b3e7670092d00aea59d9
+Description-en: Alternative JVM for OpenJDK, using Cacao
+ The package provides an alternative runtime using the Cacao VM and the
+ Cacao Just In Time Compiler (JIT).  This is a somewhat faster alternative
+ than the Zero port on architectures like alpha, armel, m68k, mips, mipsel,
+ powerpc and s390.
+ .
+ The VM is started with the option `-cacao'. See the README.Debian for details.
+
+Package: icedtea-6-jre-jamvm
+Description-md5: a3b67c2c3683232269f84a02ede3fd4b
+Description-en: Alternative JVM for OpenJDK, using JamVM
+ The package provides an alternative runtime using the JamVM.  This is a
+ somewhat faster alternative than the Zero port on architectures like armel,
+ mips, mipsel, powerpc.
+ .
+ The VM is started with the option `-jamvm'. See the README.Debian for details.
+
+Package: kdelibs5-plugins
+Description-md5: 47c4a19af28fe26f79c1626027f99953
+Description-en: core plugins for KDE Applications
+ This package contains core plugins for KDE Applications used by KDE
+ Applications and KDE Development Platform libraries at runtime. This package
+ is needed to run most KDE Applications.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libmysqld-pic
+Description-md5: a6e7a6d26021d6ef468e70ec4ac81167
+Description-en: MySQL database development files
+ MySQL is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package includes the -fPIC version of the embedded server library.
+
+Package: libtiff-opengl
+Description-md5: 8b1debea0e0eac5de9dc7eb9a32524a2
+Description-en: TIFF manipulation and conversion tools
+ libtiff is a library providing support for the Tag Image File Format
+ (TIFF), a widely used format for storing image data.  This package
+ contains libtiff tools that depend upon opengl.  It complements the
+ libtiff-tools package, which contains the libtiff tools that don't
+ depend upon opengl.
+
+Package: linux-headers-3.8.0-22-lowlatency
+Description-md5: 684d3338ec1a5cb1a3208923bf45f659
+Description-en: Linux kernel headers for version 3.8.0 on x86/x86_64
+ This package provides kernel header files for version 3.8.0 on
+ x86/x86_64.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-3.8.0-22/debian.README.gz for details.
+
+Package: linux-headers-lowlatency
+Description-md5: b28bf5c7c758bfbbbd15e31ed4c78ed6
+Description-en: lowlatency Linux kernel headers
+ This package will always depend on the latest lowlatency kernel headers
+ available.
+
+Package: linux-image-3.8.0-22-lowlatency
+Description-md5: 11b5789bd5292a8b16f63a1373a1622c
+Description-en: Linux kernel image for version 3.8.0 on x86/x86_64
+ This package contains the Linux kernel image for version 3.8.0 on
+ x86/x86_64.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Lowlatency processors.
+ .
+ Geared toward lowlatency desktop systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-lowlatency meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-lowlatency
+Description-md5: 81c6fc6425f7566aa856ff1be6d8b320
+Description-en: lowlatency Linux kernel image
+ This package will always depend on the latest lowlatency kernel image
+ available.
+
+Package: linux-lowlatency
+Description-md5: b52e19b8044c25aff9dce108f24e2ee9
+Description-en: Complete lowlatency Linux kernel
+ This package will always depend on the latest complete lowlatency Linux kernel
+ available.
+
+Package: linux-lowlatency-headers-3.8.0-22
+Description-md5: ddb46938f931498da6a750c7dcec761b
+Description-en: Header files related to Linux kernel version 3.8.0
+ This package provides kernel header files for version 3.8.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-lowlatency-headers-3.8.0-22/debian.README.gz for details
+
+Package: mysql-source-5.5
+Description-md5: 9bacc0267862ea6c169da6cfe76d3aef
+Description-en: MySQL source
+ MySQL is a fast, stable, and true multi-user, multi-threaded SQL database
+ server.  SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package includes the MySQL source code as configured before building.
+
+Package: mysql-testsuite
+Description-md5: a3c0fd28b808fa1a0d62a5bfb5ba8923
+Description-en: MySQL testsuite
+ This is an empty package that depends on the current "best" version of
+ mysql-testsuite (currently mysql-testsuite-5.5), as determined by the
+ MySQL maintainers.  Install this package if in doubt about which MySQL
+ version you want, as this is the one we consider to be in the best shape.
+
+Package: mysql-testsuite-5.5
+Description-md5: 3e88fc28903eb44dd0b2a0eb9f813181
+Description-en: MySQL testsuite
+ MySQL is a fast, stable, and true multi-user, multi-threaded SQL database
+ server.  SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package includes the MySQL testsuite.
+
+Package: nginx
+Description-md5: 19a4ea43e33eae4a46abf8a78966deb5
+Description-en: small, powerful, scalable web/proxy server
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This is a dependency package to install either nginx-full (by default) or
+  nginx-light.
+
+Package: nginx-common
+Description-md5: 9e23931d84d07adbee5412aefdad8a90
+Description-en: small, powerful, scalable web/proxy server - common files
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package contains base configuration files used by all versions of
+ nginx.
+
+Package: nginx-doc
+Description-md5: fd841a2b53e39ae89ec191f0e1278a05
+Description-en: small, powerful, scalable web/proxy server - documentation
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides extra documentation to help unleash the power of Nginx.
+
+Package: nginx-extras
+Description-md5: 5b3494bcc5c46937a8b11b44469c77b3
+Description-en: nginx web/proxy server (extended version)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides a version of nginx with the standard modules, plus
+ extra features and modules such as the Perl module, which allows the
+ addition of Perl in configuration files.
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Browser,
+ Charset, Empty GIF, FastCGI, Geo, Gzip, Headers, Index, Limit Requests,
+ Limit Zone, Log, Map, Memcached, Proxy, Referer, Rewrite, SCGI,
+ Split Clients, SSI, Upstream, User ID, UWSGI.
+ .
+ OPTIONAL HTTP MODULES: Addition, Debug, Embedded Perl, FLV, GeoIP,
+ Gzip Precompression, Image Filter, IPv6, MP4, Random Index, Real IP,
+ Secure Link, SSL, Stub Status, Substitution, WebDAV, XSLT.
+ .
+ MAIL MODULES: Mail Core, IMAP, POP3, SMTP, SSL.
+ .
+ THIRD PARTY MODULES: Auth PAM, Chunkin, DAV Ext, Echo, Embedded Lua,
+ HttpHeadersMore, http push, Nginx Development Kit, Upload module,
+ Upload Progress, Upstream Fair Queue.
+
+Package: nginx-extras-dbg
+Description-md5: dfe40e4b526a7896997294d525c6e22f
+Description-en: nginx web/proxy server (extended version) - debugging symbols
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides debugging symbols for nginx-extras, to assist in
+ debugging issues that you may find. It should not be required for normal
+ operation.
+
+Package: nginx-full
+Description-md5: b334eec6202adf5e9045cc6066a082d1
+Description-en: nginx web/proxy server (standard version)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides a version of nginx with the complete set of
+ standard modules included (but omitting some of those included in
+ nginx-extra).
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Browser,
+ Charset, Empty GIF, FastCGI, Geo, Gzip, Headers, Index, Limit Requests,
+ Limit Zone, Log, Map, Memcached, Proxy, Referer, Rewrite, SCGI,
+ Split Clients, SSI, Upstream, User ID, UWSGI.
+ .
+ OPTIONAL HTTP MODULES: Addition, Debug, GeoIP, Gzip Precompression,
+ HTTP Sub, Image Filter, IPv6, Real IP, SSL, Stub Status, Substitution,
+ WebDAV, XSLT.
+ .
+ MAIL MODULES: Mail Core, IMAP, POP3, SMTP, SSL.
+ .
+ THIRD PARTY MODULES: Auth PAM, DAV Ext, Echo, Upstream Fair Queue.
+
+Package: nginx-full-dbg
+Description-md5: 4fc48d7c2fc05abcfaf9ba94a20baab2
+Description-en: nginx web/proxy server (standard version) - debugging symbols
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides debugging symbols for nginx-full, to assist in debugging
+ issues that you may find. It should not be required for normal operation.
+
+Package: nginx-light
+Description-md5: 58688ce5740ab964dd765536c7dab1be
+Description-en: nginx web/proxy server (basic version)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides a very light version of nginx with only the
+ minimal set of features and modules.
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Charset,
+ Empty GIF, FastCGI, Gzip, Headers, Index, Log, Map, Proxy, Rewrite, Upstream.
+ .
+ OPTIONAL HTTP MODULES: Gzip Precompression, IPv6, SSL, Stub Status.
+ .
+ THIRD PARTY MODULES: Echo.
+
+Package: nginx-light-dbg
+Description-md5: edb5bef4d4f6057eb92dd3469c513461
+Description-en: nginx web/proxy server (basic version) - debugging symbols
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides debugging symbols for nginx-light, to assist in
+ debugging issues that you may find. It should not be required for normal
+ operation.
+
+Package: nginx-naxsi
+Description-md5: d7d02f3ebd5773120a7bcfd6ff21349d
+Description-en: nginx web/proxy server (version with naxsi)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides a version of nginx with the basic modules, plus
+ the naxsi Web Application Firewall module.
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Browser,
+ Charset, Core, Empty GIF, FastCGI, Geo, Gzip, Headers, Index,
+ Limit Requests, Limit Zone, Log, Map, Memcached, Proxy, Referer,
+ Rewrite, Split Clients, SSI, Upstream, User ID.
+ .
+ OPTIONAL HTTP MODULES: IPv6, Real IP, SSL, Stub Status.
+ .
+ THIRD PARTY MODULES: Naxsi, Cache Purge, Upstream Fair.
+
+Package: nginx-naxsi-dbg
+Description-md5: 41b4fdf0b0c301cbe552d080920cce9e
+Description-en: nginx web/proxy server (version with naxsi) - debugging symbols
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides debugging symbols for nginx-naxsi, to assist in
+ debugging issues that you may find. It should not be required for normal
+ operation.
+
+Package: nginx-naxsi-ui
+Description-md5: 76b310dfbfdb9a001aa49435bb2e29b1
+Description-en: nginx web/proxy server - naxsi configuration front-end
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides the autolearning daemon and web user interface for
+ nginx's naxsi module.
+ .
+ It includes an interceptor (listening on TCP port 8080), which monitors
+ HTTP requests from naxsi, and an extractor (running on TCP port 8081),
+ which reads the database and prints reports about blocked requests.
+
+Package: nova-ajax-console-proxy
+Description-md5: 571664bc0008e44d5df6784807a6ecf0
+Description-en: OpenStack Compute - AJAX console proxy - transitional package
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This package used to provide the AJAX proxy, which is now gone.
+
+Package: nova-api-ec2
+Description-md5: 0e9ce8f6a74cac1c566caae9b960a494
+Description-en: OpenStack Compute - EC2 API frontend
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This package provides the EC2 API.
+
+Package: nova-api-metadata
+Description-md5: ae9cd778d7894b1a89d138fe3587a7da
+Description-en: OpenStack Compute - metadata API frontend
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ This package provides the metadata API backend for guest VMs.
+
+Package: nova-api-os-compute
+Description-md5: 32fe3c17415adfec970c371f4bdff9b6
+Description-en: OpenStack Compute - OpenStack Compute API frontend
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ This package provides the OpenStack Compute API frontend.
+
+Package: nova-api-os-volume
+Description-md5: f8cc143de25afd88a62e482808826104
+Description-en: OpenStack Compute - OpenStack Volume API frontend
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ This is a dummy transitional package that can be removed after upgrade.
+
+Package: nova-baremetal
+Description-md5: dd89bf0e5966b9bacefdc658ed860ddc
+Description-en: Openstack Compute - baremetal virt
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This is the baremetal virt component.
+
+Package: nova-cells
+Description-md5: a630a337cf802c4d29d91c1a6283fac5
+Description-en: Openstack Compute - cells
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This is the Nova cells component.
+
+Package: nova-compute-qemu
+Description-md5: 46acbb1c9b077142e1930821f7a05aed
+Description-en: OpenStack Compute - compute node (QEmu)
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ Install this package on your compute nodes if you're using QEmu.
+
+Package: nova-compute-uml
+Description-md5: 2e1f1302cc5d8396d81672f231d5bb7c
+Description-en: OpenStack Compute - compute node (UserModeLinux)
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ Install this package on your compute nodes if you're using UserModeLinux.
+
+Package: nova-compute-xcp
+Description-md5: 6fd4957314ca7de30f757939193076b4
+Description-en: OpenStack Compute - compute node (XCP)
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ Install this dependency package on your compute nodes if you're using xcp
+
+Package: nova-compute-xen
+Description-md5: 8268c70ad765a6427d184e1c58a4472c
+Description-en: OpenStack Compute - compute node (Xen)
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ Install this package on your compute nodes if you're using Xen.
+
+Package: nova-conductor
+Description-md5: 0b6894258f8fbaad9a8f7daf4cae4456
+Description-en: OpenStack Compute - conductor service
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This is the Nova conductor service component
+
+Package: nova-console
+Description-md5: 095d3c39f30a44dd0768d8a869e4fa67
+Description-en: OpenStack Compute - Console
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This package provides the console server.  This enables the use of consoles
+ to be used along with XVP and XenServer.  It is a publically reachable
+ component which proxies access to VNCs running on compute nodes.
+
+Package: nova-consoleauth
+Description-md5: 471ffbc52e68b19718599b8e938708d2
+Description-en: OpenStack Compute - Console Authenticator
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This package provides the authentication service for nova-console.  It grants
+ user requests for console access based on tokens in the identity service and
+ allows access to virtual consoles via a browser.
+
+Package: nova-novncproxy
+Description-md5: f71a025ccadd58aa7f26e66e99818fa8
+Description-en: OpenStack Compute - NoVNC proxy
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This package provides the VNC proxy. It is a publically reachable
+ component which proxies access to VNCs running on compute nodes.
+
+Package: nova-spiceproxy
+Description-md5: ea77a7b8b1a9e5a1953479bb5b89e219
+Description-en: OpenStack Compute - spice html5 proxy
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This package provides the spice proxy. It is a publically reachable
+ component which proxies access to qemu-space running on compute nodes
+
+Package: nova-xcp-network
+Description-md5: c098f07b818aec1687bd6347b404e5b5
+Description-en: OpenStack Compute network plugin for the Xen Cloud Platform
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This package is to be installed on the server where you have installed your
+ master Xen API server (see the xcp-xapi package), so that nova can remotely
+ configure the network of your XCP servers.
+
+Package: nova-xcp-plugins
+Description-md5: 77e27c2a30cc03fc385be9dd5a21fa09
+Description-en: OpenStack Compute plugin for the Xen Cloud Platform
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This package is to be installed on the server where you have installed your
+ master Xen API server (see the xcp-xapi package), so that nova-compute can
+ remotely control your XCP nodes and start VM instances.
+
+Package: nova-xvpvncproxy
+Description-md5: b3739b7ab9595f5c68b1c0e141861b74
+Description-en: OpenStack Compute - XVP VNC proxy
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to implement
+ and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller. In
+ addition to its "native" API (the OpenStack API), it also supports the Amazon
+ EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports many
+ different hypervisors (KVM and Xen to name a few), different database backends
+ (SQLite, MySQL, and PostgreSQL, for instance), different types of user
+ databases (LDAP or SQL), etc.
+ .
+ This package provides the VNC proxy. It is a publically reachable
+ component which proxies access to VNCs running on compute nodes.
+
+Package: openjdk-6-dbg
+Description-md5: 62cbbd2d3e6bc94279f18db4f735142b
+Description-en: Java runtime based on OpenJDK (debugging symbols)
+ OpenJDK is a development environment for building applications,
+ applets, and components using the Java programming language.
+ .
+ This package contains the debugging symbols.
+ .
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: openjdk-6-demo
+Description-md5: c2a5624aa60e4de3025a249886fa82d7
+Description-en: Java runtime based on OpenJDK (demos and examples)
+ OpenJDK Java runtime
+ .
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: openjdk-6-doc
+Description-md5: c1aebd5e8058a6cce0d5690571eddb7b
+Description-en: OpenJDK Development Kit (JDK) documentation
+ OpenJDK is a development environment for building applications,
+ applets, and components using the Java programming language.
+ .
+ This package contains the API documentation.
+ .
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: openjdk-6-jdk
+Description-md5: eaff50443f15582a8beb0901034b62cf
+Description-en: OpenJDK Development Kit (JDK)
+ OpenJDK is a development environment for building applications,
+ applets, and components using the Java programming language.
+ .
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: openjdk-6-jre
+Description-md5: 914d96407295e5ec532d2032973e96af
+Description-en: OpenJDK Java runtime, using Hotspot JIT
+ Full Java runtime environment - needed for executing Java GUI and Webstart
+ programs. Using Hotspot JIT.
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: openjdk-6-jre-headless
+Description-md5: c5ec89b1a6bac9cd86f6e61756d18fb9
+Description-en: OpenJDK Java runtime, using Hotspot JIT (headless)
+ Minimal Java runtime - needed for executing non GUI Java programs.
+ Using Hotspot JIT.
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: openjdk-6-jre-lib
+Description-md5: a996626aed77fd374bd7291146f8d6ee
+Description-en: OpenJDK Java runtime (architecture independent libraries)
+ OpenJDK Java runtime, using Hotspot JIT.
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: openjdk-6-jre-zero
+Description-md5: ca0db1fb38a237b982a1de5e6d632720
+Description-en: Alternative JVM for OpenJDK, using Zero/Shark
+ The package provides an alternative runtime using the Zero VM and the
+ Shark Just In Time Compiler (JIT).  Built on architectures in addition
+ to the Hotspot VM as a debugging aid for those architectures which don't
+ have a Hotspot VM.
+ .
+ The VM is started with the option `-zero'. See the README.Debian for details.
+
+Package: openjdk-6-source
+Description-md5: 328263bb6fbf81f04f5d459d67244ea0
+Description-en: OpenJDK Development Kit (JDK) source files
+ OpenJDK is a development environment for building applications,
+ applets, and components using the Java programming language.
+ .
+ This package contains the Java programming language source files
+ (src.zip) for all classes that make up the Java core API.
+ .
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: thunderbird-mozsymbols
+Description-md5: ac1a6a5ccd00092e19efbf6f6f9538a0
+Description-en: Email, RSS and newsgroup client - Breakpad symbols
+ Thunderbird is a full-featured email, RSS and newsgroup client that makes
+ emailing safer, faster and easier than ever before. It supports different mail
+ accounts (POP, IMAP, Gmail), has a simple mail account setup wizard, one-
+ click address book, tabbed interface, an integrated learning spam filter,
+ advanced search and indexing capabilities, and offers easy organization
+ of mails with tagging and virtual folders. It also features unrivalled
+ extensibility.
+ .
+ This package contains the Firefox symbols in a format expected by Mozilla's
+ Breakpad. Eventually this package should go away and the symbol upload be
+ implemented in soyuz (or other builders that build this package)
+
+Package: tomcat7-user
+Description-md5: f0f735a1a5d3acaabdc873d63b8b405b
+Description-en: Servlet and JSP engine -- tools to create user instances
+ Apache Tomcat implements the Java Servlet and the JavaServer Pages (JSP)
+ specifications from Sun Microsystems, and provides a "pure Java" HTTP web
+ server environment for Java code to run.
+ .
+ This package contains files needed to create a user Tomcat instance.
+ This user Tomcat instance can be started and stopped using the scripts
+ provided in the Tomcat instance directory.
+
+Package: xen-docs-4.2
+Description-md5: 6cae9b51dadf4d0824b74e2b7ff1077f
+Description-en: Documentation for Xen
+ This package contains all the large documentation files for Xen.  This
+ includes a description interface (both the API, and a nice explanation of
+ how XEN works).
+
+Package: xen-hypervisor-4.2-amd64
+Description-md5: 30d22c56057f827a5cc3329925199782
+Description-en: Xen Hypervisor on AMD64
+ The hypervisor is the "core" for XEN itself.  It gets booted by the boot
+ loader and controls cpu and memory, sharing them between your
+ administrative domain (Domain 0) and the virtual guest systems.
+ .
+ In order to boot a XEN system along with this package you also need a
+ kernel specifically crafted to work as the Domain 0, mediating hardware
+ access for XEN itself.
+
+Package: xen-system-amd64
+Description-md5: f9a399da9b1f85d66b7c24b24d068efc
+Description-en: Xen System on AMD64 (meta-package)
+ This package depends on the latest Xen hypervisor for use on AMD64 and the
+ Xen utils.
+
+Package: xen-utils-4.2
+Description-md5: bd953dd4214727fe5759b05287bffcbe
+Description-en: XEN administrative tools
+ The userspace tools to manage a system virtualized through the XEN virtual
+ machine monitor.
+
+Package: xen-utils-common
+Description-md5: 8af52ba7dfa8ab5d2f2013a4e86ceb1e
+Description-en: Xen administrative tools - common files
+ The userspace tools to manage a system virtualized through the Xen virtual
+ machine monitor.
+
+Package: xenstore-utils
+Description-md5: cfed1da00b837e11d5cbc87fffd781d4
+Description-en: Xenstore utilities for Xen
+ This package contains the Xenstore utilities.
+
+Package: xmp
+Description-md5: d567c319899b63601bd152bacfda1271
+Description-en: module player supporting AWE32, GUS, and software-mixing
+ xmp is a multi-format module player for UNIX. In machines with GUS or
+ AWE cards xmp takes advantage of the OSS sequencer to play modules with
+ virtually no system load. Using software mixing, xmp plays at sampling
+ rates up to 48 kHz in mono or stereo, 8 or 16 bits, signed or unsigned,
+ little or big endian samples with 32 bit linear interpolation. xmp
+ currently supports more than 40 module formats.
+
+Package: xmp-audacious
+Description-md5: 5a110bdf0f4f25daf296b266b066f3fc
+Description-en: XMP plugin for Audacious
+ This package contains an xmp plugin for Audacious, supporting more
+ than 40 module formats including Protracker variants, packed MODs,
+ S3M, XM, IT with filters, exotic formats and Adlib modules.
+
+Package: xmp-common
+Description-md5: 6587c2615027771ab071a400bfe9978f
+Description-en: common files for xmp and the xmp Audacious plugin
+ This package contains configuration and documentation files and
+ the OSS PCM audio and sequencer drivers for xmp and
+ xmp-audacious.
+
+Package: linux-headers-3.5.0-225
+Description-md5: fb9f0c7099aa1a24b94e85356ebef543
+Description-en: Header files related to Linux kernel version 3.5.0
+ This package provides kernel header files for version 3.5.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-headers-3.5.0-225/debian.README.gz for details
+
+Package: linux-headers-3.5.0-225-omap4
+Description-md5: d76f9638bab07d776aaa42096f6fd65c
+Description-en: Linux kernel headers for version 3.5.0 on TI OMAP4-based systems
+ This package provides kernel header files for version 3.5.0 on
+ TI OMAP4-based systems.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-ti-omap4-headers-3.5.0-225/debian.README.gz for details.
+
+Package: linux-image-3.5.0-225-omap4
+Description-md5: b06e353659efd92d51fc6b964fda50e6
+Description-en: Linux kernel image for version 3.5.0 on TI OMAP4-based systems
+ This package contains the Linux kernel image for version 3.5.0 on
+ TI OMAP4-based systems.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports TI OMAP4 processors.
+ .
+ Targeted towards boards such as Blazeboard, Pandaboard, etc.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-omap4 meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-ti-omap4-tools-3.5.0-225
+Description-md5: c6910fcd625f8e6c4f47456a35a02134
+Description-en: Linux kernel tools for version 3.5.0-225
+ This package provides the architecture dependant parts for kernel
+ version locked tools for version 3.5.0-225 on
+ DESC.
+
+Package: openjdk-6-jre
+Description-md5: 91d05a39b9f10650db7458e30c6b492b
+Description-en: OpenJDK Java runtime, using Hotspot Zero
+ Full Java runtime environment - needed for executing Java GUI and Webstart
+ programs. Using Hotspot Zero.
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: openjdk-6-jre-headless
+Description-md5: 66d576ba5edb414029e68aaa8b29d079
+Description-en: OpenJDK Java runtime, using Hotspot Zero (headless)
+ Minimal Java runtime - needed for executing non GUI Java programs.
+ Using Hotspot Zero.
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: linux-headers-lowlatency-pae
+Description-md5: 6af73404b873a966ac6255b05036407d
+Description-en: Transitional package
+ This package will always depend on linux-headers-lowlatency
+
+Package: linux-image-lowlatency-pae
+Description-md5: 6843cc37a69c40820f7d377dff479023
+Description-en: Transitional package
+ This package will always depend on linux-image-lowlatency
+
+Package: linux-lowlatency-pae
+Description-md5: 0aa935414a87ff9b660c4f39bab85ed9
+Description-en: Transitional package
+ This package will always depend on linux-lowlatency
+
+Package: xen-hypervisor-4.2-i386
+Description-md5: 829bcfa57e4b5d520b5b4e141e3e6476
+Description-en: Xen Hypervisor on i386
+ The hypervisor is the "core" for XEN itself.  It gets booted by the boot
+ loader and controls cpu and memory, sharing them between your
+ administrative domain (Domain 0) and the virtual guest systems.
+ .
+ In order to boot a XEN system along with this package you also need a
+ kernel specifically crafted to work as the Domain 0, mediating hardware
+ access for XEN itself.
+
+Package: xen-system-i386
+Description-md5: 299e8fd765fcedc2114cbce4ebd59691
+Description-en: Xen System on i386 (meta-package)
+ This package depends on the latest Xen hypervisor for use on i386 and the
+ Xen utils.
+

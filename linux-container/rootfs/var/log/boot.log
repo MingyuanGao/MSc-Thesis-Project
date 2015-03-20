@@ -1,0 +1,4 @@
+udevd[1357]: NAME="%k" is ignored, because it breaks kernel supplied names, please remove it from /etc/udev/rules.d/80-tpmd_dev.rules:1
+
+udevd[1357]: specified group 'tss' unknown
+

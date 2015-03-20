@@ -1,0 +1,1 @@
+../../../../share/pyshared/requests/adapters.py

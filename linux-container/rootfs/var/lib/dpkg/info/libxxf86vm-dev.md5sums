@@ -1,0 +1,5 @@
+44e9778f0440731710a4924bf0b5b862  usr/include/X11/extensions/xf86vmode.h
+b7752146a8b374ef4651623670c2d0bb  usr/lib/arm-linux-gnueabihf/libXxf86vm.a
+7e86edcd6e0fc33a7b70e069008d3269  usr/lib/arm-linux-gnueabihf/pkgconfig/xxf86vm.pc
+ff60738efe36e8adf23a2dbf07a4cea2  usr/share/doc/libxxf86vm-dev/copyright
+e46c374e7f6d2fe331d7fe9abab56895  usr/share/man/man3/XF86VM.3.gz

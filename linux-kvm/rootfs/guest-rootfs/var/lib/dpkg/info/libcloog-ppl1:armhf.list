@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libcloog-ppl1
+/usr/share/doc
+/usr/share/doc/libcloog-ppl1
+/usr/share/doc/libcloog-ppl1/copyright
+/usr/share/doc/libcloog-ppl1/changelog.Debian.gz
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libcloog-ppl.so.1.0.1
+/usr/lib/arm-linux-gnueabihf/libcloog-ppl.so.1
